@@ -42,7 +42,7 @@ const Header = () => {
                 layout="fixed"
                 alt="Flowbite Logo"
             />
-            <span className=" whitespace-nowrap text-[40px] font-semibold  pl-2  text-white">
+            <span className=" whitespace-nowrap text-[40px] font-semibold  pl-2  text-[#ECF7FD]">
                 PALMVERSE
             </span>
         </Navbar.Brand>
@@ -55,7 +55,7 @@ const Header = () => {
                         href={nav.link}
 
                     >
-                        <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-mediu cursor-pointer ">
+                        <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-medium cursor-pointer ">
 
                             {nav.name}
                         </h3>
