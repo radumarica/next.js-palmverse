@@ -16,7 +16,7 @@ const Homepage = () => (
       <Link href="/who-we-are">
         <div className="absolute z-20 bottom-2 md:bottom-8 md:left-10 left-5 flex items-center cursor-pointer hover:pl-5 transition-all" >
           <HiArrowNarrowRight className="md:text-6xl text-xl  text-white pt-2  " />
-          <p className="text-white font-exo font-bold text-xl md:text-5xl md:tracking-wider pl-4">Discover Our Story</p>
+          <p className="text-white font-exo font-bold text-xl md:text-6xl md:tracking-wider pl-4">Discover Our Story</p>
         </div>
       </Link>
     </div>
