@@ -7,7 +7,7 @@ const WhoWeAre = () => (
       autoPlay
       muted
       controls
-      className="md:h-[600px] object-fill  w-full"
+      className="md:h-[600px] object-cover  w-full"
     />
 
     <section className="py-10 bg-dark_bg text-white flex flex-col justify-center  font-exo">
