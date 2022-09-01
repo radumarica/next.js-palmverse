@@ -55,7 +55,7 @@ const Header = () => {
                         href={nav.link}
 
                     >
-                        <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-medium cursor-pointer ">
+                        <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
 
                             {nav.name}
                         </h3>
