@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Navbar } from "flowbite-react";
 import Image from "next/image";
 import { useRouter } from "next/router";
@@ -11,10 +12,7 @@ const navs = [
         name: 'Who We Are?',
         link: '/who-we-are'
     },
-    {
-        name: 'Roadmap',
-        link: '/roadmap'
-    },
+
     {
         name: 'FAQ',
         link: '/faq'
@@ -23,6 +21,7 @@ const navs = [
 ]
 
 const Header = () => {
+    const [showDrop, setShowDrop] = useState(false)
     const router = useRouter();
     const { pathname } = router;
 
@@ -62,6 +61,48 @@ const Header = () => {
                     </Link>
                 ))
             }
+            {<div className="relative">
+
+
+                <Link
+                    href={'what-we-build'}
+
+                >
+                    <h3 onMouseEnter={() => setShowDrop(true)} className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                        What We Build
+                    </h3>
+                </Link>
+                {
+                    showDrop && (
+                        <div className="absolute z-10 top-7  bg-dark_bg p-5 w-40" onMouseEnter={() => setShowDrop(true)} onMouseLeave={() => setShowDrop(false)}>
+                            <Link
+                                href={'first-location'}
+
+                            >
+                                <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                                    1st Location
+                                </h3>
+                            </Link>
+                            <Link
+                                href={'/roadmap'}
+
+                            >
+                                <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                                    Roadmap
+                                </h3>
+                            </Link>
+                            <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
+                                Whitepaper
+
+                            </a>
+                        </div>
+                    )
+                }
+            </div>
+            }
+
+
+
             <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
                 Book
 
