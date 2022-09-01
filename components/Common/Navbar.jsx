@@ -71,7 +71,7 @@ const Header = () => {
                 color: "white",
 
                 textUnderlineOffset: '8px'
-            }} href="https://www.book-palmverse.com/" target='_blank' >
+            }} href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
 
 
                 Book
