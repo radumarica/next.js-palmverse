@@ -88,8 +88,10 @@ const Hero = () => {
                 </div>
             </div>
             <div className="flex flex-col justify-end items-center py-4 md:py-0" >
+                <div className="scale-110 mt-8 md:mt-0 md:scale-100">
 
-                <Image src='/images/laptop.png' alt='laptop palverse' width={771} height={432} />
+                    <Image src='/images/laptop.png' alt='laptop palverse' width={771} height={432} />
+                </div>
                 <h1 className="text-3xl font-medium text-center py-2 text-[#ECF7FD]">
 
                     FUNCTIONAL BOOKING PLATFORM
