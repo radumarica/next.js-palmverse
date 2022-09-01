@@ -4,13 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
-  background: rgb(108, 50, 124);
-  background: linear-gradient(
-    90deg,
-    rgba(108, 50, 124, 1) 0%,
-    rgba(111, 213, 173, 1) 100%
-  );
+@layer components {
+  .btn {
+    background: rgb(108, 50, 124);
+    background: linear-gradient(
+      90deg,
+      rgba(108, 50, 124, 1) 0%,
+      rgba(111, 213, 173, 1) 100%
+    );
+  }
+  .btn-rev {
+    background: rgb(108, 50, 124);
+    background: linear-gradient(
+      90deg,
+      rgba(111, 213, 173, 1) 0%,
+      rgba(108, 50, 124, 1) 100%
+    );
+  }
 }
 
 body {
