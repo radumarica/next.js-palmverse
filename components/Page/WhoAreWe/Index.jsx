@@ -1,14 +1,15 @@
 import Image from "next/image";
 const WhoWeAre = () => (
   <>
-    <video
+    {/* <video
       src="/videos/16x9.mp4"
       loop
       autoPlay
       muted
       controls
       className="md:h-[600px] object-cover  w-full"
-    />
+    /> */}
+    <iframe src="https://www.youtube.com/embed/8u4fApf9qck" className="w-full h-[300px] md:h-[600px] " />
 
     <section className="py-10 bg-dark_bg text-white flex flex-col justify-center  font-exo">
       <h1 className="text-4xl font-bold md:w-[70%]  text-center mx-auto ">
