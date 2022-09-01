@@ -42,7 +42,7 @@ const secondSetIcons = [
 ]
 
 const Hero = () => {
-    return <section className="w-full flex flex-col items-center bg-dark_bg text-white  px-5 py-16 font-exo">
+    return <section className="w-full flex flex-col items-center bg-dark_bg text-white  px-5 pt-8 pb-16 font-exo">
         <h1 className="text-4xl font-semibold text-center ">THE 1ST NFT HOTEL & HOSTEL CHAIN </h1>
         <p className="text-3xl text-center py-10 font-medium md:w-9/12 ">Palmverse builds technologies that help people connect IRL, join communities, and bridge the web2 travel experience to web3.</p>
         <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center py-5 w-[80%] mx-auto" >
