@@ -7,8 +7,7 @@ const Homepage = () => (
       loop
       autoPlay
       muted
-      controls
-      className="md:h-[600px] object-cover  w-full "
+      className="md:h-[560px] object-cover  w-full "
     />
 
     <Hero />

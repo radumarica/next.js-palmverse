@@ -42,8 +42,8 @@ const Header = () => {
                 layout="fixed"
                 alt="Flowbite Logo"
             />
-            <span className=" whitespace-nowrap text-3xl font-semibold  pl-2  text-white">
-                Palmverse
+            <span className=" whitespace-nowrap text-[40px] font-semibold  pl-2  text-white">
+                PALMVERSE
             </span>
         </Navbar.Brand>
         <Navbar.Toggle />

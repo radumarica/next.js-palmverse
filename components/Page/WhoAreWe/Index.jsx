@@ -1,14 +1,7 @@
 import Image from "next/image";
+import { useState } from "react";
 const WhoWeAre = () => (
   <>
-    {/* <video
-      src="/videos/16x9.mp4"
-      loop
-      autoPlay
-      muted
-      controls
-      className="md:h-[600px] object-cover  w-full"
-    /> */}
     <div className=" relative" >
       <h2 className="absolute text-white z-20 left-10 text-4xl font-exo font-bold top-1/2 -translate-y-1/2" >{"OUR STORY".split("").map((x => <span key={x} className={`block ${x === " " ? "my-6" : "my-2"}`}>{x}</span>))}</h2>
       <iframe src="https://www.youtube.com/embed/f2ECpxB2CE8" className="w-full h-[300px] md:h-[600px] px-36 bg-black " />
@@ -68,6 +61,7 @@ const WhoWeAre = () => (
 export default WhoWeAre;
 
 const Profile = () => {
+  const [show, setShow] = useState(false)
   return (
     <div className="px-4 w-[91%] mx-auto">
       <div className="h-52 w-52 p-2 bg-white rounded-md mx-auto">
