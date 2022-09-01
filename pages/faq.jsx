@@ -3,11 +3,11 @@ import { useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 const Faq = () => {
   return (
-    <div className="min-h-[90vh]">
+    <div className="min-h-[90vh] bg-[#2A2A29]">
       <div className="relative h-40">
         <Image src="/images/faq.jpeg" layout="fill" alt="FAQ Banner" />
       </div>
-      <h1 className="mt-6 text-[#2A2A29] font-exo text-center text-5xl font-bold">
+      <h1 className="mt-6 text-white font-exo text-center text-5xl font-bold">
         FAQ
       </h1>
       <div className="max-w-4xl px-4 my-6 mx-auto">
@@ -34,7 +34,7 @@ const FaqAccordian = ({ title, desc }) => {
           className="text-center px-4 bg-slate-400 bg-opacity-90"
         >
           {" "}
-          <AiOutlinePlus className="text-white text-2xl" />
+          <AiOutlinePlus className="text-[#2A2A29] bg-[#ECF7FD] text-2xl" />
         </button>
       </div>
       <div
