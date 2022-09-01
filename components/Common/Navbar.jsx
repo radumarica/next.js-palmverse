@@ -13,10 +13,7 @@ const navs = [
         link: '/who-we-are'
     },
 
-    {
-        name: 'FAQ',
-        link: '/faq'
-    },
+
 
 ]
 
@@ -64,17 +61,14 @@ const Header = () => {
             {<div className="relative">
 
 
-                <Link
-                    href={'what-we-build'}
 
-                >
-                    <h3 onMouseEnter={() => setShowDrop(true)} className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                        What We Build
-                    </h3>
-                </Link>
+                <h3 onMouseEnter={() => setShowDrop(true)} className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                    What We Build?
+                </h3>
+
                 {
                     showDrop && (
-                        <div className="absolute z-10 top-7  bg-dark_bg p-5 w-40" onMouseEnter={() => setShowDrop(true)} onMouseLeave={() => setShowDrop(false)}>
+                        <div className="absolute z-10 top-8  bg-dark_bg pr-5 pl-3 pb-3 w-40" onMouseEnter={() => setShowDrop(true)} onMouseLeave={() => setShowDrop(false)}>
                             <Link
                                 href={'first-location'}
 
@@ -102,7 +96,16 @@ const Header = () => {
             }
 
 
+            <Link
 
+                href='/faq'
+
+            >
+                <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+
+                    FAQ
+                </h3>
+            </Link>
             <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
                 Book
 
