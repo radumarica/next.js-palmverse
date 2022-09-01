@@ -83,7 +83,7 @@ const Hero = () => {
                         secondSetIcons.map(icon => (
                             <div key={icon.link} className="flex flex-col items-center">
                                 <Image src={icon.link} alt={icon.link} height={130} width={130} layout={"fixed"} />
-                                <h1 className="text-xl text-[#ECF7FD] font-medium w-[90%] text-center py-2">{icon.title}</h1>
+                                <h1 className="text-[26px] text-[#ECF7FD] font-medium w-[90%] text-center py-2">{icon.title}</h1>
                             </div>
                         ))
                     }
