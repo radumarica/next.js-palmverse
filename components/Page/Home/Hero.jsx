@@ -72,11 +72,11 @@ const Hero = () => {
                     <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={400} layout="fixed" />
                 </div>
             </div>
-            <h1 className="text-3xl text-center font-medium text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
+            <h1 className="text-3xl text-center font-semibold text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
         </div>
         <div className="grid md:grid-cols-2 gap-4 py-16 " >
             <div className="flex flex-col">
-                <h1 className="text-3xl font-medium text-[#ECF7FD]  text-center py-6">
+                <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-6">
                     NFT UTILITIES - TRAVEL 2 EARN</h1>
                 <div className="grid grid-cols-2 gap-4 py-4">
                     {
