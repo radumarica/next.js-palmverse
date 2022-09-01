@@ -53,7 +53,7 @@ const Hero = () => {
                 <h1 className="text-2xl text-[#ECF7FD] font-medium md:w-[80%] text-center py-2">PHYSICAL NFTHOTEL & HOSTEL</h1>
             </div>
             <div className="flex flex-col items-center">
-                <Image src='/icons/pay.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={140} width={140} layout={"fixed"} />
+                <Image src='/icons/pay.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
                 <h1 className="text-2xl text-[#ECF7FD] font-medium md:w-[80%] text-center py-2">CRYPTO BOOKING PLATFORM</h1>
             </div>
             <div className="flex flex-col items-center">
