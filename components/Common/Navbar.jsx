@@ -55,14 +55,14 @@ const Header = () => {
                         href={nav.link}
 
                     >
-                        <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                        <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-bold cursor-pointer ">
 
                             {nav.name}
                         </h3>
                     </Link>
                 ))
             }
-            <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
+            <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-bold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
                 Book
 
             </a>
