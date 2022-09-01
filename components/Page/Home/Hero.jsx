@@ -66,9 +66,11 @@ const Hero = () => {
 
         </div>
         <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center w-[90%] mx-auto py-16">
-            <div className="md:w-[50%] md:mx-auto md:px-4">
+            <div className="md:w-[50%] md:mx-auto md:px-4 scale-75 md:scale-100">
+                <div className="">
 
-                <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={400} layout="fixed" />
+                    <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={400} layout="fixed" />
+                </div>
             </div>
             <h1 className="text-3xl text-center font-medium text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
         </div>
@@ -88,11 +90,9 @@ const Hero = () => {
                 </div>
             </div>
             <div className="flex flex-col justify-end items-center py-4 md:py-0" >
-                <div style={{
-                    transform: 'scale(1.2)'
-                }} className=" mt-8 md:mt-0 md:scale-100">
+                <div className=" mt-8 md:mt-0 md:scale-100">
 
-                    <Image src='/images/laptop.png' alt='laptop palverse' width={771} height={432} />
+                    <Image src='/images/laptop.png' alt='laptop palverse' width={550} height={370} />
                 </div>
                 <h1 className="text-3xl font-medium text-center py-4 text-[#ECF7FD]">
 
