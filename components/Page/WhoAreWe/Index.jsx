@@ -2,7 +2,7 @@ import Image from "next/image";
 const WhoWeAre = () => (
   <>
     <video
-      src="/videos/home2.mp4"
+      src="/videos/16x9.mp4"
       loop
       autoPlay
       muted
