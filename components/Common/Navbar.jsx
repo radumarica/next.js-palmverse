@@ -8,7 +8,7 @@ const navs = [
         link: '/'
     },
     {
-        name: 'Who we are',
+        name: 'Who We Are?',
         link: '/who-we-are'
     },
     {
@@ -62,9 +62,7 @@ const Header = () => {
                     </Link>
                 ))
             }
-            <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-mediu cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
-
-
+            <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
                 Book
 
             </a>
