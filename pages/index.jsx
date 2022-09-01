@@ -3,7 +3,7 @@ import Hero from "../components/Page/Home/Hero";
 const Homepage = () => (
   <>
     <video
-      src="/videos/16x9.mp4"
+      src="/videos/home3.mp4"
       loop
       autoPlay
       muted
