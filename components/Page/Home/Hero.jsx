@@ -11,7 +11,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 const firstSetIcons = [
     {
         link: '/icons/hotel.png',
-        title: 'PHYSICAL NFTHOTEL & HOSTEL'
+        title: 'PHYSICAL NFT HOTEL & HOSTEL'
     },
     {
         link: '/icons/pay.png',
@@ -46,19 +46,22 @@ const Hero = () => {
     return <section className="w-full flex flex-col items-center bg-dark_bg text-white  px-5 pt-8 pb-16 font-exo">
         <h1 className="text-4xl font-semibold text-center text-[#ECF7FD] ">THE 1ST NFT HOTEL & HOSTEL CHAIN </h1>
         <p className="text-3xl text-center py-10 font-medium md:w-9/12 text-[#ECF7FD] ">Palmverse builds technologies that help people connect IRL, join communities, and bridge the web2 travel experience to web3.</p>
-        <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center py-5 w-[80%] mx-auto" >
+        <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto" >
 
             <div className="flex flex-col items-center">
-                <Image src='/icons/hotel.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
-                <h1 className="text-2xl text-[#ECF7FD] font-medium md:w-[80%] text-center py-2">PHYSICAL NFTHOTEL & HOSTEL</h1>
+                <Image src='/icons/hotel.png' alt='PHYSICAL NFT HOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
+                <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">PHYSICAL NFT <br /> HOTEL & HOSTEL</h1>
             </div>
-            <div className="flex flex-col items-center">
-                <Image src='/icons/pay.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
-                <h1 className="text-2xl text-[#ECF7FD] font-medium md:w-[80%] text-center py-2">CRYPTO BOOKING PLATFORM</h1>
-            </div>
-            <div className="flex flex-col items-center">
-                <Image src='/icons/group.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
-                <h1 className="text-2xl text-[#ECF7FD] font-medium md:w-[80%] text-center py-2">NFTS AS MEMBERSHIP DAO ACCESS</h1>
+            <div className="flex justify-evenly w-screen md:w-auto md:space-x-20 items-start px-4 ">
+
+                <div className="flex flex-col items-center">
+                    <Image src='/icons/pay.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
+                    <h1 className="text-2xl text-[#ECF7FD] font-bold md:w-full text-center py-2">CRYPTO <br /> BOOKING PLATFORM</h1>
+                </div>
+                <div className="flex flex-col items-center">
+                    <Image src='/icons/group.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
+                    <h1 className="text-2xl text-[#ECF7FD] font-bold md:w-full text-center py-2">NFTS AS MEMBERSHIP <br /> DAO ACCESS</h1>
+                </div>
             </div>
 
         </div>
