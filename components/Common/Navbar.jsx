@@ -32,7 +32,7 @@ const Header = () => {
 
     return <Navbar
         fluid={true}
-        style={{ fontFamily: "'Exo 2', ' sans- serif'", backgroundColor: '#2A2A29', borderBottom: '1px solid gray' }}
+        style={{ fontFamily: "'Exo 2', ' sans- serif'", backgroundColor: '#2A2A29', borderBottom: '1px solid gray', height: '90px', padding: "1rem 0.8rem" }}
     >
         <Navbar.Brand href="/">
             <Image

@@ -14,9 +14,9 @@ const Homepage = () => (
         className="md:h-[90vh] object-cover  w-full "
       />
       <Link href="/who-we-are">
-        <div className="absolute z-20 bottom-2 md:bottom-8 md:left-10 left-5 flex items-center cursor-pointer hover:pl-5 transition-all" >
-          <HiArrowNarrowRight className="md:text-4xl text-xl  text-white   " />
-          <p className="text-white font-exo font-bold text-xl md:text-3xl md:tracking-wider pl-4">Discover Our Story</p>
+        <div className="absolute z-20 top-1/2 translate-y-1/2  md:left-10 left-5 flex items-center cursor-pointer hover:pl-5 transition-all" >
+          <HiArrowNarrowRight className="md:text-3xl text-xl  text-white   " />
+          <p className="text-white font-exo font-bold text-[25px] md:text-[25px] md:tracking-wider pl-4">Discover Our Story</p>
         </div>
       </Link>
     </div>
