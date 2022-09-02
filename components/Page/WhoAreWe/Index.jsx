@@ -248,7 +248,7 @@ const Daniel = () => {
           <div className="py-2">
             <h1 className="font-bold text-lg text-center " >DANIEL RODRIGUEZ MAFFIOLI</h1>
             <p className="font-bold text-base text-center ">Legal Advisor</p>
-            <a href="https://www.ecija.com" target='_blank'>
+            <a href="https://www.ecija.com" target='_blank' rel="noreferrer">
               <p className="font-bold text-base text-center ">https://www.ecija.com</p>
             </a>
           </div>
