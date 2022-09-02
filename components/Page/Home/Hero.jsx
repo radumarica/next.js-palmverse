@@ -202,7 +202,7 @@ const Hero = () => {
                         </div>
                         <div className={`flex  justify-between items-center  `}>
                             <Image src='/icons/cycle.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[24px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Cashback Travel Rewards</h1>
+                            <h1 className="md:text-[26px] text-[24px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Cashback Travel  <br /> Rewards</h1>
                         </div>
 
 
