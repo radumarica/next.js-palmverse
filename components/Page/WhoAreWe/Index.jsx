@@ -104,15 +104,15 @@ const Profile = () => {
             <p className="font-bold text-base text-center ">Co-Founder, CEO</p>
           </div>
         </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px}">
             Dragos finished his MSc degree in Sustainable Energy Engineering with a focus on sustainable energy building from Aalborg University Denmark and TU Delft Netherland.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px}">
             Founder and CEO of E-commerce companies, involved in the development of several product design projects.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px}">
             Speaker at E-commerce Conference in Miami, invited by the Romanian American Chamber of Commerce.
           </p>
         </div>)
@@ -128,7 +128,7 @@ const Sorin = () => {
         show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded  ">
           <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
             <div className="h-full w-full relative ">
-              <Image src="/images/team/Sorin.JPG" layout="fill" alt="Profile" />
+              <Image src="/images/team/sorin.JPG" layout="fill" alt="Profile" />
             </div>
           </div>
           <div className="py-2">
@@ -136,15 +136,15 @@ const Sorin = () => {
             <p className="font-bold text-base text-center ">Co-Founder, CTO</p>
           </div>
         </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px}">
             Sorin finished his BA in Business Management at Coventry University, in the UK.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px}">
             More than 7 years of business experience, handling the general management and supply chain of a tire warehouse in Europe, working closely with suppliers such as Michelin and Continental.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px}">
             Built and managed small vacation homes on the Black Sea Coast. Over 1 year of boat driving experience.
           </p>
         </div>)
@@ -168,15 +168,15 @@ const BOB = () => {
             <p className="font-bold text-base text-center ">Marketing Manager</p>
           </div>
         </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             Web3 native Crypto/NFT Investor & Collector.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             Setting and implementing social media/communication and relationship campaigns to align with marketing strategies.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             Built and managed small vacation homes on the Black Sea Coast. Over 1 year of boat driving experience.
           </p>
         </div>)
@@ -200,11 +200,11 @@ const Radu = () => {
             <p className="font-bold text-base text-center ">Technical Lead</p>
           </div>
         </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             Radu finished his bachelors in Electronics and Computer Engineering, at Aalborg University Denmark.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             More than 5 years of experience working in multiple projects, becoming an expert in Java Web Development, Complex Mathematical Modelling, Robotics, Cryptography in Kali Linux, Applied Machine Learning, Swarm Intelligence, Blockchain Technology.
           </p>
 
@@ -230,19 +230,19 @@ const Razwan = () => {
             <p className="font-bold text-base text-center ">Senior Architect</p>
           </div>
         </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             AutoCAD and 3ds Max expertise.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             BIM 350 and Archicad expert.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             Designed the initial structures of 30+ residential and commercial Buildings.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             Worked closely with developers and project managers in order to deliver optimal building solutions.
           </p>
 
@@ -270,19 +270,19 @@ const Daniel = () => {
             </a>
           </div>
         </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             AutoCAD and 3ds Max expertise.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             BIM 350 and Archicad expert.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             Designed the initial structures of 30+ residential and commercial Buildings.
           </p>
           <br />
-          <p className="text-left text-sm">
+          <p className="text-left text-[7px]">
             Worked closely with developers and project managers in order to deliver optimal building solutions.
           </p>
 
