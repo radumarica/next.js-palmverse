@@ -14,39 +14,55 @@ const WhoWeAre = () => (
       </h1>
       <ul className="py-14 flex flex-col justify-start space-y-6 w-[80%] mx-auto ">
         <li className="text-[21px] font-bold">
-          Why don’t we make an NFT project with real-life utilities?
+          <h1 className="text-center">
+            Why don’t we make an NFT project with real-life utilities?\
+          </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          That was the beginning of the Palmverse project.
+          <h1 className="text-center">
+            That was the beginning of the Palmverse project.
+          </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          It all started with a simple question.
+          <h1 className="text-center">
+            It all started with a simple question.
+          </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          Sorin, my best friend, and I were discussing NFT projects over dinner in
-          February 2022. We felt like something was lacking, something that could
-          be changed to benefit other NFT enthusiasts, including ourselves.
+          <h1 className="text-center">
+            Sorin, my best friend, and I were discussing NFT projects over dinner in
+            February 2022. We felt like something was lacking, something that could
+            be changed to benefit other NFT enthusiasts, including ourselves.
+          </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          Let’s build an NFT hotel chain where holders can come and enjoy
-          discounts. — Sorin suggested
+          <h1 className="text-center">
+            Let’s build an NFT hotel chain where holders can come and enjoy
+            discounts. — Sorin suggested
+          </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          We did manage multiple businesses, from e-commerce brands to Airbnb
-          vacation houses.
+          <h1 className="text-center">
+            We did manage multiple businesses, from e-commerce brands to Airbnb
+            vacation houses.
+          </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          But could we build something even greater?
+          <h1 className="text-center">
+            But could we build something even greater?
+          </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          Continue reading the full story here at medium:{" "}
-          <a
-            className="underline underline-offset-4"
-            href="https://medium.com/@palmverse/shaping-palmverse-building-an-nft-community-based-hotel-hostel-chain-from-scratch-ecbb05501630"
-            target="_black"
-          >
-            Medium{" "}
-          </a>
+          <h1 className="text-center">
+            Continue reading the full story here at medium:{" "}
+            <a
+              className="underline underline-offset-4"
+              href="https://medium.com/@palmverse/shaping-palmverse-building-an-nft-community-based-hotel-hostel-chain-from-scratch-ecbb05501630"
+              target="_black"
+            >
+              Medium{" "}
+            </a>
+          </h1>
         </li>
       </ul>
       <h1 className="text-4xl text-center font-bold ">TEAM</h1>
