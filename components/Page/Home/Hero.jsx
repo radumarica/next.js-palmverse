@@ -118,7 +118,9 @@ const Hero = () => {
                     <Image src='/images/hotel1.png' alt='palmverse hotel' width={1000} height='560' />
                 </div>
                 <div className="flex justify-center items-center" >
-                    <button className="rounded-full px-12 py-4 font-semibold btn tracking-widest hover:btn-rev transition-all duration-500 ease-in-out flex items-center  " >Learn More                 <HiArrowNarrowRight className="text-2xl ml-2 " /></button>
+                    <Link href='/first-location' >
+                        <button className="rounded-full px-12 py-4 font-semibold btn tracking-widest hover:btn-rev transition-all duration-500 ease-in-out flex items-center  " >Learn More                 <HiArrowNarrowRight className="text-2xl ml-2 " /></button>
+                    </Link>
 
                 </div>
             </div>
@@ -206,7 +208,7 @@ const Hero = () => {
                     <Image src='/images/hotel1.png' alt='palmverse hotel' width={1000} height={560} />
                 </div>
                 <div className="flex justify-center items-center" >
-                    <Link href='/who-we-are' >
+                    <Link href='/first-location' >
                         <button className="rounded-full px-12 py-4 font-semibold btn tracking-widest hover:btn-rev transition-all duration-500 ease-in-out flex items-center  " >Learn More                 <HiArrowNarrowRight className="text-2xl ml-2 " /></button>
                     </Link>
 
