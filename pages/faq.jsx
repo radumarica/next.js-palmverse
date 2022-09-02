@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
-import { AiOutlinePlus } from "react-icons/ai";
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 const Faq = () => {
   return (
     <div className="min-h-[90vh] bg-[#2A2A29]">
@@ -28,7 +28,7 @@ const FaqAccordian = ({ title, desc }) => {
   return (
     <div className="my-2">
       <div className="flex">
-        <h1 className="text-center w-full bg-gray-200 py-5 px-2 font-bold text-lg font-exo">
+        <h1 className="text-center w-full bg-[#ECF7FD] py-5 px-2 font-bold text-lg text-[#2a2a29] font-exo">
           {title}
         </h1>
         <button
@@ -36,14 +36,22 @@ const FaqAccordian = ({ title, desc }) => {
           className="text-center px-4 bg-slate-400 bg-opacity-90"
         >
           {" "}
-          <AiOutlinePlus className="text-[#2A2A29] bg-transparent text-2xl" />
+          {
+            open ? (
+
+              <AiOutlineMinus className="text-[#2A2A29] bg-transparent text-2xl" />
+            ) : (
+
+              <AiOutlinePlus className="text-[#2A2A29] bg-transparent text-2xl" />
+            )
+          }
         </button>
       </div>
       <div
         className={`${open ? "block" : "hidden"
           } duration-300 ease-in transition-all  font-exo bg-gray-100`}
       >
-        <p className="p-4">
+        <p className="p-4 text-[#2a2a29] bg-[#ECF7FD] ">
           {desc}
         </p>
       </div>
