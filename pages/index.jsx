@@ -1,18 +1,38 @@
+import { useState, useEffect } from "react";
 import Hero from "../components/Page/Home/Hero";
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import Link from "next/link";
 
-const Homepage = () => (
-  <>
+const Homepage = () => {
+  const [mobilescreen, setmobilescreen] = useState(null);
+
+  useEffect(() => {
+    setmobilescreen(window.screen.width);
+  }, [mobilescreen]);
+  return <>
     <div className="relative">
 
-      <video
-        src="/videos/home3.mp4"
-        loop
-        autoPlay
-        muted
-        className="md:h-[90vh] object-cover  w-full "
-      />
+      {
+        mobilescreen < 768 ? (
+          <video
+            src="/videos/mobile_home.mp4"
+            loop
+            autoPlay
+            muted
+            className="md:h-[90vh] object-cover  w-full "
+          />) : (
+          <video
+            src="/videos/home3.mp4"
+            loop
+            autoPlay
+            muted
+            className="md:h-[90vh] object-cover  w-full "
+          />
+        )
+      }
+
+
+
       <Link href="/who-we-are">
         <div className="absolute z-20 top-[38%] translate-y-1/2   md:left-10 left-5 flex items-center cursor-pointer hover:pl-5 transition-all" >
           <HiArrowNarrowRight className="md:text-3xl text-lg  text-white   " />
@@ -23,6 +43,6 @@ const Homepage = () => (
 
     <Hero />
   </>
-);
+}
 
 export default Homepage;

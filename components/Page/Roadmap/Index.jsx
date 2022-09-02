@@ -1,7 +1,7 @@
 import { Timeline } from 'flowbite-react'
 
 const Roadmap = () => (
-    <div className='bg-dark_bg text-white flex justify-start pl-36 py-12 font-exo '>
+    <div className='bg-dark_bg text-white flex justify-start pl-6 md:pl-36 py-12 font-exo '>
 
 
         <Timeline >
