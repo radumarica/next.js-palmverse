@@ -4,12 +4,14 @@ import { AiOutlinePlus } from "react-icons/ai";
 const Faq = () => {
   return (
     <div className="min-h-[90vh] bg-[#2A2A29]">
-      <div className="relative h-40">
-        <Image src="/images/faq.jpeg" layout="fill" alt="FAQ Banner" />
+      <div className="h-fit  flex justify-between items-center bg-[#ECF7FD]">
+        <Image src="/images/NFTS.png" height={150} width={150} layout="fixed" alt="FAQ Banner" />
+        <h1 className="mt-6  font-exo text-center text-5xl font-bold text-dark_bg ">
+          FAQ
+        </h1>
+        <div className="w-36" />
       </div>
-      <h1 className="mt-6 text-white font-exo text-center text-5xl font-bold">
-        FAQ
-      </h1>
+
       <div className="max-w-4xl px-4 my-6 mx-auto">
         <FaqAccordian title="Blockchains?" desc="Solana & Ethereum." />
         <FaqAccordian title="Supply, price, date?" desc="Supply: TBA, Price:  TBA,  Date: TBA." />
@@ -34,7 +36,7 @@ const FaqAccordian = ({ title, desc }) => {
           className="text-center px-4 bg-slate-400 bg-opacity-90"
         >
           {" "}
-          <AiOutlinePlus className="text-[#2A2A29] bg-[#ECF7FD] text-2xl" />
+          <AiOutlinePlus className="text-[#2A2A29] bg-transparent text-2xl" />
         </button>
       </div>
       <div

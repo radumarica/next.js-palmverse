@@ -49,9 +49,16 @@ const WhoWeAre = () => (
           </a>
         </li>
       </ul>
-      <div className="grid grid-cols-2">
+      <h1 className="text-4xl text-center font-bold ">TEAM</h1>
+      <div className="flex flex-wrap w-[85%] mx-auto justify-evenly pt-10">
         <Profile />
         <Sorin />
+      </div>
+
+      <div className="flex flex-wrap w-[85%] mx-auto justify-evenly pt-16">
+        <BOB />
+        <Radu />
+        <Razwan />
       </div>
 
     </section>
@@ -61,61 +68,166 @@ const WhoWeAre = () => (
 export default WhoWeAre;
 
 const Profile = () => {
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(true)
   return (
-    <div className="px-4 w-[91%] mx-auto">
-      <div className="h-52 w-52 p-2 bg-white rounded-md mx-auto">
-        <div className="h-full w-full relative ">
-          <Image src="/images/dragos.webp" layout="fill" alt="Profile" />
-        </div>
-      </div>
-      <div className="mt-6 space-y-4" >
-
-        <p className="text-left">
-          Dragos finished his MSc degree in Sustainable Energy Engineering with a focus on sustainable energy building from Aalborg University Denmark and TU Delft Netherland.
-        </p>
-        <p className="text-left">
-          Founder and CEO of E-commerce companies, involved in the development of several product design projects.
-        </p>
-        <p className="text-left">
-          Speaker at E-commerce Conference in Miami, invited by the Romanian American Chamber of Commerce.
-        </p>
-        <p className="text-left">
-          More than 7 years experience in project management and more than 5 years of entrepreneurial expertise, including several projects of building Sustainable Energy Buildings.
-        </p>
-        <p className="text-left">
-          2 Years of part-time Cryptocurrency trading experience and NFT expertise.
-        </p>
-      </div>
+    <div className="px-4">
+      {
+        show ? (<div className="p-3 bg-gray-800 border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+          <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
+            <div className="h-full w-full relative ">
+              <Image src="/images/dragos.webp" layout="fill" alt="Profile" />
+            </div>
+          </div>
+          <div className="py-2">
+            <h1 className="font-bold text-lg text-center " >DRAGOS OVIDIU OLTEANU</h1>
+            <p className="font-bold text-base text-center ">Co-Founder, CEO</p>
+          </div>
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-gray-800 border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+          <p className="text-left text-sm">
+            Dragos finished his MSc degree in Sustainable Energy Engineering with a focus on sustainable energy building from Aalborg University Denmark and TU Delft Netherland.
+          </p>
+          <br />
+          <p className="text-left text-sm">
+            Founder and CEO of E-commerce companies, involved in the development of several product design projects.
+          </p>
+          <br />
+          <p className="text-left text-sm">
+            Speaker at E-commerce Conference in Miami, invited by the Romanian American Chamber of Commerce.
+          </p>
+        </div>)
+      }
     </div>
   );
 };
 const Sorin = () => {
+  const [show, setShow] = useState(true)
   return (
-    <div className="px-4 w-[91%] mx-auto">
-      <div className="h-52 w-52 p-2 bg-white rounded-md mx-auto">
-        <div className="h-full w-full relative ">
-          <Image src="/images/Sorin.webp" layout="fill" alt="Profile" />
-        </div>
-      </div>
-      <div className="mt-6 space-y-4" >
-
-        <p className="text-left">
-          Sorin finished his BA in Business Management at Coventry University, in the UK.
-        </p>
-        <p className="text-left">
-          More than 7 years of business experience, handling the general management and supply chain of a tire warehouse in Europe, working closely with suppliers such as Michelin and Continental.
-        </p>
-        <p className="text-left">
-          Built and managed small vacation homes on the Black Sea Coast. Over 1 year of boat driving experience.
-        </p>
-        <p className="text-left">
-          More than 7 years experience in project management and more than 5 years of entrepreneurial expertise, including several projects of building Sustainable Energy Buildings.
-        </p>
-        <p className="text-left">
-          More than 4 years of experience in product development/e-com business. First contact with crypto in 2017, and full time since the beginning of 2021. Deep knowledge of the Solana ecosystem.
-        </p>
-      </div>
+    <div className="px-4">
+      {
+        show ? (<div className="p-3 bg-gray-800 border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+          <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
+            <div className="h-full w-full relative ">
+              <Image src="/images/team/Sorin.jpg" layout="fill" alt="Profile" />
+            </div>
+          </div>
+          <div className="py-2">
+            <h1 className="font-bold text-lg text-center " >SORIN HALIT</h1>
+            <p className="font-bold text-base text-center ">Co-Founder, CTO</p>
+          </div>
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-gray-800 border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+          <p className="text-left text-sm">
+            Sorin finished his BA in Business Management at Coventry University, in the UK.
+          </p>
+          <br />
+          <p className="text-left text-sm">
+            More than 7 years of business experience, handling the general management and supply chain of a tire warehouse in Europe, working closely with suppliers such as Michelin and Continental.
+          </p>
+          <br />
+          <p className="text-left text-sm">
+            Built and managed small vacation homes on the Black Sea Coast. Over 1 year of boat driving experience.
+          </p>
+        </div>)
+      }
     </div>
   );
 };
+const BOB = () => {
+  const [show, setShow] = useState(true)
+  return (
+    <div className="px-4">
+      {
+        show ? (<div className="p-3 bg-gray-800 border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+          <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
+            <div className="h-full w-full relative ">
+              <Image src="/images/team/boundless.png" layout="fill" alt="Profile" />
+            </div>
+          </div>
+          <div className="py-2">
+            <h1 className="font-bold text-lg text-center " >BOB</h1>
+            <p className="font-bold text-base text-center ">Marketing Manager</p>
+          </div>
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-gray-800 border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+          <p className="text-left text-sm">
+            Web3 native Crypto/NFT Investor & Collector.
+          </p>
+          <br />
+          <p className="text-left text-sm">
+            Setting and implementing social media/communication and relationship campaigns to align with marketing strategies.
+          </p>
+          <br />
+          <p className="text-left text-sm">
+            Built and managed small vacation homes on the Black Sea Coast. Over 1 year of boat driving experience.
+          </p>
+        </div>)
+      }
+    </div>
+  );
+};
+const Radu = () => {
+  const [show, setShow] = useState(true)
+  return (
+    <div className="px-4">
+      {
+        show ? (<div className="p-3 bg-gray-800 border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+          <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
+            <div className="h-full w-full relative ">
+              <Image src="/images/team/radu.jpg" layout="fill" alt="Profile" />
+            </div>
+          </div>
+          <div className="py-2">
+            <h1 className="font-bold text-lg text-center " >RADU MARICA</h1>
+            <p className="font-bold text-base text-center ">Technical Lead</p>
+          </div>
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-gray-800 border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+          <p className="text-left text-sm">
+            Radu finished his bachelor's in Electronics and Computer Engineering, at Aalborg University Denmark.
+          </p>
+          <br />
+          <p className="text-left text-sm">
+            More than 5 years of experience working in multiple projects, becoming an expert in Java Web Development, Complex Mathematical Modelling, Robotics, Cryptography in Kali Linux, Applied Machine Learning, Swarm Intelligence, Blockchain Technology.
+          </p>
+
+        </div>)
+      }
+    </div>
+  );
+};
+
+const Razwan = () => {
+  const [show, setShow] = useState(true)
+  return (
+    <div className="px-4">
+      {
+        show ? (<div className="p-3 bg-gray-800 border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+          <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
+            <div className="h-full w-full relative ">
+              <Image src="/images/team/razwan.jpg" layout="fill" alt="Profile" />
+            </div>
+          </div>
+          <div className="py-2">
+            <h1 className="font-bold text-lg text-center " >RAZVAN GRIGORESCU</h1>
+            <p className="font-bold text-base text-center ">Senior Architect</p>
+          </div>
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-gray-800 border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+          <p className="text-left text-sm">
+            AutoCAD and 3ds Max expertise.
+          </p>
+          <br />
+          <p className="text-left text-sm">
+            BIM 350 and Archicad expert.
+          </p>
+          <br />
+          <p className="text-left text-sm">
+            Designed the initial structures of 30+ residential and commercial Buildings.
+          </p>
+          <br />
+          <p className="text-left text-sm">
+            Worked closely with developers and project managers in order to deliver optimal building solutions.
+          </p>
+
+        </div>)
+      }
+    </div>
+  );
+};
+

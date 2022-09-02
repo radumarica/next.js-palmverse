@@ -68,7 +68,7 @@ const Header = () => {
 
                 {
                     showDrop && (
-                        <div className="absolute z-10 top-8  bg-dark_bg pr-5 pl-3 pb-3 w-40" onMouseEnter={() => setShowDrop(true)} onMouseLeave={() => setShowDrop(false)}>
+                        <div className="absolute z-10 top-8 -left-2   bg-dark_bg pr-5 pl-3 pb-3 w-40" onMouseEnter={() => setShowDrop(true)} onMouseLeave={() => setShowDrop(false)}>
                             <Link
                                 href={'first-location'}
 

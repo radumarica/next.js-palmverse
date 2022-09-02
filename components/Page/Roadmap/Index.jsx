@@ -1,7 +1,7 @@
 import { Timeline } from 'flowbite-react'
 
 const Roadmap = () => (
-    <div className='bg-dark_bg text-white flex justify-center py-12 font-exo '>
+    <div className='bg-dark_bg text-white flex justify-start pl-36 py-12 font-exo '>
 
 
         <Timeline >
@@ -20,26 +20,7 @@ const Roadmap = () => (
                         fontSize: '18px',
                         padding: '1rem 0'
                     }}>
-                        Researched the best country to start the Palmverse project.
-                    </Timeline.Body>
-                </Timeline.Content>
-            </Timeline.Item>
-            <Timeline.Item>
-                <Timeline.Point />
-                <Timeline.Content>
-                    <Timeline.Time style={{
-                        color: '#fff',
-                        fontSize: '16px',
-                        fontFamily: 'Exo 2, sans-serif'
-                    }}>
-                        March 2022
-                    </Timeline.Time>
-                    <Timeline.Body style={{
-                        color: '#ECF7FD',
-                        fontSize: '18px',
-                        padding: '1rem 0'
-                    }}>
-                        Part of the team relocated to Costa Rica.  beginning of April 2022
+                        BUSINESS PLAN PAlMVERSE
                     </Timeline.Body>
                 </Timeline.Content>
             </Timeline.Item>
@@ -58,7 +39,7 @@ const Roadmap = () => (
                         fontSize: '18px',
                         padding: '1rem 0'
                     }}>
-                        Started working on the booking platform. Functional demo.
+                        Relocated to Costa Rica
                     </Timeline.Body>
                 </Timeline.Content>
             </Timeline.Item>
@@ -70,14 +51,15 @@ const Roadmap = () => (
                         fontSize: '16px',
                         fontFamily: 'Exo 2, sans-serif'
                     }}>
-                        May 2022
+                        May/June 2022
                     </Timeline.Time>
                     <Timeline.Body style={{
                         color: '#ECF7FD',
                         fontSize: '18px',
                         padding: '1rem 0'
                     }}>
-                        3 weeks in SAN JOSE, In-person meetings with ECIJA, a leading international law firm
+                        RENTED 1st LOCATION -(IN COSTA RICA) 🚩 <br />
+                        SIGNED THE LEASE CONTRACT
                     </Timeline.Body>
                 </Timeline.Content>
             </Timeline.Item>
@@ -96,7 +78,7 @@ const Roadmap = () => (
                         fontSize: '18px',
                         padding: '1rem 0'
                     }}>
-                        Searched and checked possible buildings with local real estate agents in different locations across the Pacific Coast that might suit Palmverse.
+                        FUNCTIONAL DEMO BOOKING PLATFORM
                     </Timeline.Body>
                 </Timeline.Content>
             </Timeline.Item>
@@ -108,17 +90,144 @@ const Roadmap = () => (
                         fontSize: '16px',
                         fontFamily: 'Exo 2, sans-serif'
                     }}>
-                        July 2022
+                        Q4 2022
                     </Timeline.Time>
                     <Timeline.Body style={{
                         color: '#ECF7FD',
                         fontSize: '18px',
                         padding: '1rem 0'
                     }}>
-                        Found the perfect location and building for the 1st Palmverse Hotel & Hostel. 20 May 2022
-
-                        This was a harder task than it seems.
+                        LAUNCH 1st NFT COLLECTION
                     </Timeline.Body>
+                </Timeline.Content>
+            </Timeline.Item>
+            <Timeline.Item>
+                <Timeline.Point />
+                <Timeline.Content>
+                    <Timeline.Time style={{
+                        color: '#fff',
+                        fontSize: '16px',
+                        fontFamily: 'Exo 2, sans-serif'
+                    }}>
+                        Q1-Q2 2023
+                    </Timeline.Time>
+                    <Timeline.Body style={{
+                        color: '#ECF7FD',
+                        fontSize: '18px',
+                        padding: '1rem 0'
+                    }}>
+                        REFURBISH THE HOTEL
+                    </Timeline.Body>
+                </Timeline.Content>
+            </Timeline.Item>
+            <Timeline.Item>
+                <Timeline.Point />
+                <Timeline.Content>
+                    <Timeline.Time style={{
+                        color: '#fff',
+                        fontSize: '16px',
+                        fontFamily: 'Exo 2, sans-serif'
+                    }}>
+                        TBA 🔊
+                    </Timeline.Time>
+                    <Timeline.Body style={{
+                        color: '#ECF7FD',
+                        fontSize: '18px',
+                        padding: '1rem 0'
+                    }}>
+                        GRAND OPENING -  PALMVERSE NFT HOTEL
+                    </Timeline.Body>
+                </Timeline.Content>
+            </Timeline.Item>
+            <Timeline.Item>
+                <Timeline.Point />
+                <Timeline.Content>
+                    <Timeline.Time style={{
+                        color: '#fff',
+                        fontSize: '16px',
+                        fontFamily: 'Exo 2, sans-serif'
+                    }}>
+                        TBA 🔊
+                    </Timeline.Time>
+                    <Timeline.Body style={{
+                        color: '#ECF7FD',
+                        fontSize: '18px',
+                        padding: '1rem 0'
+                    }}>
+                        GROW OUR TEAM & RENT
+                        2ND AND 3RD LOCATION
+                    </Timeline.Body>
+                </Timeline.Content>
+            </Timeline.Item>
+            <Timeline.Item>
+                <Timeline.Point />
+                <Timeline.Content>
+                    <Timeline.Time style={{
+                        color: '#fff',
+                        fontSize: '16px',
+                        fontFamily: 'Exo 2, sans-serif'
+                    }}>
+                        TBA 🔊
+                    </Timeline.Time>
+                    <Timeline.Body style={{
+                        color: '#ECF7FD',
+                        fontSize: '18px',
+                        padding: '1rem 0'
+                    }}>
+                        LAUNCH 2ND AND 3RD
+                        NFT COLLECTIONS
+                    </Timeline.Body>
+                </Timeline.Content>
+            </Timeline.Item>
+            <Timeline.Item>
+                <Timeline.Point />
+                <Timeline.Content>
+                    <Timeline.Time style={{
+                        color: '#fff',
+                        fontSize: '16px',
+                        fontFamily: 'Exo 2, sans-serif'
+                    }}>
+                        TBA 🔊
+                    </Timeline.Time>
+                    <Timeline.Body style={{
+                        color: '#ECF7FD',
+                        fontSize: '18px',
+                        padding: '1rem 0'
+                    }}>
+                        REFURBISH THE BUILDINGS
+                    </Timeline.Body>
+                </Timeline.Content>
+            </Timeline.Item>
+            <Timeline.Item>
+                <Timeline.Point />
+                <Timeline.Content>
+                    <Timeline.Time style={{
+                        color: '#fff',
+                        fontSize: '16px',
+                        fontFamily: 'Exo 2, sans-serif'
+                    }}>
+                        TBA 🔊
+                    </Timeline.Time>
+                    <Timeline.Body style={{
+                        color: '#ECF7FD',
+                        fontSize: '18px',
+                        padding: '1rem 0'
+                    }}>
+                        INTEGRATE OTHER HOTELS ONTHE BOOKING PLATFORM
+                    </Timeline.Body>
+                </Timeline.Content>
+            </Timeline.Item>
+            <Timeline.Item>
+                <Timeline.Point />
+                <Timeline.Content>
+                    <Timeline.Time style={{
+                        color: '#fff',
+                        fontSize: '16px',
+                        fontFamily: 'Exo 2, sans-serif'
+                    }}>
+                        Further Expansion
+                    </Timeline.Time>
+
                 </Timeline.Content>
             </Timeline.Item>
         </Timeline>

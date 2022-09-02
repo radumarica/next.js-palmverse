@@ -2,13 +2,13 @@ import Image from "next/image"
 
 const FirstLocation = () => {
     return (
-        <section className="min-h-screen bg-dark_bg text-[#ECF7FD] font-exo flex flex-col px-32 py-10">
+        <section className="min-h-screen bg-dark_bg text-[#ECF7FD] font-exo flex flex-col px-32 pt-10">
             <h1 className="text-4xl font-bold text-center">What We Build?</h1>
             <p className="text-2xl font-bold py-4 pt-16">We rent and refurbish old properties, converting them into the Palmverse brand model. </p>
             <p className="text-2xl font-bold py-4">With this business plan, we can achieve a quick global expansion, keeping the rent expense of the properties low by refurbishing the buildings to meet the Palmverse standards.</p>
             <p className="text-2xl font-bold py-4">The first Palmverser Hotel & Hostel will have approx. 17 rooms (private and shared) with co-working space, a pool, and a bar.</p>
             <p className="text-2xl font-bold py-4">We aim to bridge the web2 booking experience to web3, by accepting On-chain cryptocurrency payments to book stays in the first NFT Hotel in Costa Rica.</p>
-            <div className="py-10">
+            <div className="pt-10">
                 <h1 className="text-4xl font-bold text-center">1st Location - Tamarindo, Costa Rica</h1>
                 <p className="text-2xl font-bold py-4  text-center">The first location was rented in the heart of the busiest surf town in Costa Rica. </p>
 
