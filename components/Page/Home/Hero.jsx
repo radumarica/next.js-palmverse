@@ -143,7 +143,7 @@ const Hero = () => {
                         "Palmverse builds technologies that help people connect IRL join communities, and bridge the web2 travel experience to web3.".split(" ").map((word, index) => (<span key={index}>{`${word} `}</span>))
                     }</p>
                 </div>
-                <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5 pt-10 pb-6 w-[80%] mx-auto" >
+                <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5  w-[80%] mx-auto" >
 
                     <div className="flex flex-col items-center">
                         <Image src='/icons/hotel.png' alt='PHYSICAL NFT HOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
@@ -173,7 +173,7 @@ const Hero = () => {
                 </div>
                 <h1 className="md:text-3xl text-2xl text-center font-bold text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
             </div>
-            <div className=" mt-14  md:mt-0 md:scale-100">
+            <div className="   md:mt-0 md:scale-100">
 
                 <Image src='/images/laptop.png' alt='laptop palverse' width={550} height={370} />
             </div>
@@ -185,7 +185,7 @@ const Hero = () => {
                 <div className="flex flex-col">
                     <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-6">
                         NFT UTILITIES - TRAVEL 2 EARN</h1>
-                    <div className="grid grid-cols-1  gap-8 py-4">
+                    <div className="grid grid-cols-1  gap-8 pt-4">
 
 
                         <div className={`flex flex-row-reverse justify-between items-center  `}>
@@ -202,18 +202,15 @@ const Hero = () => {
                         </div>
                         <div className={`flex  justify-between items-center  `}>
                             <Image src='/icons/cycle.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[24px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Cashback Travel  <br /> Rewards</h1>
+                            <h1 className="md:text-[26px] text-[24px] font-semibold text-[#ECF7FD]  w-[90%] text-center pt-2">Cashback Travel  <br /> Rewards</h1>
                         </div>
 
 
                     </div>
                 </div>
-                <div className="flex flex-col justify-end items-center py-4 md:py-0" >
 
-
-                </div>
             </div>
-            <div className="flex w-screen  flex-col items-center justify-center py-16 space-y-10 md:space-y-0" >
+            <div className="flex w-screen  flex-col items-center justify-center  pb-5 space-y-10 md:space-y-0" >
                 <h1 className="text-3xl font-semibold md:w-[70%]  mx-auto text-center text-[#ECF7FD] ">We refurbish old buildings and leverage our unique property conversion model to turn them into the Palmverse brand. </h1>
                 <div className=" py-4 ">
 
@@ -226,8 +223,8 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col items-center justify-center pt-14 pb-8" >
-                <h1 className="text-3xl text-[#ECF7FD] font-semibold w-[70%] mx-auto text-center ">
+            <div className="flex flex-col items-center justify-center pt-8" >
+                <h1 className="text-3xl text-[#ECF7FD] font-semibold w-[70%] mx-auto pb-4 text-center ">
                     HOW IT WORKS </h1>
                 <Image src='/images/map.png' alt='palmverse hotel' width={1100} height='600' />
 
