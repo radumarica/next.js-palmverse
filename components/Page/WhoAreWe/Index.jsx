@@ -87,7 +87,7 @@ const Profile = () => {
             <h1 className="font-bold text-lg text-center " >DRAGOS OVIDIU OLTEANU</h1>
             <p className="font-bold text-base text-center ">Co-Founder, CEO</p>
           </div>
-        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
           <p className="text-left text-sm">
             Dragos finished his MSc degree in Sustainable Energy Engineering with a focus on sustainable energy building from Aalborg University Denmark and TU Delft Netherland.
           </p>
@@ -119,7 +119,7 @@ const Sorin = () => {
             <h1 className="font-bold text-lg text-center " >SORIN HALIT</h1>
             <p className="font-bold text-base text-center ">Co-Founder, CTO</p>
           </div>
-        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
           <p className="text-left text-sm">
             Sorin finished his BA in Business Management at Coventry University, in the UK.
           </p>
@@ -151,7 +151,7 @@ const BOB = () => {
             <h1 className="font-bold text-lg text-center " >BOB</h1>
             <p className="font-bold text-base text-center ">Marketing Manager</p>
           </div>
-        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
           <p className="text-left text-sm">
             Web3 native Crypto/NFT Investor & Collector.
           </p>
@@ -183,7 +183,7 @@ const Radu = () => {
             <h1 className="font-bold text-lg text-center " >RADU MARICA</h1>
             <p className="font-bold text-base text-center ">Technical Lead</p>
           </div>
-        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
           <p className="text-left text-sm">
             Radu finished his bachelors in Electronics and Computer Engineering, at Aalborg University Denmark.
           </p>
@@ -213,7 +213,7 @@ const Razwan = () => {
             <h1 className="font-bold text-lg text-center " >RAZVAN GRIGORESCU</h1>
             <p className="font-bold text-base text-center ">Senior Architect</p>
           </div>
-        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
           <p className="text-left text-sm">
             AutoCAD and 3ds Max expertise.
           </p>
@@ -253,7 +253,7 @@ const Daniel = () => {
               <p className="font-bold text-base text-center ">https://www.ecija.com</p>
             </a>
           </div>
-        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
           <p className="text-left text-sm">
             AutoCAD and 3ds Max expertise.
           </p>
