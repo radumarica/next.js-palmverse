@@ -61,7 +61,8 @@ const WhoWeAre = () => (
         <Razwan />
       </div>
 
-      <div className="flex flex-wrap w-[85%] mx-auto justify-evenly pt-16">
+      <h1 className="text-4xl text-center font-bold pt-10 ">Legal Advisor</h1>
+      <div className="flex flex-wrap w-[85%] mx-auto justify-evenly pt-10">
         <Daniel />
       </div>
 
@@ -76,7 +77,7 @@ const Profile = () => {
   return (
     <div className="px-4">
       {
-        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded  ">
           <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
             <div className="h-full w-full relative ">
               <Image src="/images/dragos.webp" layout="fill" alt="Profile" />
@@ -108,7 +109,7 @@ const Sorin = () => {
   return (
     <div className="px-4">
       {
-        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded  ">
           <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
             <div className="h-full w-full relative ">
               <Image src="/images/team/Sorin.JPG" layout="fill" alt="Profile" />
@@ -140,7 +141,7 @@ const BOB = () => {
   return (
     <div className="px-4">
       {
-        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded ">
           <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
             <div className="h-full w-full relative ">
               <Image src="/images/team/boundless.png" layout="fill" alt="Profile" />
@@ -172,7 +173,7 @@ const Radu = () => {
   return (
     <div className="px-4">
       {
-        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded ">
           <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
             <div className="h-full w-full relative ">
               <Image src="/images/team/radu.jpg" layout="fill" alt="Profile" />
@@ -202,7 +203,7 @@ const Razwan = () => {
   return (
     <div className="px-4">
       {
-        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded  ">
           <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
             <div className="h-full w-full relative ">
               <Image src="/images/team/razwan.jpg" layout="fill" alt="Profile" />
@@ -239,7 +240,7 @@ const Daniel = () => {
   return (
     <div className="px-4">
       {
-        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded animate__animated animate__fadeIn ">
+        show ? (<div className="p-3 bg-dark_bg border-[1px] border-gray-600 cursor-pointer rounded  ">
           <div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="h-64 w-64  mx-auto ">
             <div className="h-full w-full relative ">
               <Image src="/images/team/daniel.png" className="object-cover" layout="fill" alt="Profile" />

@@ -74,7 +74,7 @@ const Header = () => {
                                 href={'first-location'}
 
                             >
-                                <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                                <h3 className="hover:text-[#13D511] text-center text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
                                     1st Location
                                 </h3>
                             </Link>
@@ -82,12 +82,14 @@ const Header = () => {
                                 href={'/roadmap'}
 
                             >
-                                <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                                <h3 className="hover:text-[#13D511] text-center text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
                                     Roadmap
                                 </h3>
                             </Link>
-                            <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
-                                Whitepaper
+                            <a className="hover:text-[#13D511] text-center text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
+                                <h3 className="text-center">
+                                    Whitepaper
+                                </h3>
 
                             </a>
                         </div>
