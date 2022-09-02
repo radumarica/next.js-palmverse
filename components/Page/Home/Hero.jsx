@@ -167,9 +167,18 @@ const Hero = () => {
 
                         <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={380} layout="fixed" />
                     </div>
+
                 </div>
                 <h1 className="md:text-3xl text-2xl text-center font-bold text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
             </div>
+            <div className=" mt-14  md:mt-0 md:scale-100">
+
+                <Image src='/images/laptop.png' alt='laptop palverse' width={550} height={370} />
+            </div>
+            <h1 className="text-3xl font-medium text-center py-4 text-[#ECF7FD]">
+
+                FUNCTIONAL BOOKING PLATFORM
+            </h1>
             <div className="grid md:grid-cols-2 gap-4 py-16 " >
                 <div className="flex flex-col">
                     <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-6">
@@ -186,14 +195,8 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="flex flex-col justify-end items-center py-4 md:py-0" >
-                    <div className=" mt-8 md:mt-0 md:scale-100">
 
-                        <Image src='/images/laptop.png' alt='laptop palverse' width={550} height={370} />
-                    </div>
-                    <h1 className="text-3xl font-medium text-center py-4 text-[#ECF7FD]">
 
-                        FUNCTIONAL BOOKING PLATFORM
-                    </h1>
                 </div>
             </div>
             <div className="flex w-screen  flex-col items-center justify-center py-16 space-y-10 md:space-y-0" >
