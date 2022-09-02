@@ -104,15 +104,15 @@ const Profile = () => {
             <p className="font-bold text-base text-center ">Co-Founder, CEO</p>
           </div>
         </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
-          <p className="text-left text-[7px}">
+          <p className="text-left text-[7px]">
             Dragos finished his MSc degree in Sustainable Energy Engineering with a focus on sustainable energy building from Aalborg University Denmark and TU Delft Netherland.
           </p>
           <br />
-          <p className="text-left text-[7px}">
+          <p className="text-left text-[7px]">
             Founder and CEO of E-commerce companies, involved in the development of several product design projects.
           </p>
           <br />
-          <p className="text-left text-[7px}">
+          <p className="text-left text-[7px]">
             Speaker at E-commerce Conference in Miami, invited by the Romanian American Chamber of Commerce.
           </p>
         </div>)
@@ -136,15 +136,15 @@ const Sorin = () => {
             <p className="font-bold text-base text-center ">Co-Founder, CTO</p>
           </div>
         </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded duration-300 ">
-          <p className="text-left text-[7px}">
+          <p className="text-left text-[7px]">
             Sorin finished his BA in Business Management at Coventry University, in the UK.
           </p>
           <br />
-          <p className="text-left text-[7px}">
+          <p className="text-left text-[7px]">
             More than 7 years of business experience, handling the general management and supply chain of a tire warehouse in Europe, working closely with suppliers such as Michelin and Continental.
           </p>
           <br />
-          <p className="text-left text-[7px}">
+          <p className="text-left text-[7px]">
             Built and managed small vacation homes on the Black Sea Coast. Over 1 year of boat driving experience.
           </p>
         </div>)
