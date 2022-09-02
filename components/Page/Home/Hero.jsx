@@ -190,19 +190,19 @@ const Hero = () => {
 
                         <div className={`flex flex-row-reverse justify-between items-center  `}>
                             <Image src='/icons/tag.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[24px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Up to 30% Discounts <br /> for   Rooms </h1>
+                            <h1 className="md:text-[26px] text-[26px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Up to 30% Discounts <br /> for   Rooms </h1>
                         </div>
                         <div className={`flex  justify-between items-center  `}>
                             <Image src='/icons/hand.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[24px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Profits Added to <br /> DAO treasury. <br /> Holders Rewarded</h1>
+                            <h1 className="md:text-[26px] text-[26px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Profits Added to <br /> DAO treasury. <br /> Holders Rewarded</h1>
                         </div>
                         <div className={`flex flex-row-reverse justify-between items-center  `}>
                             <Image src='/icons/coin.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[24px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Seed Tokens  <br /> Allocation</h1>
+                            <h1 className="md:text-[26px] text-[26px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Seed Tokens  <br /> Allocation</h1>
                         </div>
                         <div className={`flex  justify-between items-center  `}>
                             <Image src='/icons/cycle.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[24px] font-semibold text-[#ECF7FD]  w-[90%] text-center pt-2">Cashback Travel  <br /> Rewards</h1>
+                            <h1 className="md:text-[26px] text-[26px] font-semibold text-[#ECF7FD]  w-[90%] text-center pt-2">Cashback Travel  <br /> Rewards</h1>
                         </div>
 
 
