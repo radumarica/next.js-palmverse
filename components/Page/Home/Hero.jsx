@@ -134,7 +134,6 @@ const Hero = () => {
         <div className="md:hidden">
             <div className=" flex flex-col items-center">
 
-
                 <h1 className="md:text-[40px] text-[28px] font-bold text-center text-[#ECF7FD] ">THE 1ST NFT <br /> HOTEL & HOSTEL CHAIN </h1>
                 <p className="md:text-[32px] hidden md:flex text-[28px] text-center py-10 px-4font-bold md:w-9/12 text-[#ECF7FD]  ">Palmverse builds technologies that help people connect IRL <br className="md:hidden" /> join communities, and bridge the web2 travel experience to web3.</p>
 
