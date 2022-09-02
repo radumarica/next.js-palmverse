@@ -26,7 +26,7 @@ const firstSetIcons = [
 const secondSetIcons = [
     {
         link: '/icons/tag.png',
-        title: 'Up to 30% Discounts for Rooms & Drinks'
+        title: 'Up to 30% Discounts for Rooms '
     },
     {
         link: '/icons/hand.png',
