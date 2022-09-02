@@ -185,11 +185,11 @@ const Hero = () => {
                 <div className="flex flex-col">
                     <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-6">
                         NFT UTILITIES - TRAVEL 2 EARN</h1>
-                    <div className="grid grid-cols-2 gap-4 py-4">
+                    <div className="grid grid-cols-1  gap-4 py-4">
                         {
-                            secondSetIcons.map(icon => (
-                                <div key={icon.link} className="flex flex-col items-center">
-                                    <Image src={icon.link} alt={icon.link} height={130} width={130} layout={"fixed"} />
+                            secondSetIcons.map((icon, index) => (
+                                <div key={icon.link} className={`flex justify-between items-center ${index % 2 === 0 && 'flex-row-reverse'}`}>
+                                    <Image src={icon.link} alt={icon.link} height={150} width={200} layout={"fixed"} />
                                     <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] font-medium w-[90%] text-center py-2">{icon.title}</h1>
                                 </div>
                             ))
