@@ -12,48 +12,48 @@ const WhoWeAre = () => (
         Shaping Palmverse: Building an NFT Community-Based Hotel & Hostel Chain
         From Scratch{" "}
       </h1>
-      <ul className="py-14 flex flex-col justify-start space-y-6 w-[80%] mx-auto ">
+      <ul className="py-14 flex flex-col justify-start space-y-6 px-2  ">
         <li className="text-[21px] font-bold">
-          <h1 className="text-center">
-            Why don’t we make an NFT project with real-life utilities?\
+          <h1 className="text-left">
+            Why don’t we make an NFT project with real-life utilities?
           </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          <h1 className="text-center">
+          <h1 className="text-left">
             That was the beginning of the Palmverse project.
           </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          <h1 className="text-center">
+          <h1 className="text-left">
             It all started with a simple question.
           </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          <h1 className="text-center">
+          <h1 className="text-left">
             Sorin, my best friend, and I were discussing NFT projects over dinner in
             February 2022. We felt like something was lacking, something that could
             be changed to benefit other NFT enthusiasts, including ourselves.
           </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          <h1 className="text-center">
+          <h1 className="text-left">
             Let’s build an NFT hotel chain where holders can come and enjoy
             discounts. — Sorin suggested
           </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          <h1 className="text-center">
+          <h1 className="text-left">
             We did manage multiple businesses, from e-commerce brands to Airbnb
             vacation houses.
           </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          <h1 className="text-center">
+          <h1 className="text-left">
             But could we build something even greater?
           </h1>
         </li>
         <li className="text-[19px] font-semibold">
-          <h1 className="text-center">
+          <h1 className="text-left">
             Continue reading the full story here at medium:{" "}
             <a
               className="underline underline-offset-4"
