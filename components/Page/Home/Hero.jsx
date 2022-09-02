@@ -135,7 +135,7 @@ const Hero = () => {
             <div className=" flex flex-col items-center">
 
 
-                <h1 className="md:text-[40px] text-[28px] font-bold text-center text-[#ECF7FD] ">THE 1ST NFT HOTEL & HOSTEL CHAIN </h1>
+                <h1 className="md:text-[40px] text-[28px] font-bold text-center text-[#ECF7FD] ">THE 1ST NFT <br /> HOTEL & HOSTEL CHAIN </h1>
                 <p className="md:text-[32px] hidden md:flex text-[28px] text-center py-10 px-4font-bold md:w-9/12 text-[#ECF7FD]  ">Palmverse builds technologies that help people connect IRL <br className="md:hidden" /> join communities, and bridge the web2 travel experience to web3.</p>
 
                 <div className="w-[90%] overflow-x-auto md:hidden">
@@ -163,11 +163,11 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-evenly items-center w-[90%] mx-auto pb-16 ">
-                <div className="md:w-[50%] md:mx-auto md:px-4 scale-75 md:scale-100">
+            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-evenly items-center w-[90%] mx-auto pb-16 pt-10 ">
+                <div className="md:w-[50%] md:mx-auto md:px-4 scale-100 md:scale-100">
                     <div className="">
 
-                        <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={380} layout="fixed" />
+                        <Image src='/icons/groot.png' alt='palmverse-groot' height={280} width={280} layout="fixed" />
                     </div>
 
                 </div>
@@ -190,7 +190,7 @@ const Hero = () => {
 
                         <div className={`flex flex-row-reverse justify-between items-center  `}>
                             <Image src='/icons/tag.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[24px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Up to 30% Discounts for  <br /> Rooms & Drinks</h1>
+                            <h1 className="md:text-[26px] text-[24px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Up to 30% Discounts <br /> for   Rooms </h1>
                         </div>
                         <div className={`flex  justify-between items-center  `}>
                             <Image src='/icons/hand.png' alt='tag' height={140} width={180} layout={"fixed"} />
@@ -210,18 +210,16 @@ const Hero = () => {
                 </div>
 
             </div>
-            <div className="flex w-screen  flex-col items-center justify-center  pb-5 space-y-10 md:space-y-0" >
+            <div className="flex w-screen  flex-col items-center justify-center   space-y-6 md:space-y-0" >
                 <h1 className="text-3xl font-semibold md:w-[70%]  mx-auto text-center text-[#ECF7FD] ">We refurbish old buildings and leverage our unique property conversion model to turn them into the Palmverse brand. </h1>
                 <div className=" py-4 ">
-
                     <Image src='/images/hotel1.png' alt='palmverse hotel' width={1000} height={560} />
                 </div>
-                <div className="flex justify-center items-center" >
-                    <Link href='/first-location' >
-                        <button className="rounded-full px-12 py-4 font-semibold btn tracking-widest hover:btn-rev transition-all duration-500 ease-in-out flex items-center  " >Learn More                 <HiArrowNarrowRight className="text-2xl ml-2 " /></button>
-                    </Link>
-
-                </div>
+            </div>
+            <div className="flex justify-center items-center" >
+                <Link href='/first-location' >
+                    <button className="rounded-full px-12 py-4 font-semibold btn tracking-widest hover:btn-rev transition-all duration-500 ease-in-out flex items-center  " >Learn More                 <HiArrowNarrowRight className="text-2xl ml-2 " /></button>
+                </Link>
             </div>
             <div className="flex flex-col items-center justify-center pt-8" >
                 <h1 className="text-3xl text-[#ECF7FD] font-semibold w-[70%] mx-auto pb-4 text-center ">
