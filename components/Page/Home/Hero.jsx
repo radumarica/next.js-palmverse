@@ -44,26 +44,30 @@ const secondSetIcons = [
 
 const Hero = () => {
     return <section className="w-full flex flex-col items-center bg-dark_bg text-white  px-5 pt-8 pb-16 font-exo">
-        <h1 className="md:text-[40px] text-[30px] font-bold text-center text-[#ECF7FD] ">THE 1ST NFT HOTEL & HOSTEL CHAIN </h1>
-        <p className="text-[32px] text-center py-10 font-bold md:w-9/12 text-[#ECF7FD] ">Palmverse builds technologies that help people connect IRL, join communities, and bridge the web2 travel experience to web3.</p>
-        <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto" >
+        <div className=" flex flex-col items-center">
 
-            <div className="flex flex-col items-center">
-                <Image src='/icons/hotel.png' alt='PHYSICAL NFT HOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
-                <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">PHYSICAL NFT <br /> HOTEL & HOSTEL</h1>
-            </div>
-            <div className="flex justify-evenly w-screen md:w-auto md:space-x-20 items-start px-4 ">
+
+            <h1 className="md:text-[40px] text-[28px] font-bold text-center text-[#ECF7FD] ">THE 1ST NFT HOTEL & HOSTEL CHAIN </h1>
+            <p className="md:text-[32px] text-[28px] text-center py-10 font-bold md:w-9/12 text-[#ECF7FD] ">Palmverse builds technologies that help people connect IRL, join communities, and bridge the web2 travel experience to web3.</p>
+            <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto" >
 
                 <div className="flex flex-col items-center">
-                    <Image src='/icons/pay.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
-                    <h1 className="text-2xl text-[#ECF7FD] font-bold md:w-full text-center py-2">CRYPTO <br /> BOOKING PLATFORM</h1>
+                    <Image src='/icons/hotel.png' alt='PHYSICAL NFT HOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
+                    <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">PHYSICAL NFT <br /> HOTEL & HOSTEL</h1>
                 </div>
-                <div className="flex flex-col items-center">
-                    <Image src='/icons/group.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
-                    <h1 className="text-2xl text-[#ECF7FD] font-bold md:w-full text-center py-2">NFTS AS MEMBERSHIP <br /> DAO ACCESS</h1>
-                </div>
-            </div>
+                <div className="flex justify-evenly w-screen md:w-auto md:space-x-20 items-start px-4 ">
 
+                    <div className="flex flex-col items-center">
+                        <Image src='/icons/pay.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
+                        <h1 className="text-2xl text-[#ECF7FD] font-bold md:w-full text-center py-2">CRYPTO <br /> BOOKING PLATFORM</h1>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <Image src='/icons/group.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
+                        <h1 className="text-2xl text-[#ECF7FD] font-bold md:w-full text-center py-2">NFTS AS MEMBERSHIP <br /> DAO ACCESS</h1>
+                    </div>
+                </div>
+
+            </div>
         </div>
         <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center w-[90%] mx-auto py-16">
             <div className="md:w-[50%] md:mx-auto md:px-4 scale-75 md:scale-100">
@@ -72,7 +76,7 @@ const Hero = () => {
                     <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={400} layout="fixed" />
                 </div>
             </div>
-            <h1 className="text-3xl text-center font-bold text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
+            <h1 className="md:text-3xl text-2xl text-center font-bold text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
         </div>
         <div className="grid md:grid-cols-2 gap-4 py-16 " >
             <div className="flex flex-col">
@@ -83,7 +87,7 @@ const Hero = () => {
                         secondSetIcons.map(icon => (
                             <div key={icon.link} className="flex flex-col items-center">
                                 <Image src={icon.link} alt={icon.link} height={130} width={130} layout={"fixed"} />
-                                <h1 className="text-[26px] text-[#ECF7FD] font-medium w-[90%] text-center py-2">{icon.title}</h1>
+                                <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] font-medium w-[90%] text-center py-2">{icon.title}</h1>
                             </div>
                         ))
                     }
