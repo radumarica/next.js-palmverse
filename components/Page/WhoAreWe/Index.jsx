@@ -13,32 +13,32 @@ const WhoWeAre = () => (
         From Scratch{" "}
       </h1>
       <ul className="py-14 flex flex-col justify-start space-y-6 w-[80%] mx-auto ">
-        <li className="text-2xl font-semibold">
+        <li className="text-[21px] font-semibold">
           Why don’t we make an NFT project with real-life utilities?
         </li>
-        <li className="text-2xl font-semibold">
+        <li className="text-[19px] font-semibold">
           That was the beginning of the Palmverse project.
         </li>
-        <li className="text-2xl font-semibold">
+        <li className="text-[19px] font-semibold">
           It all started with a simple question.
         </li>
-        <li className="text-2xl font-semibold">
+        <li className="text-[19px] font-semibold">
           Sorin, my best friend, and I were discussing NFT projects over dinner in
           February 2022. We felt like something was lacking, something that could
           be changed to benefit other NFT enthusiasts, including ourselves.
         </li>
-        <li className="text-2xl font-semibold">
+        <li className="text-[19px] font-semibold">
           Let’s build an NFT hotel chain where holders can come and enjoy
           discounts. — Sorin suggested
         </li>
-        <li className="text-2xl font-semibold">
+        <li className="text-[19px] font-semibold">
           We did manage multiple businesses, from e-commerce brands to Airbnb
           vacation houses.
         </li>
-        <li className="text-2xl font-semibold">
+        <li className="text-[19px] font-semibold">
           But could we build something even greater?
         </li>
-        <li className="text-2xl font-semibold">
+        <li className="text-[19px] font-semibold">
           Continue reading the full story here at medium:{" "}
           <a
             className="underline underline-offset-4"
