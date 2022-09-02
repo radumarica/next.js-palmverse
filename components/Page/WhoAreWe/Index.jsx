@@ -8,12 +8,12 @@ const WhoWeAre = () => (
     </div>
 
     <section className="py-10 bg-dark_bg text-white flex flex-col justify-center  font-exo">
-      <h1 className="text-4xl font-bold md:w-[70%]  text-center mx-auto ">
+      <h1 className="text-2xl font-bold md:w-[70%]  text-center mx-auto ">
         Shaping Palmverse: Building an NFT Community-Based Hotel & Hostel Chain
         From Scratch{" "}
       </h1>
       <ul className="py-14 flex flex-col justify-start space-y-6 w-[80%] mx-auto ">
-        <li className="text-[21px] font-semibold">
+        <li className="text-[21px] font-bold">
           Why don’t we make an NFT project with real-life utilities?
         </li>
         <li className="text-[19px] font-semibold">
