@@ -1,6 +1,6 @@
 import Image from "next/dist/client/image"
 import { HiArrowNarrowRight } from 'react-icons/hi'
-
+import Link from 'next/link'
 // const firstSetIcons = [
 //     '/icons/hotel.png',
 //     '/icons/pay.png',
@@ -53,7 +53,7 @@ const Hero = () => {
 
                 <div className="w-screen overflow-x-auto md:hidden">
                     <p className="md:text-[32px]  text-[22px] text-center py-10 font-bold md:w-9/12 text-[#ECF7FD]  ">{
-                        "Palmverse builds technologies that help people connect IRL join communities, and bridge the web2 travel experience to web3".split(" ").map((word, index) => (<span key={index}>{`${word} `}</span>))
+                        "Palmverse builds technologies that help people connect IRL join communities, and bridge the web2 travel experience to web4.".split(" ").map((word, index) => (<span key={index}>{`${word} `}.</span>))
                     }</p>
                 </div>
                 <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto" >
@@ -138,10 +138,10 @@ const Hero = () => {
 
                 <div className="w-[90%] overflow-x-auto md:hidden">
                     <p className="md:text-[32px]  text-[22px] text-center py-10 font-bold md:w-9/12 text-[#ECF7FD]  ">{
-                        "Palmverse builds technologies that help people connect IRL join communities, and bridge the web2 travel experience to web3".split(" ").map((word, index) => (<span key={index}>{`${word} `}</span>))
+                        "Palmverse builds technologies that help people connect IRL join communities, and bridge the web2 travel experience to web3.".split(" ").map((word, index) => (<span key={index}>{`${word} `}</span>))
                     }</p>
                 </div>
-                <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto" >
+                <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5 pt-10 pb-6 w-[80%] mx-auto" >
 
                     <div className="flex flex-col items-center">
                         <Image src='/icons/hotel.png' alt='PHYSICAL NFT HOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
@@ -161,7 +161,7 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center w-[90%] mx-auto py-16">
+            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-evenly items-center w-[90%] mx-auto pb-16 ">
                 <div className="md:w-[50%] md:mx-auto md:px-4 scale-75 md:scale-100">
                     <div className="">
 
@@ -203,7 +203,9 @@ const Hero = () => {
                     <Image src='/images/hotel1.png' alt='palmverse hotel' width={1000} height={560} />
                 </div>
                 <div className="flex justify-center items-center" >
-                    <button className="rounded-full px-12 py-4 font-semibold btn tracking-widest hover:btn-rev transition-all duration-500 ease-in-out flex items-center  " >Learn More                 <HiArrowNarrowRight className="text-2xl ml-2 " /></button>
+                    <Link href='/who-we-are' >
+                        <button className="rounded-full px-12 py-4 font-semibold btn tracking-widest hover:btn-rev transition-all duration-500 ease-in-out flex items-center  " >Learn More                 <HiArrowNarrowRight className="text-2xl ml-2 " /></button>
+                    </Link>
 
                 </div>
             </div>
