@@ -180,7 +180,7 @@ const Radu = () => {
           </div>
         </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-gray-800 border-[1px] h-[350px] w-[282px] border-gray-600 cursor-pointer rounded animate__animated animate__flipInY duration-300 ">
           <p className="text-left text-sm">
-            Radu finished his bachelor's in Electronics and Computer Engineering, at Aalborg University Denmark.
+            Radu finished his bachelors in Electronics and Computer Engineering, at Aalborg University Denmark.
           </p>
           <br />
           <p className="text-left text-sm">
