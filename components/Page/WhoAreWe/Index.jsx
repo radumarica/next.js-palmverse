@@ -20,7 +20,7 @@ const WhoWeAre = () => (
           Why don’t we make an NFT project with real-life utilities?
         </h1>
       </li>
-      <ul className="pb-10 pt-2 flex flex-col justify-start space-y md:w-[69.5rem] mx-auto  ">
+      <ul className="pb-10 pt-2 flex flex-col justify-start space-y-2 md:w-[69.5rem] mx-auto  ">
         <div className="relative">
           <li className="text-[19px] leading-9">
             <h1 className="text-left pl-8 pt-4">
@@ -36,8 +36,8 @@ const WhoWeAre = () => (
             It all started with a simple question.
           </h1>
         </li>
-        <li className="text-[19px] leading-7">
-          <h1 className="text-left">
+        <li className="text-[19px] ">
+          <h1 className="text-left leading-5">
             Sorin, my best friend, and I were discussing NFT projects over dinner in
             February 2022. We felt like something was lacking,  something that could
             be changed to benefit other NFT enthusiasts, including ourselves.
