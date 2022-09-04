@@ -23,7 +23,7 @@ const WhoWeAre = () => (
         </li>
         <div className="relative">
           <li className="text-[19px] leading-9">
-            <h1 className="text-left pl-8 pt-2">
+            <h1 className="text-left pl-8 pt-4">
               That was the beginning of the Palmverse project.
             </h1>
           </li>
