@@ -134,7 +134,7 @@ const Profile = () => {
             <h1 className="font-bold text-sm md:text-lg md:text-center " >DRAGOS OVIDIU OLTEANU</h1>
             <p className="font-bold text-sm md:text-base md:text-center ">Co-Founder, CEO</p>
           </div>
-        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[278px] md:h-[358px] w-[191px] md:w-[282px] border-gray-600 cursor-pointer rounded duration-300 flex flex-col space-y-2 ">
+        </div>) : (<div onMouseEnter={() => setShow(false)} onMouseLeave={() => setShow(true)} className="p-3 bg-dark_bg border-[1px] h-[278px] md:h-[358px] w-[191px] md:w-[282px] border-gray-600 cursor-pointer rounded duration-300 flex flex-col space-y-2 overflow-y-scroll">
           <p className="text-left text-[8px] md:text-sm">
             Dragos finished his MSc degree in Sustainable Energy Engineering with a focus on sustainable energy building from Aalborg University Denmark and TU Delft Netherland.
           </p>
