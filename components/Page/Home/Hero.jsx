@@ -91,12 +91,12 @@ const Hero = () => {
 
                     </div>
                 </div>
-                <div className="flex flex-col justify-center items-center py-4 md:py-0" >
-                    <div className=" mt-8 md:mt-0 md:scale-100">
+                <div className="flex flex-col justify-end items-center py-4 md:py-0" >
+                    <div className=" mt-16 md:mt-0 md:scale-125">
 
                         <Image src='/images/laptop.png' alt='laptop palverse' width={550} height={370} />
                     </div>
-                    <h1 className="text-3xl font-medium text-center py-4 text-[#ECF7FD]">
+                    <h1 className="text-[26px] font-bold text-center py-4  text-[#ECF7FD]">
 
                         FUNCTIONAL BOOKING PLATFORM
                     </h1>
