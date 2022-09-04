@@ -43,7 +43,7 @@ const secondSetIcons = [
 ]
 
 const Hero = () => {
-    return <section className="w-full flex flex-col items-center bg-dark_bg text-white  px-5 pt-8 pb-16 font-exo">
+    return <section className="w-full flex flex-col items-center bg-dark_bg text-white px-5 pt-5 pb-16 font-exo">
         <div className="hidden md:block">
             <div className=" flex flex-col items-center">
 
