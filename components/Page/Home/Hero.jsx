@@ -68,25 +68,25 @@ const Hero = () => {
             </div>
             <div className="grid md:grid-cols-2 gap-4 py-5 " >
                 <div className="flex flex-col">
-                    <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-6">
+                    <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-10">
                         NFT UTILITIES - TRAVEL 2 EARN</h1>
                     <div className="grid grid-cols-2 gap-4 py-4">
 
                         <div className="flex flex-col items-center">
                             <Image src='/icons/tag.png' alt='tag' height={130} width={130} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Up to 30% Discounts for Rooms </h1>
+                            <h1 className="md:text-[26px] text-[20px leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Up to 30% Discounts for Rooms </h1>
                         </div>
                         <div className="flex flex-col items-center">
                             <Image src='/icons/hand.png' alt='tag' height={130} width={130} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] md:font-medium  text-center py-2">Profits Added to DAO treasury. Holders Rewarded</h1>
+                            <h1 className="md:text-[26px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium  text-center py-2">Profits Added to DAO treasury. Holders Rewarded</h1>
                         </div>
                         <div className="flex flex-col items-center">
                             <Image src='/icons/coin.png' alt='tag' height={130} width={130} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Seed Tokens Allocation </h1>
+                            <h1 className="md:text-[26px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Seed Tokens Allocation </h1>
                         </div>
                         <div className="flex flex-col items-center">
                             <Image src='/icons/cycle.png' alt='tag' height={130} width={130} layout={"fixed"} />
-                            <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Cashback Travel Rewards</h1>
+                            <h1 className="md:text-[26px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Cashback Travel Rewards</h1>
                         </div>
 
                     </div>
