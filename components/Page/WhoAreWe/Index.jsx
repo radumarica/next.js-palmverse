@@ -16,16 +16,21 @@ const WhoWeAre = () => (
         </h1>
       </div>
       <ul className="py-10 flex flex-col justify-start space-y-4 px-2 md:pl-[220px]  ">
-        <li className="text-[21px] md:text-3xl font-bold leading-10 -mt-5 ml-[5.4rem]  ">
+        <li className="text-[21px] md:text-3xl font-bold leading-10 -mt-5 ml-[5.4rem] pb-5  ">
           <h1 className="text-left">
             Why don’t we make an NFT project with real-life utilities?
           </h1>
         </li>
-        <li className="text-[19px] leading-9">
-          <h1 className="text-left">
-            That was the beginning of the Palmverse project.
-          </h1>
-        </li>
+        <div className="relative">
+          <li className="text-[19px] leading-9">
+            <h1 className="text-left pl-8 pt-2">
+              That was the beginning of the Palmverse project.
+            </h1>
+          </li>
+          <div className="absolute z-50 -top-2 -left-2" >
+            <Image src='/images/palm.png' alt="palm" height="45" width="35" />
+          </div>
+        </div>
         <li className="text-[19px] leading-9">
           <h1 className="text-left">
             It all started with a simple question.
