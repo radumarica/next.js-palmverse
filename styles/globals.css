@@ -22,9 +22,20 @@
     );
   }
 }
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: transparent;
+}
 ::-webkit-scrollbar {
-  width: 0; /* Remove scrollbar space */
-  background: transparent; /* Optional: just make scrollbar invisible */
+  width: 4px !important;
+  border-radius: 14px;
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 13px;
+  background-color: white;
+  /* border: 0.5px solid #555555; */
 }
 body {
   background-color: '#2A2A29';
