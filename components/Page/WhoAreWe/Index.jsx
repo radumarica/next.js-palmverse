@@ -77,23 +77,23 @@ const WhoWeAre = () => (
 
 
         <h1 className="text-4xl text-center font-bold ">TEAM</h1>
-        <div className="flex flex-wrap  w-[85%] mx-auto justify-evenly pt-10 ">
+        <div className="flex flex-wrap  w-[80rem] mx-auto justify-evenly pt-10 ">
           <Profile />
           <Sorin />
         </div>
 
-        <div className="flex flex-wrap w-[87%] mx-auto  justify-evenly pt-16">
+        <div className="flex flex-wrap w-[80rem] mx-auto  justify-evenly pt-16">
           <BOB />
           <Radu />
           <Razwan />
         </div>
-        <div className="flex flex-wrap w-[85%] mx-auto justify-evenly pt-16">
+        <div className="flex flex-wrap w-[80rem] mx-auto justify-evenly pt-16">
           <Rizwan />
           <Jack />
         </div>
 
         <h1 className="text-4xl text-center font-bold pt-10 ">Legal Advisor</h1>
-        <div className="flex flex-wrap w-[85%] mx-auto justify-evenly pt-10">
+        <div className="flex flex-wrap  w-[80rem] mx-auto justify-evenly pt-10">
           <Daniel />
         </div>
       </div>
