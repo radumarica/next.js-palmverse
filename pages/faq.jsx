@@ -7,7 +7,7 @@ const Faq = () => {
   return (
     <div className="min-h-[90vh] bg-[#2A2A29]">
       <div className="h-fit  flex justify-between items-center bg-[#ECF7FD]">
-        <Image priority src="/images/NFTS.png" height={150} width={150} layout="fixed" alt="FAQ Banner" />
+        <Image priority={true} src="/images/NFTS.png" height={150} width={150} layout="fixed" alt="FAQ Banner" />
         <h1 className="mt-6  font-exo text-center text-5xl font-bold text-dark_bg ">
           FAQ
         </h1>
@@ -62,7 +62,7 @@ const LinkA = () => {
           } duration-300 ease-in transition-all  font-exo bg-gray-100`}
       >
         <p className="p-4 text-[#2a2a29] bg-[#ECF7FD] flex ">
-          Roadmap can be found  <Link href="/roadmap"><p className="text-blue-500 underline underline-offset-4 pl-2 " >here</p></Link>
+          Roadmap can be found  <Link href="/roadmap"><p className="text-blue-500 underline underline-offset-4 pl-2 " >here.</p></Link>
         </p>
       </div>
     </div>
