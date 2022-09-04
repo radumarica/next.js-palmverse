@@ -137,17 +137,17 @@ const Hero = () => {
 
                     <div className="flex flex-col justify-center items-center">
                         <Image src='/icons/hotel.png' alt='PHYSICAL NFT HOTEL & HOSTEL' height={130} width={130} layout={"fixed"} />
-                        <h1 className="text-[18px] leading-5 text-[#ECF7FD] font-bold  md:w-full text-center py-">PHYSICAL NFT <br /> HOTEL & HOSTEL</h1>
+                        <h1 className="text-[18px] pl-1 leading-5 text-[#ECF7FD] font-bold  md:w-full text-center py-">PHYSICAL NFT <br /> HOTEL & HOSTEL</h1>
                     </div>
                     <div className="flex justify-evenly w-screen md:w-auto md:space-x-20 items-start  ">
 
                         <div className="flex flex-col justify-center items-center">
                             <Image src='/icons/pay.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={130} width={130} layout={"fixed"} />
-                            <h1 className="text-[18px] leading-5 text-[#ECF7FD] font-bold md:w-full text-center py-">CRYPTO <br /> BOOKING <br /> PLATFORM</h1>
+                            <h1 className="text-[18px] pl-1 leading-5 text-[#ECF7FD] font-bold md:w-full text-center py-">CRYPTO <br /> BOOKING <br /> PLATFORM</h1>
                         </div>
                         <div className="flex flex-col justify-center items-center">
                             <Image src='/icons/group.png' alt='PHYSICAL NFTHOTEL & HOSTEL' height={130} width={130} layout={"fixed"} />
-                            <h1 className="text-[18px] leading-5 text-[#ECF7FD] font-bold md:w-full text-center py-">NFTS AS <br /> MEMBERSHIP <br /> DAO ACCESS</h1>
+                            <h1 className="text-[18px] pl-1 leading-5 text-[#ECF7FD] font-bold md:w-full text-center py-">NFTS AS <br /> MEMBERSHIP <br /> DAO ACCESS</h1>
                         </div>
                     </div>
 
