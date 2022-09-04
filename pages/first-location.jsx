@@ -12,9 +12,9 @@ const FirstLocation = () => {
 
 
                 <p className="text-[21px] font-medium pb-4 text-center md:text-left pt-4">We rent and refurbish old properties, converting them into the Palmverse brand model. </p>
-                <p className="text-[21px] font-medium  text-center md:text-left">With this business plan, we can achieve a quick global expansion, keeping the rent expense of the properties low by refurbishing the buildings to meet the Palmverse standards.</p>
-                <p className="text-[21px] font-medium  text-center md:text-left">The first Palmverser Hotel & Hostel will have approx. 17 rooms (private and shared) with co-working space, a pool, and a bar.</p>
-                <p className="text-[21px] font-medium  text-center md:text-left">We aim to bridge the web2 booking experience to web3, by accepting On-chain cryptocurrency payments to book stays in the first NFT Hotel in Costa Rica.</p>
+                <p className="text-[21px] font-medium py-1 text-center md:text-left">With this business plan, we can achieve a quick global expansion, keeping the rent expense of the properties low by refurbishing the buildings to meet the Palmverse standards.</p>
+                <p className="text-[21px] font-medium py-1 text-center md:text-left">The first Palmverser Hotel & Hostel will have approx. 17 rooms (private and shared) with co-working space, a pool, and a bar.</p>
+                <p className="text-[21px] font-medium py-1 text-center md:text-left">We aim to bridge the web2 booking experience to web3, by accepting On-chain cryptocurrency payments to book stays in the first NFT Hotel in Costa Rica.</p>
                 <div className="pt-10">
                     <h1 className="text-4xl font-medium text-center">1st Location - Tamarindo, Costa Rica</h1>
                     <p className="text-[21px] font-medium py-4  text-center">The first location was rented in the heart of the busiest surf town in Costa Rica. </p>
