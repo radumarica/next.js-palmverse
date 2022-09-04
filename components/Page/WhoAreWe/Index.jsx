@@ -313,7 +313,7 @@ const Daniel = () => {
           </p>
 
           <p className="text-left text-[8px]">
-            Currently an LLM candidate in Technology & IP Law at Duke University, and a Fulbright Scholar.  Daniel holds a Master's degree in Regulated Industries Law from Universidad Carlos III de Madrid (UC3M), and a professional course in Regulation and Data Policy from the London School of Economics (LSE).
+            Currently an LLM candidate in Technology & IP Law at Duke University, and a Fulbright Scholar.  Daniel holds a Masters degree in Regulated Industries Law from Universidad Carlos III de Madrid (UC3M), and a professional course in Regulation and Data Policy from the London School of Economics (LSE).
           </p>
         </div>)
       }
