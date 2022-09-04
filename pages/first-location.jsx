@@ -8,7 +8,7 @@ const FirstLocation = () => {
 
                 <h1 className="text-4xl font-bold text-center text-black">What We Build?</h1>
             </div>
-            <div className="w-[80rem] mx-auto">
+            <div className="md:w-[80rem] mx-auto">
 
 
                 <p className="text-[21px] font-medium pb-4 text-center md:text-left pt-4">We rent and refurbish old properties, converting them into the Palmverse brand model. </p>
@@ -16,18 +16,33 @@ const FirstLocation = () => {
                 <p className="text-[21px] font-medium py-1 text-center md:text-left">The first Palmverser Hotel & Hostel will have approx. 17 rooms (private and shared) with co-working space, a pool, and a bar.</p>
                 <p className="text-[21px] font-medium py-1 text-center md:text-left">We aim to bridge the web2 booking experience to web3, by accepting On-chain cryptocurrency payments to book stays in the first NFT Hotel in Costa Rica.</p>
                 <div className="pt-10">
-                    <h1 className="text-4xl font-bold text-center">1st Location - Tamarindo, Costa Rica</h1>
+                    <div className="relative w-fit mx-auto">
+
+                        <h1 className="text-4xl font-bold text-center ">1st Location - Tamarindo, Costa Rica</h1>
+                        <div className="absolute z-40 -top-2 -left-10">
+                            <Image src='/images/palm.png' alt="palm" height="45" width="35" />
+                        </div>
+                    </div>
+
+
                     <p className="text-[21px] font-semibold py-4  text-center">The first location was rented in the heart of the busiest surf town in Costa Rica. </p>
 
 
-                    <div className="flex justify-center">
+
+
+                    <div className="justify-center hidden md:flex">
 
                         <Image src='/images/first_hotel.png' alt="first hotel" height={550} width={1000} layout="fixed" />
                     </div>
+
+                    <div className="flex justify-center md:hidden">
+
+                        <Image src='/images/first_hotel.png' alt="first hotel" height={250} width={380} layout="fixed" />
+                    </div>
                     <h1 className="text-4xl font-bold text-center">Why Costa Rica?</h1>
-                    <div className="text-[21px] relative     font-medium mt-4  text-[#ECF7FD]  "><div className="absolute z-50 -top-4 -left-4 lg:-left-8" >
+                    <div className="text-[21px] relative     font-medium mt-4  text-[#ECF7FD]  "><div className="absolute z-50 -top-4 left-0 lg:-left-3" >
                         <Image src='/images/palm.png' alt="palm" height="45" width="35" />
-                    </div><p>Costa Rica was chosen as the first location considering multiple factors such as the year-round season and good market prices for hotel rooms. </p></div>
+                    </div><p><span className="w-4 mr-6"></span>  Costa Rica was chosen as the first location considering multiple factors such as the year-round season and good market prices for hotel rooms. </p></div>
                     <p className="text-[21px] font-medium py-4 text-center md:text-left  ">Secondly, Costa Rica Is considered a  cryptocurrency paradise due to the widespread adoption of cryptocurrencies by its citizens. Many stores accept cryptocurrency as payment</p>
                     <p className="text-[21px] font-medium py-4 text-center md:text-left  ">We will implement cryptocurrency payments at the front desk and on our website. </p>
                     <p className="text-[21px] font-medium py-4 text-center md:text-left  ">Usual activities in Costa Rica are surfing, rafting, sailing, ATV tours, volcano tours, natural parks visits, hiking, turtle watching, horseriding, and many more. </p>
@@ -40,6 +55,7 @@ const FirstLocation = () => {
                     <div className=" justify-end -mt-56 hidden md:flex">
                         <Image src='/images/left-nft.png' alt='left-nft' height={330} width={310} layout='fixed' />
                     </div>
+
                     <div className="flex justify-end -mt-40 md:hidden ">
                         <Image src='/images/left-nft.png' alt='left-nft' height={230} width={220} layout='fixed' />
                     </div>
