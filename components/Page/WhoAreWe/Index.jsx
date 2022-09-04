@@ -15,7 +15,7 @@ const WhoWeAre = () => (
           From Scratch{" "}
         </h1>
       </div>
-      <ul className="py-10 flex flex-col justify-start space-y-4 px-2 md:pl-[220px]  ">
+      <ul className="py-10 flex flex-col justify-start space-y-4 px-2 md:w-[70%] mx-auto  ">
         <li className="text-[21px] md:text-3xl font-bold leading-10 -mt-5 ml-[5.4rem] pb-5  ">
           <h1 className="text-left">
             Why don’t we make an NFT project with real-life utilities?
