@@ -48,9 +48,9 @@ const FirstLocation = () => {
                     <p className="text-[21px] font-medium py-2 text-center md:text-left  ">Usual activities in Costa Rica are surfing, rafting, sailing, ATV tours, volcano tours, natural parks visits, hiking, turtle watching, horseriding, and many more. </p>
                     <p className="text-[21px] font-medium py-2 text-center md:text-left  ">Possible 2nd and 3rd Palmverse locations, which are also crypto-friendly :</p>
                     <ul className="pl-8" >
-                        <li className="list-disc py-2 text-[21px] font-bold">Miami</li>
-                        <li className="list-disc py-2 text-[21px] font-bold">Portugal</li>
-                        <li className="list-disc py-2 text-[21px] font-bold">Panama</li>
+                        <li className="list-disc py-1 text-[21px] font-bold">Miami</li>
+                        <li className="list-disc py-1 text-[21px] font-bold">Portugal</li>
+                        <li className="list-disc py-1 text-[21px] font-bold">Panama</li>
                     </ul>
                     <div className=" justify-end -mt-56 hidden md:flex">
                         <Image src='/images/left-nft.png' alt='left-nft' height={330} width={310} layout='fixed' />
