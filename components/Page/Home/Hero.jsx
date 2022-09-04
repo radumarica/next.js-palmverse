@@ -73,19 +73,19 @@ const Hero = () => {
                     <div className="grid grid-cols-2 gap-4 py-4">
 
                         <div className="flex flex-col items-center">
-                            <Image src='/icons/tag.png' alt='tag' height={130} width={130} layout={"fixed"} />
+                            <Image src='/icons/3d/discount.png' alt='tag' height={130} width={130} layout={"fixed"} />
                             <h1 className="md:text-[26px] text-[20px leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Up to 30% Discounts for Rooms </h1>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src='/icons/hand.png' alt='tag' height={130} width={130} layout={"fixed"} />
+                            <Image src='/icons/3d/save_money2.png' alt='tag' height={130} width={130} layout={"fixed"} />
                             <h1 className="md:text-[26px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium  text-center py-2">Profits Added to DAO treasury. Holders Rewarded</h1>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src='/icons/coin.png' alt='tag' height={130} width={130} layout={"fixed"} />
+                            <Image src='/icons/3d/coin_stack.png' alt='tag' height={130} width={130} layout={"fixed"} />
                             <h1 className="md:text-[26px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Seed Tokens Allocation </h1>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src='/icons/cycle.png' alt='tag' height={130} width={130} layout={"fixed"} />
+                            <Image src='/icons/3d/money_bag.png' alt='tag' height={130} width={130} layout={"fixed"} />
                             <h1 className="md:text-[26px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Cashback Travel Rewards</h1>
                         </div>
 
@@ -181,19 +181,19 @@ const Hero = () => {
 
 
                         <div className={`flex flex-row-reverse justify-between items-center  `}>
-                            <Image src='/icons/tag.png' alt='tag' height={140} width={180} layout={"fixed"} />
+                            <Image src='/icons/3d/discount.png' alt='tag' height={140} width={180} layout={"fixed"} />
                             <h1 className="md:text-[26px] text-[26px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Up to 30% Discounts <br /> for   Rooms </h1>
                         </div>
                         <div className={`flex  justify-between items-center  `}>
-                            <Image src='/icons/hand.png' alt='tag' height={140} width={180} layout={"fixed"} />
+                            <Image src='/icons/3d/save_money2.png' alt='tag' height={140} width={180} layout={"fixed"} />
                             <h1 className="md:text-[26px] text-[26px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Profits Added to <br /> DAO treasury. <br /> Holders Rewarded</h1>
                         </div>
                         <div className={`flex flex-row-reverse justify-between items-center  `}>
-                            <Image src='/icons/coin.png' alt='tag' height={140} width={180} layout={"fixed"} />
+                            <Image src='/icons/3d/coin_stack.png' alt='tag' height={140} width={180} layout={"fixed"} />
                             <h1 className="md:text-[26px] text-[26px] font-semibold text-[#ECF7FD]  w-[90%] text-center py-2">Seed Tokens  <br /> Allocation</h1>
                         </div>
                         <div className={`flex  justify-between items-center  `}>
-                            <Image src='/icons/cycle.png' alt='tag' height={140} width={180} layout={"fixed"} />
+                            <Image src='/icons/3d/money_bag.png' alt='tag' height={140} width={180} layout={"fixed"} />
                             <h1 className="md:text-[26px] text-[26px] font-semibold text-[#ECF7FD]  w-[90%] text-center pt-2">Cashback Travel  <br /> Rewards</h1>
                         </div>
 
