@@ -173,28 +173,27 @@ const Hero = () => {
                     FUNCTIONAL BOOKING PLATFORM
                 </h1>
             </div>
-            <div className="grid md:grid-cols-2 gap-4 py-16 " >
+            <div className="grid md:grid-cols-2 gap-4 py-5 " >
                 <div className="flex flex-col">
-                    <h1 className="text-[24px] font-bold text-[#ECF7FD]  text-center py-6">
+                    <h1 className="text-[24px] font-bold text-[#ECF7FD]  text-center pt-6">
                         NFT UTILITIES - TRAVEL 2 EARN</h1>
-                    <div className="grid grid-cols-1  gap-8 pt-4">
+                    <div className="grid grid-cols-1  gap-4 pt-4">
 
-
-                        <div className={`flex flex-row-reverse justify-between items-center  `}>
+                        <div className={`flex flex-row-reverse justify-between items-center px-2  `}>
                             <Image src='/icons/3d/discount.png' alt='tag' height={140} width={180} layout={"fixed"} />
                             <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2">Up to 30% Discounts <br /> for   Rooms </h1>
                         </div>
-                        <div className={`flex  justify-between items-center  `}>
+                        <div className={`flex  justify-between items-center px-2  `}>
                             <Image src='/icons/3d/save_money2.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2">Profits Added to <br /> DAO treasury. <br /> Holders Rewarded</h1>
+                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2 -ml-8">Profits Added to <br /> DAO treasury. <br /> Holders Rewarded</h1>
                         </div>
-                        <div className={`flex flex-row-reverse justify-between items-center  `}>
+                        <div className={`flex flex-row-reverse justify-between items-center px-2  `}>
                             <Image src='/icons/3d/coin_stack.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2">Seed Tokens  <br /> Allocation</h1>
+                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2 -mr-14">Seed Tokens  <br /> Allocation</h1>
                         </div>
-                        <div className={`flex  justify-between items-center  `}>
+                        <div className={`flex  justify-between items-center px-2  `}>
                             <Image src='/icons/3d/money_bag.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center pt-2">Cashback Travel  <br /> Rewards</h1>
+                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">Cashback Travel  <br /> Rewards</h1>
                         </div>
 
 
