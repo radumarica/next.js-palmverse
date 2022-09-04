@@ -15,19 +15,19 @@ const WhoWeAre = () => (
           From Scratch{" "}
         </h1>
       </div>
-      <ul className="py-10 flex flex-col justify-start space-y-4 px-2 md:w-[70%] mx-auto  ">
-        <li className="text-[21px] md:text-3xl font-bold leading-10 -mt-5 ml-[5.4rem] pb-5  ">
-          <h1 className="text-left">
-            Why don’t we make an NFT project with real-life utilities?
-          </h1>
-        </li>
+      <li className="text-[21px] md:text-3xl font-bold leading-10 mt-4  flex justify-center pb-5  ">
+        <h1 className="text-left">
+          Why don’t we make an NFT project with real-life utilities?
+        </h1>
+      </li>
+      <ul className="pb-10 pt-5 flex flex-col justify-start space-y-4 md:w-[50rem] mx-auto  ">
         <div className="relative">
           <li className="text-[19px] leading-9">
             <h1 className="text-left pl-8 pt-4">
               That was the beginning of the Palmverse project.
             </h1>
           </li>
-          <div className="absolute z-50 -top-2 -left-2" >
+          <div className="absolute z-50 top-0 -left-2" >
             <Image src='/images/palm.png' alt="palm" height="45" width="35" />
           </div>
         </div>
@@ -39,7 +39,7 @@ const WhoWeAre = () => (
         <li className="text-[19px] leading-7">
           <h1 className="text-left">
             Sorin, my best friend, and I were discussing NFT projects over dinner in
-            February 2022. We felt like something was lacking, <br className="hidden md:block" /> something that could
+            February 2022. We felt like something was lacking,  something that could
             be changed to benefit other NFT enthusiasts, including ourselves.
           </h1>
         </li>
