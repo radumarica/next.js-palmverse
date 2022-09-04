@@ -20,7 +20,7 @@ const WhoWeAre = () => (
           Why don’t we make an NFT project with real-life utilities?
         </h1>
       </li>
-      <ul className="pb-10 pt-5 flex flex-col justify-start space-y md:w-[51rem] mx-auto  ">
+      <ul className="pb-10 pt-5 flex flex-col justify-start space-y md:w-[69.5rem] mx-auto  ">
         <div className="relative">
           <li className="text-[19px] leading-9">
             <h1 className="text-left pl-8 pt-4">
