@@ -131,9 +131,7 @@ const Hero = () => {
                 <p className="md:text-[32px] hidden md:flex text-[18px] text-center pb-10 mt-6 px-4 font-extralight md:w-9/12 text-[#ECF7FD]  ">Palmverse builds technologies that help people connect IRL <br className="md:hidden" /> join communities, and bridge the web2 travel experience to web3.</p>
 
                 <div className="w-[90%] overflow-x-auto md:hidden">
-                    <p className="md:text-[32px]  text-[22px] text-center pb-10 pt-4 font-bold md:w-9/12 text-[#ECF7FD]  ">{
-                        "Palmverse builds technologies that help people connect IRL join communities, and bridge the web2 travel experience to web3.".split(" ").map((word, index) => (<span className="font-light" key={index}>{`${word} `}</span>))
-                    }</p>
+                    <p className="md:text-[32px]  text-[22px] text-center pb-10 pt-4 font-bold leading-7 font-light md:w-9/12 text-[#ECF7FD]  ">Palmverse builds technologies that help people connect IRL join communities, and bridge the web2 travel experience to web3.</p>
                 </div>
                 <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5  w-[80%] mx-auto" >
 
