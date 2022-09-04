@@ -153,7 +153,7 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-evenly items-center w-[90%] mx-auto pb-16 pt-10 ">
+            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-evenly items-center w-[90%] mx-auto py-10 ">
                 <div className="md:w-[50%] md:mx-auto md:px-4 scale-100 md:scale-100">
                     <div className="">
 
