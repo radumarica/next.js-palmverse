@@ -18,12 +18,11 @@ const Faq = () => {
         <FaqAccordian title="Blockchains?" desc="NFTs on Solana.
 Booking platform will be multi-chain in the near future." />
         <FaqAccordian title="Supply, price, date?" desc="Supply: TBA, Price:  TBA,  Date: TBA." />
-        <FaqAccordian title="When will Palmverse Tamarindo (Costa Rica) be finished" desc="We aim to have 3 operating locations in Q1 2023, but the date will be updated as we progress." />
-        <FaqAccordian title="What amenities will be inside the Hotel?" desc="Besides the hotel & hostel rooms, the resort will contain the following: co-working space, gym, lounge room,  bars, game room (pool, table tennis), shared kitchen, pool." />
+        <FaqAccordian title="When will Palmverse Tamarindo (Costa Rica) be finished?" desc="The first Palmverse Hotel & Hostel will be ready in a few months after the mint. 
+" />
         <FaqAccordian title="How is Palmverse Different?" desc="Real-life utility.
 Rented the first building and functional booking platform before starting marketing." />
-        <FaqAccordian title="When can we visit Palmverse Tamarindo (Costa Rica)?" desc="The first Palmverse Hotel & Hostel will be ready in a few months after the mint. 
-" />
+
         <LinkA />
       </div>
     </div>
