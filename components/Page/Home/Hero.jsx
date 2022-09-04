@@ -30,14 +30,14 @@ const Hero = () => {
 
 
                 <h1 className="md:text-[46px] text-[28px] font-bold text-center text-[#ECF7FD] ">THE 1ST NFT HOTEL & HOSTEL CHAIN </h1>
-                <p className=" hidden md:flex text-[28px]  md:text-[30px] leading-9 text-center pb-10 pt-5 px-4 md:w-[70%] text-[#ECF7FD]  ">Palmverse builds technologies that help people connect IRL <br className="md:hidden" /> join communities, and bridge the web2 travel experience to web3.</p>
+                <p className=" hidden md:flex text-[28px]  md:text-[30px] leading-9 text-center pb-10 pt-5 px-4 md:w-[70rem] text-[#ECF7FD]  ">Palmverse builds technologies that help people connect IRL, <br className="md:hidden" /> join communities,<br className="hidden md:block" /> and bridge the web2 travel experience to web3.</p>
 
                 <div className="w-screen overflow-x-auto md:hidden">
                     <p className="md:text-[32px]  text-[22px] text-center py-10 font-bold md:w-9/12 text-[#ECF7FD]  ">{
                         "Palmverse builds technologies that help people connect IRL join communities, and bridge the web2 travel experience to web4.".split(" ").map((word, index) => (<span key={index}>{`${word} `}.</span>))
                     }</p>
                 </div>
-                <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto" >
+                <div className="flex md:w-[80rem] flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto" >
 
                     <div className="flex flex-col items-center">
                         <Image src='/icons/hotel.png' alt='PHYSICAL NFT HOTEL & HOSTEL' height={156} width={156} layout={"fixed"} />
@@ -57,16 +57,16 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center w-[90%] mx-auto pt-10">
-                <div className="md:w-[50%] md:mx-auto md:px-4 scale-75 md:scale-100">
-                    <div className="">
+            <div className="flex flex-col md:flex-row space-y-10 md:w-[80rem]  md:space-y-0 justify-evenly items-center w-[90%] mx-auto pt-10">
+                <div className="   scale-75 md:scale-100">
 
-                        <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={400} layout="fixed" />
-                    </div>
+
+                    <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={400} layout="fixed" />
+
                 </div>
-                <h1 className="md:text-3xl text-2xl text-center  text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
+                <h1 className="md:text-3xl text-2xl text-center  text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>,<br className="hidden md:block" /> or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
             </div>
-            <div className="grid md:grid-cols-2 gap-4 py-5 " >
+            <div className="grid md:grid-cols-2 gap-4 py-5 md:w-[85rem] md:mx-auto " >
                 <div className="flex flex-col">
                     <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-10">
                         NFT UTILITIES - TRAVEL 2 EARN</h1>
