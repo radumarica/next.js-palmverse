@@ -7,52 +7,55 @@ const WhoWeAre = () => (
       <iframe src="https://www.youtube.com/embed/f2ECpxB2CE8" className="w-full h-[300px] md:h-[600px] md:px-36 bg-black " />
     </div>
 
-    <section className="py-10 bg-dark_bg text-white flex flex-col justify-center  font-exo">
-      <h1 className="text-2xl font-bold md:w-[70%]  text-center mx-auto ">
-        Shaping Palmverse: Building an NFT Community-Based Hotel & Hostel Chain
-        From Scratch{" "}
-      </h1>
-      <ul className="py-14 flex flex-col justify-start space-y-6 px-2 md:pl-12  ">
-        <li className="text-[21px] font-bold">
+    <section className="pb-10  bg-dark_bg text-white flex flex-col justify-center  font-exo">
+      <div className="w-full bg-[#ECF7FD]">
+
+        <h1 className="text-4xl font-bold md:w-[65%] text-black py-2  text-center mx-auto ">
+          Shaping Palmverse: Building an NFT Community-Based Hotel & Hostel Chain
+          From Scratch{" "}
+        </h1>
+      </div>
+      <ul className="py-10 flex flex-col justify-start space-y-4 px-2 md:pl-[220px]  ">
+        <li className="text-[21px] md:text-3xl font-bold leading-10 -mt-5 ml-32  ">
           <h1 className="text-left">
             Why don’t we make an NFT project with real-life utilities?
           </h1>
         </li>
-        <li className="text-[19px] font-semibold">
+        <li className="text-[19px] leading-9">
           <h1 className="text-left">
             That was the beginning of the Palmverse project.
           </h1>
         </li>
-        <li className="text-[19px] font-semibold">
+        <li className="text-[19px] leading-9">
           <h1 className="text-left">
             It all started with a simple question.
           </h1>
         </li>
-        <li className="text-[19px] font-semibold">
+        <li className="text-[19px] leading-7">
           <h1 className="text-left">
             Sorin, my best friend, and I were discussing NFT projects over dinner in
-            February 2022. We felt like something was lacking, something that could
+            February 2022. We felt like something was lacking, <br className="hidden md:block" /> something that could
             be changed to benefit other NFT enthusiasts, including ourselves.
           </h1>
         </li>
-        <li className="text-[19px] font-semibold">
+        <li className="text-[19px] leading-9">
           <h1 className="text-left">
             Let’s build an NFT hotel chain where holders can come and enjoy
             discounts. — Sorin suggested
           </h1>
         </li>
-        <li className="text-[19px] font-semibold">
+        <li className="text-[19px] leading-9">
           <h1 className="text-left">
             We did manage multiple businesses, from e-commerce brands to Airbnb
             vacation houses.
           </h1>
         </li>
-        <li className="text-[19px] font-semibold">
+        <li className="text-[19px] leading-9">
           <h1 className="text-left">
             But could we build something even greater?
           </h1>
         </li>
-        <li className="text-[19px] font-semibold">
+        <li className="text-[19px] leading-9">
           <h1 className="text-left">
             Continue reading the full story here at medium:{" "}
             <a
