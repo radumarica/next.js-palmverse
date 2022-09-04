@@ -22,6 +22,7 @@ Booking platform will be multi-chain in the near future." />
 " />
         <FaqAccordian title="How is Palmverse Different?" desc="Real-life utility.
 Rented the first building and functional booking platform before starting marketing." />
+        <FaqAccordian title="What amenities will be inside the Hotel?" desc="Besides the hotel & hostel rooms, the hotel will contain the following: co-working space, gym, lounge room, bars, game room (pool, table tennis), shared kitchen, pool." />
 
         <LinkA />
       </div>
