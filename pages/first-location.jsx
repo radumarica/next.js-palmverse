@@ -39,14 +39,14 @@ const FirstLocation = () => {
 
                         <Image src='/images/first_hotel.png' alt="first hotel" height={250} width={380} layout="fixed" />
                     </div>
-                    <h1 className="text-4xl font-bold text-center">Why Costa Rica?</h1>
-                    <div className="text-[21px] relative     font-medium mt-4  text-[#ECF7FD]  "><div className="absolute z-50 -top-4 left-0 lg:-left-3" >
+                    <h1 className="text-4xl font-bold text-center pb-4 pt-10 ">Why Costa Rica?</h1>
+                    <div className="text-[21px] relative     font-medium mt-4  text-[#ECF7FD]  "><div className="absolute z-50 -top-5 left-0 lg:-left-3" >
                         <Image src='/images/palm.png' alt="palm" height="45" width="35" />
                     </div><p><span className="w-4 mr-6"></span>  Costa Rica was chosen as the first location considering multiple factors such as the year-round season and good market prices for hotel rooms. </p></div>
-                    <p className="text-[21px] font-medium py-4 text-center md:text-left  ">Secondly, Costa Rica Is considered a  cryptocurrency paradise due to the widespread adoption of cryptocurrencies by its citizens. Many stores accept cryptocurrency as payment</p>
-                    <p className="text-[21px] font-medium py-4 text-center md:text-left  ">We will implement cryptocurrency payments at the front desk and on our website. </p>
-                    <p className="text-[21px] font-medium py-4 text-center md:text-left  ">Usual activities in Costa Rica are surfing, rafting, sailing, ATV tours, volcano tours, natural parks visits, hiking, turtle watching, horseriding, and many more. </p>
-                    <p className="text-[21px] font-medium py-4 text-center md:text-left  ">Possible 2nd and 3rd Palmverse locations, which are also crypto-friendly :</p>
+                    <p className="text-[21px] font-medium py-2 text-center md:text-left  ">Secondly, Costa Rica Is considered a  cryptocurrency paradise due to the widespread adoption of cryptocurrencies by its citizens. Many stores accept cryptocurrency as payment</p>
+                    <p className="text-[21px] font-medium py-2 text-center md:text-left  ">We will implement cryptocurrency payments at the front desk and on our website. </p>
+                    <p className="text-[21px] font-medium py-2 text-center md:text-left  ">Usual activities in Costa Rica are surfing, rafting, sailing, ATV tours, volcano tours, natural parks visits, hiking, turtle watching, horseriding, and many more. </p>
+                    <p className="text-[21px] font-medium py-2 text-center md:text-left  ">Possible 2nd and 3rd Palmverse locations, which are also crypto-friendly :</p>
                     <ul className="pl-8" >
                         <li className="list-disc py-2 text-[21px] font-bold">Miami</li>
                         <li className="list-disc py-2 text-[21px] font-bold">Portugal</li>
