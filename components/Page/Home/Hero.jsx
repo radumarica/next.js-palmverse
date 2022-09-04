@@ -103,7 +103,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="flex flex-col items-center justify-center pb-10 pt-4  space-y-10 md:space-y-0" >
-                <div className="text-3xl relative  md:w-[60%] mx-auto text-center text-[#ECF7FD] pb-4 "><div className="absolute z-50 -top-2 left-0" >
+                <div className="text-3xl relative  md:w-[60%] mx-auto text-center text-[#ECF7FD] pb-4 "><div className="absolute z-50 -top-3 -left-2 lg:left-0" >
                     <Image src='/images/palm.png' alt="palm" height="45" width="35" />
                 </div><p>We refurbish old buildings and leverage our unique property conversion model to turn them into the Palmverse brand. </p></div>
                 <div className="scale-110 md:scale-y-110 md:scale-x-125 md:pt-10">
