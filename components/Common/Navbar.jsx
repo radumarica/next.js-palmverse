@@ -9,7 +9,7 @@ const navs = [
         link: '/'
     },
     {
-        name: 'Who We Are?',
+        name: 'Who We Are',
         link: '/who-we-are'
     },
 
@@ -64,7 +64,7 @@ const Header = () => {
 
 
                 <h3 onMouseEnter={() => setShowDrop(true)} className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                    What We Build?
+                    What We Build
                 </h3>
 
                 {
