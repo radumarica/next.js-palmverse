@@ -15,13 +15,15 @@ const Faq = () => {
       </div>
 
       <div className="max-w-4xl px-4 py-6 mx-auto">
+
         <FaqAccordian title="Blockchains?" desc="NFTs on Solana.
 Booking platform will be multi-chain in the near future." />
+        <FaqAccordian title="How is Palmverse Different?" desc="Real-life utility.
+Rented the first building and functional booking platform before starting marketing." />
         <FaqAccordian title="Supply, price, date?" desc="Supply: TBA, Price:  TBA,  Date: TBA." />
         <FaqAccordian title="When will Palmverse Tamarindo (Costa Rica) be finished?" desc="The first Palmverse Hotel & Hostel will be ready in a few months after the mint. 
 " />
-        <FaqAccordian title="How is Palmverse Different?" desc="Real-life utility.
-Rented the first building and functional booking platform before starting marketing." />
+
         <FaqAccordian title="What amenities will be inside the Hotel?" desc="Besides the hotel & hostel rooms, the hotel will contain the following: co-working space, gym, lounge room, bars, game room (pool, table tennis), shared kitchen, pool." />
 
         <LinkA />
