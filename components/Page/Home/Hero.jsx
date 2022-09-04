@@ -23,25 +23,6 @@ const firstSetIcons = [
     },
 ]
 
-const secondSetIcons = [
-    {
-        link: '/icons/tag.png',
-        title: 'Up to 30% Discounts for Rooms '
-    },
-    {
-        link: '/icons/hand.png',
-        title: `Profits Added to DAO treasury. Holders Rewarded`
-    },
-    {
-        link: '/icons/coin.png',
-        title: 'Seed Tokens Allocation'
-    },
-    {
-        link: '/icons/cycle.png',
-        title: 'Cashback Travel Rewards'
-    },
-]
-
 const Hero = () => {
     return <section className="w-full flex flex-col items-center bg-dark_bg text-white px-5 pt-5 pb-16 font-exo">
         <div className="hidden md:block">
@@ -49,7 +30,7 @@ const Hero = () => {
 
 
                 <h1 className="md:text-[46px] text-[28px] font-bold text-center text-[#ECF7FD] ">THE 1ST NFT HOTEL & HOSTEL CHAIN </h1>
-                <p className=" hidden md:flex text-[28px] md:text-[30px] leading-9 text-center pb-10 pt-5 px-4 md:w-[70%] text-[#ECF7FD]  ">Palmverse builds technologies that help people connect IRL <br className="md:hidden" /> join communities, and bridge the web2 travel experience to web3.</p>
+                <p className=" hidden md:flex text-[28px]  md:text-[30px] leading-9 text-center pb-10 pt-5 px-4 md:w-[70%] text-[#ECF7FD]  ">Palmverse builds technologies that help people connect IRL <br className="md:hidden" /> join communities, and bridge the web2 travel experience to web3.</p>
 
                 <div className="w-screen overflow-x-auto md:hidden">
                     <p className="md:text-[32px]  text-[22px] text-center py-10 font-bold md:w-9/12 text-[#ECF7FD]  ">{
@@ -76,31 +57,41 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center w-[90%] mx-auto py-16">
+            <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center w-[90%] mx-auto pt-10">
                 <div className="md:w-[50%] md:mx-auto md:px-4 scale-75 md:scale-100">
                     <div className="">
 
                         <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={400} layout="fixed" />
                     </div>
                 </div>
-                <h1 className="md:text-3xl text-2xl text-center font-bold text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
+                <h1 className="md:text-3xl text-2xl text-center  text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
             </div>
-            <div className="grid md:grid-cols-2 gap-4 py-16 " >
+            <div className="grid md:grid-cols-2 gap-4 py-5 " >
                 <div className="flex flex-col">
                     <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-6">
                         NFT UTILITIES - TRAVEL 2 EARN</h1>
                     <div className="grid grid-cols-2 gap-4 py-4">
-                        {
-                            secondSetIcons.map(icon => (
-                                <div key={icon.link} className="flex flex-col items-center">
-                                    <Image src={icon.link} alt={icon.link} height={130} width={130} layout={"fixed"} />
-                                    <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] font-medium w-[90%] text-center py-2">{icon.title}</h1>
-                                </div>
-                            ))
-                        }
+
+                        <div className="flex flex-col items-center">
+                            <Image src='/icons/tag.png' alt='tag' height={130} width={130} layout={"fixed"} />
+                            <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Up to 30% Discounts for Rooms </h1>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <Image src='/icons/hand.png' alt='tag' height={130} width={130} layout={"fixed"} />
+                            <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] md:font-medium  text-center py-2">Profits Added to DAO treasury. Holders Rewarded</h1>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <Image src='/icons/coin.png' alt='tag' height={130} width={130} layout={"fixed"} />
+                            <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Seed Tokens Allocation </h1>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <Image src='/icons/cycle.png' alt='tag' height={130} width={130} layout={"fixed"} />
+                            <h1 className="md:text-[26px] text-[20px] text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">Cashback Travel Rewards</h1>
+                        </div>
+
                     </div>
                 </div>
-                <div className="flex flex-col justify-end items-center py-4 md:py-0" >
+                <div className="flex flex-col justify-center items-center py-4 md:py-0" >
                     <div className=" mt-8 md:mt-0 md:scale-100">
 
                         <Image src='/images/laptop.png' alt='laptop palverse' width={550} height={370} />
