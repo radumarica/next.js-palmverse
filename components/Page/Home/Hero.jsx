@@ -66,7 +66,7 @@ const Hero = () => {
                 </div>
                 <h1 className="md:text-3xl text-2xl text-center  text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>,<br className="hidden md:block" /> or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
             </div>
-            <div className="grid md:grid-cols-2 gap-4 py-5 md:w-[85rem] md:mx-auto " >
+            <div className="grid md:grid-cols-2 gap-4 py-5 md:w-[84rem] md:mx-auto " >
                 <div className="flex flex-col">
                     <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-10">
                         NFT UTILITIES - TRAVEL 2 EARN</h1>
@@ -106,11 +106,11 @@ const Hero = () => {
                 <div className="text-3xl relative  md:w-[60%] mx-auto text-center text-[#ECF7FD] pb-4 "><div className="absolute z-50 -top-2 left-0" >
                     <Image src='/images/palm.png' alt="palm" height="45" width="35" />
                 </div><p>We refurbish old buildings and leverage our unique property conversion model to turn them into the Palmverse brand. </p></div>
-                <div className="scale-110 md:scale-100">
+                <div className="scale-110 md:scale-y-110 md:scale-x-125 md:pt-10">
 
                     <Image src='/images/hotel1.png' alt='palmverse hotel' width={1000} height='560' />
                 </div>
-                <div className="flex justify-center items-center" >
+                <div className="flex justify-center items-center md:pt-8" >
                     <Link href='/first-location' >
                         <button className="rounded-full px-12 py-4 font-semibold btn tracking-widest hover:btn-rev transition-all duration-500 ease-in-out flex items-center  " >Learn More                 <HiArrowNarrowRight className="text-2xl ml-2 " /></button>
                     </Link>
