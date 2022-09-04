@@ -15,12 +15,12 @@ const WhoWeAre = () => (
           From Scratch{" "}
         </h1>
       </div>
-      <li className="text-[21px] md:text-3xl font-bold leading-10 mt-4  flex justify-center pb-5  ">
+      <li className="text-[21px] md:text-3xl font-bold leading-10 mt-4  flex justify-center mr-4 pb-5  ">
         <h1 className="text-left">
           Why don’t we make an NFT project with real-life utilities?
         </h1>
       </li>
-      <ul className="pb-10 pt-5 flex flex-col justify-start space-y md:w-[50rem] mx-auto  ">
+      <ul className="pb-10 pt-5 flex flex-col justify-start space-y md:w-[51rem] mx-auto  ">
         <div className="relative">
           <li className="text-[19px] leading-9">
             <h1 className="text-left pl-8 pt-4">
@@ -77,23 +77,23 @@ const WhoWeAre = () => (
 
 
         <h1 className="text-4xl text-center font-bold ">TEAM</h1>
-        <div className="flex flex-wrap  w-[80rem] mx-auto justify-evenly pt-10 ">
+        <div className="flex flex-wrap  w-[82rem] mx-auto justify-evenly pt-10 ">
           <Profile />
           <Sorin />
         </div>
 
-        <div className="flex flex-wrap w-[80rem] mx-auto  justify-evenly pt-16">
+        <div className="flex flex-wrap w-[82rem] mx-auto  justify-evenly pt-16">
           <BOB />
           <Radu />
           <Razwan />
         </div>
-        <div className="flex flex-wrap w-[80rem] mx-auto justify-evenly pt-16">
+        <div className="flex flex-wrap w-[82rem] mx-auto justify-evenly pt-16">
           <Rizwan />
           <Jack />
         </div>
 
         <h1 className="text-4xl text-center font-bold pt-10 ">Legal Advisor</h1>
-        <div className="flex flex-wrap  w-[80rem] mx-auto justify-evenly pt-10">
+        <div className="flex flex-wrap  w-[82rem] mx-auto justify-evenly pt-10">
           <Daniel />
         </div>
       </div>
