@@ -169,7 +169,7 @@ const Hero = () => {
             </div>
             <div className="bg-[#ECF7FD] text-black py-2 my-2">
 
-                <h1 className="text-[28px] font-medium  text-center ">
+                <h1 className="text-[28px] leading-7 font-bold  text-center ">
                     FUNCTIONAL BOOKING PLATFORM
                 </h1>
             </div>
