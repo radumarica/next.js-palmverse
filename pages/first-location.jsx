@@ -11,10 +11,10 @@ const FirstLocation = () => {
             <div className="md:w-[80rem] mx-auto">
 
 
-                <p className="text-[18px] leading-[21px] font-medium py-1 px-3 md:text-left pt-4">We rent and refurbish old properties, converting them into the Palmverse brand model. </p>
-                <p className="text-[18px] leading-[21px] font-medium py-1 px-3 md:text-left">With this business plan, we can achieve a quick global expansion, keeping the rent expense of the properties low by refurbishing the buildings to meet the Palmverse standards.</p>
-                <p className="text-[18px] leading-[21px] font-medium py-1 px-3 md:text-left">The first Palmverser Hotel & Hostel will have approx. 17 rooms (private and shared) with co-working space, a pool, and a bar.</p>
-                <p className="text-[18px] leading-[21px] font-medium py-1 px-3 md:text-left">We aim to bridge the web2 booking experience to web3, by accepting On-chain cryptocurrency payments to book stays in the first NFT Hotel in Costa Rica.</p>
+                <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left pt-4">We rent and refurbish old properties, converting them into the Palmverse brand model. </p>
+                <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left">With this business plan, we can achieve a quick global expansion, keeping the rent expense of the properties low by refurbishing the buildings to meet the Palmverse standards.</p>
+                <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left">The first Palmverser Hotel & Hostel will have approx. 17 rooms (private and shared) with co-working space, a pool, and a bar.</p>
+                <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left">We aim to bridge the web2 booking experience to web3, by accepting On-chain cryptocurrency payments to book stays in the first NFT Hotel in Costa Rica.</p>
                 <div className="pt-10">
                     <div className="relative  mx-auto bg-[#ECF7FD] text-black w-screen">
 
