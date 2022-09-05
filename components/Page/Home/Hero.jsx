@@ -217,7 +217,7 @@ const Hero = () => {
             <div className="flex flex-col items-center justify-center pt-8" >
                 <h1 className="text-3xl text-[#ECF7FD] font-bold w-[70%] mx-auto pb-4 text-center ">
                     HOW IT WORKS </h1>
-                <Image src='/images/util.png' alt='palmverse hotel' width={1100} height='600' />
+                <Image src='/images/util.png' alt='palmverse hotel' width={1100} height={750} />
 
             </div>
         </div>
