@@ -10,7 +10,7 @@ const WhoWeAre = () => (
     <section className="pb-10  bg-dark_bg text-white flex flex-col justify-center  font-exo">
       <div className="w-full bg-[#ECF7FD]">
 
-        <h1 className="text-4xl text-[24px] font-bold md:w-[54rem] text-black py-2  text-center mx-auto ">
+        <h1 className="text-4xl text-[24px] leading-7 font-bold md:w-[54rem] text-black py-2  text-center mx-auto ">
           Shaping Palmverse: Building an NFT Community-Based Hotel & Hostel Chain
           From Scratch{" "}
         </h1>
