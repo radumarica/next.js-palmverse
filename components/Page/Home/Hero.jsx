@@ -180,20 +180,20 @@ const Hero = () => {
                     <div className="grid grid-cols-1  gap-4 pt-4">
 
                         <div className={`flex flex-row-reverse justify-between items-center px-2  `}>
-                            <Image src='/icons/3d/discount2.png' alt='tag' height={130} width={130} layout={"fixed"} />
+                            <Image src='/icons/3d/discount2.png' alt='tag' height={130} width={160} layout={"fixed"} />
                             <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2">Up to 30% Discounts <br /> for   Rooms </h1>
                         </div>
                         <div className={`flex  justify-between items-center px-2  `}>
-                            <Image src='/icons/3d/save_money3.png' alt='tag' height={130} width={130} layout={"fixed"} />
-                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">Profits Added to <br /> DAO treasury. <br /> Holders Rewarded</h1>
+                            <Image src='/icons/3d/save_money3.png' alt='tag' height={130} width={160} layout={"fixed"} />
+                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2 ">Profits Added to <br /> DAO treasury. <br /> Holders Rewarded</h1>
                         </div>
                         <div className={`flex flex-row-reverse justify-between items-center px-2  `}>
-                            <Image src='/icons/3d/coin_stack2.png' alt='tag' height={130} width={130} layout={"fixed"} />
-                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2 -mr-14">Seed Tokens  <br /> Allocation</h1>
+                            <Image src='/icons/3d/coin_stack2.png' alt='tag' height={130} width={170} layout={"fixed"} />
+                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2 ">Seed Tokens  <br /> Allocation</h1>
                         </div>
                         <div className={`flex  justify-between items-center px-2  `}>
-                            <Image src='/icons/3d/money_bag2.png' alt='tag' height={130} width={130} layout={"fixed"} />
-                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">Cashback Travel  <br /> Rewards</h1>
+                            <Image src='/icons/3d/money_bag2.png' alt='tag' height={130} width={160} layout={"fixed"} />
+                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center pt-2 ">Cashback Travel  <br /> Rewards</h1>
                         </div>
 
 
