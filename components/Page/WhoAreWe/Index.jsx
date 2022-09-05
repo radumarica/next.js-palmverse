@@ -16,20 +16,18 @@ const WhoWeAre = () => (
         </h1>
       </div>
       <li className="text-[21px] md:text-3xl font-bold leading-[28px] mt-4  flex justify-center mr-4   ">
-        <h1 className="text-left">
+        <h1 className="text-left pl-4">
           Why don’t we make an NFT project with real-life utilities?
         </h1>
       </li>
-      <ul className="pb-10 pt-2 flex flex-col justify-start space-y-2 md:w-[69.5rem] mx-auto  ">
+      <ul className="pb-10 pt-2 px-2 md:pl-8 flex flex-col justify-start space-y-2 md:w-[69.5rem] mx-auto  ">
         <div className="relative">
-          <li className="text-[19px] leading-9">
-            <h1 className="text-left pl-8 pt-4">
+          <li className="text-[19px] leading-[22px]">
+            <h1 className="text-left   pt-4">
               That was the beginning of the Palmverse project.
             </h1>
           </li>
-          <div className="absolute z-50 top-0 -left-2" >
-            <Image src='/images/palm.png' alt="palm" height="45" width="35" />
-          </div>
+
         </div>
         <li className="text-[19px] leading-9">
           <h1 className="text-left">
@@ -37,30 +35,30 @@ const WhoWeAre = () => (
           </h1>
         </li>
         <li className="text-[19px] ">
-          <h1 className="text-left leading-[21px]">
+          <h1 className="text-left leading-[22px]">
             Sorin, my best friend, and I were discussing NFT projects over dinner in
             February 2022. We felt like something was lacking,  something that could
             be changed to benefit other NFT enthusiasts, including ourselves.
           </h1>
         </li>
-        <li className="text-[19px] leading-9">
+        <li className="text-[19px] leading-[22px] py-1">
           <h1 className="text-left">
             Let’s build an NFT hotel chain where holders can come and enjoy
             discounts. — Sorin suggested
           </h1>
         </li>
-        <li className="text-[19px] leading-9">
+        <li className="text-[19px] leading-[22px] py-1">
           <h1 className="text-left">
             We did manage multiple businesses, from e-commerce brands to Airbnb
             vacation houses.
           </h1>
         </li>
-        <li className="text-[19px] leading-9">
+        <li className="text-[19px] leading-[22px] py-1">
           <h1 className="text-left">
             But could we build something even greater?
           </h1>
         </li>
-        <li className="text-[19px] leading-9">
+        <li className="text-[19px] leading-[22px] py-1">
           <h1 className="text-left">
             Continue reading the full story here at medium:{" "}
             <a
