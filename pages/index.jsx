@@ -19,6 +19,7 @@ const Homepage = () => {
             loop
             autoPlay
             muted={true}
+            playsInline
             preload='true'
             className="md:h-[90vh] object-cover  w-full "
           />) : (
