@@ -15,7 +15,7 @@ const WhoWeAre = () => (
           From Scratch{" "}
         </h1>
       </div>
-      <li className="text-[21px] md:text-3xl font-bold leading-10 mt-4  flex justify-center mr-4   ">
+      <li className="text-[21px] md:text-3xl font-bold leading-[28px] mt-4  flex justify-center mr-4   ">
         <h1 className="text-left">
           Why don’t we make an NFT project with real-life utilities?
         </h1>
@@ -37,7 +37,7 @@ const WhoWeAre = () => (
           </h1>
         </li>
         <li className="text-[19px] ">
-          <h1 className="text-left leading-5">
+          <h1 className="text-left leading-[21px]">
             Sorin, my best friend, and I were discussing NFT projects over dinner in
             February 2022. We felt like something was lacking,  something that could
             be changed to benefit other NFT enthusiasts, including ourselves.
