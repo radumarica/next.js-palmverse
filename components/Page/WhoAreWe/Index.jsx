@@ -4,7 +4,7 @@ const WhoWeAre = () => (
   <>
     <div className=" relative" >
       <h2 className="absolute hidden md:block text-white z-20 left-10 text-4xl font-exo font-bold top-1/2 -translate-y-1/2" >{"OUR STORY".split("").map((x => <span key={x} className={`block ${x === " " ? "my-6" : "my-2"}`}>{x}</span>))}</h2>
-      <iframe src="https://www.youtube.com/embed/f2ECpxB2CE8" className="w-full h-[300px] md:h-[600px] md:px-36 bg-black " />
+      <iframe src="https://www.youtube.com/embed/f2ECpxB2CE8" className="w-full h-[390px] md:h-[600px] md:px-36 bg-black " />
     </div>
 
     <section className="pb-10  bg-dark_bg text-white flex flex-col justify-center  font-exo">
