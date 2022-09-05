@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Header from '../components/Common/Navbar';
 import Footer from '../components/Common/Footer';
+import { BsTwitter } from 'react-icons/bs';
 import '../styles/globals.css';
 import 'animate.css';
 
@@ -29,6 +30,7 @@ function MyApp({ Component, pageProps }) {
             {
               mobilNav && (
                 <div className=" pb-6 pt-10  flex flex-col  absolute z-50 right-0 w-screen  top-20 bg-dark_bg h-[91vh] ">
+
                   <div className="flex flex-col items-center  justify-center space-y-8 pt-20">
                     {
                       navs.map(nav => (

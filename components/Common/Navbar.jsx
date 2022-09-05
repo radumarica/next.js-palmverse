@@ -3,6 +3,7 @@ import { Navbar } from "flowbite-react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from 'next/link'
+import { BsTwitter } from "react-icons/bs";
 const navs = [
     {
         name: 'Home',
@@ -55,6 +56,10 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
                 PALMVERSE
             </span>
         </Navbar.Brand>
+        <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer pr-3 absolute z-50 top-7 right-[11%]  translate-y-1/2 " href="https://twitter.com/palmverse" target='_blank' rel="noreferrer" >
+            <BsTwitter className="text-[#ECF7FD] text-3xl" />
+
+        </a>
         <Navbar.Toggle onClick={() => setMobilNav(!mobilNav)} />
         <Navbar.Collapse>
             {
@@ -123,6 +128,10 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
             </Link>
             <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer" >
                 Book
+
+            </a>
+            <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer pr-3 " href="https://twitter.com/palmverse" target='_blank' rel="noreferrer" >
+                <BsTwitter className="text-[#ECF7FD] text-2xl" />
 
             </a>
         </Navbar.Collapse>
