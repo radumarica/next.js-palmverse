@@ -185,7 +185,7 @@ const Hero = () => {
                         </div>
                         <div className={`flex  justify-between items-center px-2  `}>
                             <Image src='/icons/3d/save_money2.png' alt='tag' height={140} width={180} layout={"fixed"} />
-                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2 -ml-8">Profits Added to <br /> DAO treasury. <br /> Holders Rewarded</h1>
+                            <h1 className="text-[24px] font-light leading-5 text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">Profits Added to <br /> DAO treasury. <br /> Holders Rewarded</h1>
                         </div>
                         <div className={`flex flex-row-reverse justify-between items-center px-2  `}>
                             <Image src='/icons/3d/coin_stack.png' alt='tag' height={140} width={180} layout={"fixed"} />
