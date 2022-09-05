@@ -52,8 +52,8 @@ const FirstLocation = () => {
                         <li className="list-disc py-1 text-[21px] font-bold">Portugal</li>
                         <li className="list-disc py-1 text-[21px] font-bold">Panama</li>
                     </ul>
-                    <div className=" justify-end -mt-56 hidden md:flex">
-                        <Image src='/images/left-nft.png' alt='left-nft' height={330} width={310} layout='fixed' />
+                    <div className=" justify-end -mt-48 hidden md:flex">
+                        <Image src='/images/left-nft.png' alt='left-nft' height={280} width={300} layout='fixed' />
                     </div>
 
                     <div className="flex justify-end -mt-40 md:hidden ">
