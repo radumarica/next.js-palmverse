@@ -22,43 +22,43 @@ const WhoWeAre = () => (
       </li>
       <ul className="pb-10 pt-2 px-4 md:pl-8 flex flex-col justify-start space-y-2 md:w-[69.5rem] mx-auto  ">
         <div className="relative">
-          <li className="text-[19px] leading-[22px]">
+          <li className="text-[18px] leading-[22px]">
             <h1 className="text-left   pt-4">
               That was the beginning of the Palmverse project.
             </h1>
           </li>
 
         </div>
-        <li className="text-[19px] leading-9">
+        <li className="text-[18px] leading-9">
           <h1 className="text-left">
             It all started with a simple question.
           </h1>
         </li>
-        <li className="text-[19px] ">
+        <li className="text-[18px] ">
           <h1 className="text-left leading-[22px]">
             Sorin, my best friend, and I were discussing NFT projects over dinner in
             February 2022. We felt like something was lacking,  something that could
             be changed to benefit other NFT enthusiasts, including ourselves.
           </h1>
         </li>
-        <li className="text-[19px] leading-[22px] py-1">
+        <li className="text-[18px] leading-[22px] py-1">
           <h1 className="text-left">
             Let’s build an NFT hotel chain where holders can come and enjoy
             discounts. — Sorin suggested
           </h1>
         </li>
-        <li className="text-[19px] leading-[22px] py-1">
+        <li className="text-[18px] leading-[22px] py-1">
           <h1 className="text-left">
             We did manage multiple businesses, from e-commerce brands to Airbnb
             vacation houses.
           </h1>
         </li>
-        <li className="text-[19px] leading-[22px] py-1">
+        <li className="text-[18px] leading-[22px] py-1">
           <h1 className="text-left">
             But could we build something even greater?
           </h1>
         </li>
-        <li className="text-[19px] leading-[22px] py-1">
+        <li className="text-[18px] leading-[22px] py-1">
           <h1 className="text-left">
             Continue reading the full story here at medium:{" "}
             <a
