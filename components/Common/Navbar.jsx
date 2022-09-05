@@ -52,7 +52,7 @@ const Header = () => {
                     alt="Palmverse Logo"
                 />
             </div>
-            <span className=" whitespace-nowrap text-[32px] md:text-[40px] font-semibold  pl-2  text-[#ECF7FD]">
+            <span className=" whitespace-nowrap text-[32px] md:text-[40px] font-semibold pl-1  md:pl-2  text-[#ECF7FD]">
                 PALMVERSE
             </span>
         </Navbar.Brand>
