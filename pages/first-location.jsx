@@ -40,12 +40,14 @@ const FirstLocation = () => {
                     <div className="flex justify-center  md:hidden mt-4 ">
                         <Image src='/images/left-nft.png' alt='left-nft' height={230} width={220} layout='fixed' />
                     </div>
+                    <div className="bg-[#ECF7FD] text-black py-2">
 
-                    <h1 className="md:text-4xl text-[28px]  font-bold text-center  pb-4  ">Why Costa Rica?</h1>
+                        <h1 className="md:text-4xl text-[28px]  font-bold text-center    ">Why Costa Rica?</h1>
+                    </div>
                     <div className="text-[21px] relative     font-medium mt-4  text-[#ECF7FD]  "><div className="absolute z-50 -top-5 left-0 lg:-left-3" >
 
                     </div><p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left"> Costa Rica was chosen as the first location considering multiple factors such as the year-round season and good market prices for hotel rooms. </p></div>
-                    <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left  ">Secondly, Costa Rica Is considered a  cryptocurrency paradise due to the widespread adoption of cryptocurrencies by its citizens. Many stores accept cryptocurrency as payment</p>
+                    <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left  ">Secondly, Costa Rica Is considered a  cryptocurrency paradise due to the widespread adoption of cryptocurrencies <br className="md:hidden" /> by its citizens. Many stores accept cryptocurrency as payment</p>
                     <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left  ">We will implement cryptocurrency payments at the front desk and on our website. </p>
                     <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left  ">Usual activities in Costa Rica are surfing, rafting, sailing, ATV tours, volcano tours, natural parks visits, hiking, turtle watching, horseriding, and many more. </p>
                     <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left  ">Possible 2nd and 3rd Palmverse locations, which are also crypto-friendly :</p>
