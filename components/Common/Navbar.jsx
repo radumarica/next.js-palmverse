@@ -32,14 +32,27 @@ const Header = () => {
         style={{ fontFamily: "'Exo 2', ' sans- serif'", backgroundColor: '#2A2A29', borderBottom: '1px solid gray', height: '100px', padding: "1rem 0.8rem" }}
     >
         <Navbar.Brand href="/">
-            <Image
-                src="/images/logo.png"
-                height={70}
-                width={70}
-                layout="fixed"
-                alt="Flowbite Logo"
-            />
-            <span className=" whitespace-nowrap text-[40px] font-semibold  pl-2  text-[#ECF7FD]">
+            <div className="hidden md:block">
+
+                <Image
+                    src="/images/logo.png"
+                    height={70}
+                    width={70}
+                    layout="fixed"
+                    alt="Palmverse Logo"
+                />
+            </div>
+            <div className=" md:hidden">
+
+                <Image
+                    src="/images/logo.png"
+                    height={80}
+                    width={80}
+                    layout="fixed"
+                    alt="Palmverse Logo"
+                />
+            </div>
+            <span className=" whitespace-nowrap text-[30px] md:text-[40px] font-semibold  pl-2  text-[#ECF7FD]">
                 PALMVERSE
             </span>
         </Navbar.Brand>
