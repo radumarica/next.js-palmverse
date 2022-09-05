@@ -206,7 +206,7 @@ const Hero = () => {
                     <Image src='/images/palm.png' alt="palm" height="40" width="30" />
                 </div>We refurbish old buildings and leverage our unique property conversion model to turn them <br /> into the Palmverse brand. </h1>
                 <div className=" py-4 ">
-                    <Image src='/images/hotel1.png' alt='palmverse hotel' width={1000} height={560} />
+                    <Image src='/images/hotel1.png' alt='palmverse hotel' width={1000} height={640} />
                 </div>
             </div>
             <div className="flex justify-center items-center" >
