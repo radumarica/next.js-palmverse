@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
           <>
             {
               mobilNav && (
-                <div className=" pb-6 pt-10  flex flex-col  absolute z-50 right-0 w-screen  top-20 bg-dark_bg h-[91vh] ">
+                <div className=" pb-6 pt-10  flex flex-col  absolute z-50 right-0 w-screen  top-24 bg-dark_bg h-[91vh] ">
 
                   <div className="flex flex-col items-center  justify-center space-y-8 pt-20">
                     {
