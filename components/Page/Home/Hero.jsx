@@ -103,7 +103,7 @@ const Hero = () => {
                     </div>
                     <h1 className="text-[26px] font-bold text-center py-4  text-[#ECF7FD]">
 
-                        FUNCTIONAL BOOKING PLATFORM
+                        FUNCTIONAL BETA BOOKING PLATFORM
                     </h1>
                 </div>
             </div>
@@ -177,7 +177,7 @@ const Hero = () => {
             <div className="bg-[#ECF7FD] text-black py-2 my-2">
 
                 <h1 className="text-[28px] leading-7 font-bold  text-center ">
-                    FUNCTIONAL BOOKING PLATFORM
+                    FUNCTIONAL BETA BOOKING PLATFORM
                 </h1>
             </div>
             <div className="grid md:grid-cols-2 gap-4 py-5 " >
