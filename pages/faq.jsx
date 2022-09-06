@@ -7,7 +7,7 @@ const Faq = () => {
   return (
     <div className="min-h-[90vh] bg-[#2A2A29]">
       <div className="h-fit  flex justify-between items-center bg-[#ECF7FD]">
-        <Image priority={true} src="/images/NFTS.png" height={150} width={150} layout="fixed" alt="FAQ Banner" />
+        <Image priority={true} src="/images/NFT-FAQ.png" height={150} width={150} layout="fixed" alt="FAQ Banner" />
         <h1 className="mt-6  font-exo text-center text-5xl font-bold text-dark_bg ">
           FAQ
         </h1>
