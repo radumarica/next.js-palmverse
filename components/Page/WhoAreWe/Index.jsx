@@ -30,36 +30,36 @@ const WhoWeAre = () => (
 
         </div>
         <li className="text-[18px] leading-8">
-          <h1 className="text-left">
+          <h1 className="text-left font-light ">
             It all started with a simple question.
           </h1>
         </li>
         <li className="text-[18px] ">
-          <h1 className="text-left leading-[22px] py-1 ">
-            2          Sorin, my best friend, and I were discussing NFT projects over dinner in
+          <h1 className="text-left font-light  leading-[22px]  ">
+            Sorin, my best friend, and I were discussing NFT projects over dinner in
             February 2022. We felt like something was lacking,  something that could
             be changed to benefit other NFT enthusiasts, including ourselves.
           </h1>
         </li>
-        <li className="text-[18px] leading-8 ">
-          <h1 className="text-left">
+        <li className="text-[18px]  ">
+          <h1 className="text-left font-light  md:leading-8 leading-6 ">
             Let’s build an NFT hotel chain where holders can come and enjoy
             discounts. — Sorin suggested
           </h1>
         </li>
-        <li className="text-[18px] leading-8 ">
-          <h1 className="text-left">
+        <li className="text-[18px] md:leading-8 leading-6  ">
+          <h1 className="text-left font-light  ">
             We did manage multiple businesses, from e-commerce brands to Airbnb
             vacation houses.
           </h1>
         </li>
-        <li className="text-[18px] leading-8 ">
-          <h1 className="text-left">
+        <li className="text-[18px] md:leading-8 leading-6  ">
+          <h1 className="text-left font-light ">
             But could we build something even greater?
           </h1>
         </li>
-        <li className="text-[18px] leading-8 ">
-          <h1 className="text-left">
+        <li className="text-[18px] md:leading-8 leading-6  ">
+          <h1 className="text-left font-light ">
             Continue reading the full story here at medium:{" "}
             <a
               className="underline underline-offset-4"
