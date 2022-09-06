@@ -30,7 +30,7 @@ const Homepage = () => {
             autoPlay
             muted
             onContextMenu={false}
-            className="md:h-[88vh] object-cover  w-full "
+            className="md:h-[90vh] object-cover  w-full "
           />
         )
       }
