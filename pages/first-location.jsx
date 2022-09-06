@@ -37,7 +37,7 @@ const FirstLocation = () => {
 
                     <div className="flex justify-center md:hidden">
 
-                        <Image src='/images/first_hotel.png' alt="first hotel" height={250} width={380} layout="fixed" />
+                        <Image src='/images/mobile-hotel.png' alt="first hotel" height={280} width={380} layout="fixed" />
                     </div>
                     <div className="flex justify-center  md:hidden mt-4 ">
                         <Image src='/images/left-nft.png' alt='left-nft' height={230} width={220} layout='fixed' />
