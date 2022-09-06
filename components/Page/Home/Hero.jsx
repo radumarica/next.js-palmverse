@@ -57,7 +57,7 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row space-y-10 md:w-[80rem]  md:space-y-0 justify-evenly items-center w-[90%] mx-auto pt-10">
+            <div className="flex flex-col md:flex-row space-y-10 md:w-[100rem]  md:space-y-0 justify-evenly items-center w-[90%] mx-auto pt-10">
                 <div className="   scale-75 md:scale-100">
 
 
