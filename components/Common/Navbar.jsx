@@ -36,8 +36,8 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
 
                 <Image
                     src="/images/logo.png"
-                    height={70}
-                    width={70}
+                    height={65}
+                    width={65}
                     layout="fixed"
                     alt="Palmverse Logo"
                 />
@@ -46,8 +46,8 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
 
                 <Image
                     src="/images/logo.png"
-                    height={80}
-                    width={80}
+                    height={70}
+                    width={70}
                     layout="fixed"
                     alt="Palmverse Logo"
                 />
