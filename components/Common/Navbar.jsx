@@ -29,7 +29,7 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
 
     return <Navbar
         fluid={true}
-        style={{ fontFamily: "'Exo 2', ' sans- serif'", backgroundColor: '#2A2A29', borderBottom: '1px solid gray', height: '100px', padding: "1rem 0.3rem" }}
+        style={{ fontFamily: "'Exo 2', ' sans- serif'", backgroundColor: '#2A2A29', borderBottom: '1px solid gray', height: '100px', padding: "1rem 0.5rem" }}
     >
         <Navbar.Brand href="/">
             <div className="hidden md:block">
