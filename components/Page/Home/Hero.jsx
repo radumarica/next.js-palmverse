@@ -64,7 +64,7 @@ const Hero = () => {
                     <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={400} layout="fixed" />
 
                 </div>
-                <div className="flex flex-col pt-32 mr-20 ">
+                <div className="flex flex-col pt-32 mr-[90px] ">
 
                     <h1 className="md:text-3xl text-2xl text-center pb-4  text-[#ECF7FD]">The first PALMVERSE NFT Hotel was rented in Tamarindo, <br /> a beach town in Costa Rica.
                     </h1>
