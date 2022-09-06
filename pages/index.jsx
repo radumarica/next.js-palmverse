@@ -22,13 +22,15 @@ const Homepage = () => {
             playsInline
             preload='true'
             className="md:h-[90vh] object-cover  w-full "
+            onContextMenu={false}
           />) : (
           <video
             src="/videos/home3.mp4"
             loop
             autoPlay
             muted
-            className="md:h-[90vh] object-cover  w-full "
+            onContextMenu={false}
+            className="md:h-[87vh] object-cover  w-full "
           />
         )
       }
