@@ -94,10 +94,10 @@ function MyApp({ Component, pageProps }) {
                           FAQ
                         </h3>
                       </Link>
-                      <a onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center text-[#ECF7FD] transition-all font-semibold cursor-pointer "  >
+                      {/* <a onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center text-[#ECF7FD] transition-all font-semibold cursor-pointer "  >
                         <h1 className="text-center"> Book</h1>
 
-                      </a>
+                      </a> */}
                     </div>
 
 

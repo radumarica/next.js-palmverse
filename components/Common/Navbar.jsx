@@ -126,10 +126,10 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
                     FAQ
                 </h3>
             </Link>
-            <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " rel="noreferrer" >
+            {/* <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " rel="noreferrer" >
                 Book
 
-            </a>
+            </a> */}
             <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer pr-3 " href="https://twitter.com/palmverse" target='_blank' rel="noreferrer" >
                 <BsTwitter className="text-[#ECF7FD] text-2xl" />
 
