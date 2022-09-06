@@ -166,7 +166,7 @@ const Hero = () => {
                     </div>
 
                 </div>
-                <h1 className="md:text-3xl text-[22px] text-center font-light leading-7 text-[#ECF7FD]">The first PALMVERSE NFT Hotel was rented in Tamarindo, a beach town  in  Costa Rica.
+                <h1 className="md:text-3xl text-[22px] text-center font-light leading-7 text-[#ECF7FD]">The 1st PALMVERSE NFT Hotel was rented in Tamarindo, a beach town  in  Costa Rica.
                 </h1>
                 <h1 className="md:text-3xl text-[22px] text-center font-light leading-7 text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
             </div>
