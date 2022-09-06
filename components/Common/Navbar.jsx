@@ -46,8 +46,8 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
 
                 <Image
                     src="/images/logo.png"
-                    height={70}
-                    width={70}
+                    height={55}
+                    width={55}
                     layout="fixed"
                     alt="Palmverse Logo"
                 />
