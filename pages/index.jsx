@@ -18,7 +18,7 @@ const Homepage = () => {
             src="/videos/mobile_home.mp4"
             loop
             autoPlay
-            muted={true}
+            muted
             playsInline
             preload='true'
             className="md:h-[90vh] object-cover  w-full "
@@ -27,7 +27,7 @@ const Homepage = () => {
             src="/videos/home3.mp4"
             loop
             autoPlay
-            muted={true}
+            muted
             className="md:h-[90vh] object-cover  w-full "
           />
         )

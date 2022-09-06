@@ -64,7 +64,12 @@ const Hero = () => {
                     <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={400} layout="fixed" />
 
                 </div>
-                <h1 className="md:text-3xl text-2xl text-center  text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>,<br className="hidden md:block" /> or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
+                <div className="flex flex-col pt-32 ">
+
+                    <h1 className="md:text-3xl text-2xl text-center pb-4  text-[#ECF7FD]">The first PALMVERSE NFT Hotel was rented in Tamarindo, <br /> a beach town in Costa Rica.
+                    </h1>
+                    <h1 className="md:text-3xl text-2xl text-center  text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>,<br className="hidden md:block" /> or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
+                </div>
             </div>
             <div className="grid md:grid-cols-2 gap-4 py-5 md:w-[84rem] md:mx-auto " >
                 <div className="flex flex-col">
@@ -161,6 +166,8 @@ const Hero = () => {
                     </div>
 
                 </div>
+                <h1 className="md:text-3xl text-[22px] text-center font-light leading-7 text-[#ECF7FD]">The first PALMVERSE NFT Hotel was rented in Tamarindo, a beach town <br /> in  Costa Rica.
+                </h1>
                 <h1 className="md:text-3xl text-[22px] text-center font-light leading-7 text-[#ECF7FD]">Whether you’re a travel addict, digital nomad, <span className="text-green_text">an NFT wanderer</span>, or a surfer looking for paradise, <span className="underline underline-offset-4" >you’ve come to the right place.</span></h1>
             </div>
             <div className="   md:mt-0 md:scale-100">
