@@ -108,7 +108,7 @@ const Hero = () => {
                 </div><p>We refurbish old buildings and leverage our unique property conversion model to turn them into the Palmverse brand. </p></div>
                 <div className="scale-110 md:scale-y-110 md:scale-x-125 md:pt-10">
 
-                    <Image src='/images/hotel1.png' alt='palmverse hotel' width={1000} height='560' />
+                    <Image src='/images/less-height.png' alt='palmverse hotel' width={1000} height='560' />
                 </div>
                 <div className="flex justify-center items-center md:pt-8" >
                     <Link href='/first-location' >
@@ -219,7 +219,7 @@ const Hero = () => {
                     HOW IT WORKS </h1>
                 <div className="hidden md:block">
 
-                    <Image src='/images/map.png' alt='palmverse hotel' width={1100} height={750} />
+                    <Image src='/images/utili.png' alt='palmverse hotel' width={1100} height={750} />
                 </div>
                 <div className=" md:hidden" >
 
