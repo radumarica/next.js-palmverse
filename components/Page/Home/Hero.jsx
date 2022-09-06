@@ -57,14 +57,14 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row space-y-10 md:w-[100rem]  md:space-y-0 justify-evenly items-center w-[90%] mx-auto pt-10">
+            <div className="flex flex-col md:flex-row space-y-10 md:w-[92rem]  md:space-y-0 justify-evenly items-center w-[90%] mx-auto pt-10">
                 <div className="   scale-75 md:scale-100">
 
 
                     <Image src='/icons/groot.png' alt='palmverse-groot' height={400} width={400} layout="fixed" />
 
                 </div>
-                <div className="flex flex-col pt-32 ">
+                <div className="flex flex-col pt-32 mr-20 ">
 
                     <h1 className="md:text-3xl text-2xl text-center pb-4  text-[#ECF7FD]">The first PALMVERSE NFT Hotel was rented in Tamarindo, <br /> a beach town in Costa Rica.
                     </h1>
