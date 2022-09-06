@@ -29,15 +29,15 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
 
     return <Navbar
         fluid={true}
-        style={{ fontFamily: "'Exo 2', ' sans- serif'", backgroundColor: '#2A2A29', borderBottom: '1px solid gray', height: '90px', padding: "1rem 0.5rem" }}
+        style={{ fontFamily: "'Exo 2', ' sans- serif'", backgroundColor: '#2A2A29', borderBottom: '1px solid gray', height: '100px', padding: "1rem 0.3rem" }}
     >
         <Navbar.Brand href="/">
             <div className="hidden md:block">
 
                 <Image
                     src="/images/logo.png"
-                    height={55}
-                    width={55}
+                    height={70}
+                    width={70}
                     layout="fixed"
                     alt="Palmverse Logo"
                 />
@@ -46,8 +46,8 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
 
                 <Image
                     src="/images/logo.png"
-                    height={55}
-                    width={55}
+                    height={80}
+                    width={80}
                     layout="fixed"
                     alt="Palmverse Logo"
                 />
