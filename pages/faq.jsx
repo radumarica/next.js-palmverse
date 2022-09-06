@@ -6,11 +6,14 @@ import Link from "next/link";
 const Faq = () => {
   return (
     <div className="min-h-[90vh] bg-[#2A2A29]">
-      <div className="h-fit  flex md:justify-center  items-center bg-[#ECF7FD]">
-        <Image priority={true} src="/images/NFT-FAQ.png" height={150} width={150} layout="fixed" alt="FAQ Banner" />
-        <h1 className="mt-6  font-exo text-center text-5xl font-bold text-dark_bg ">
-          FAQ
-        </h1>
+      <div className="h-fit  flex justify-center  items-center bg-[#ECF7FD]">
+        <div className="flex items-center mr-20 md:mr-40">
+
+          <Image priority={true} src="/images/NFT-FAQ.png" height={150} width={150} layout="fixed" alt="FAQ Banner" />
+          <h1 className="mt-6  font-exo text-center text-5xl font-bold text-dark_bg ">
+            FAQ
+          </h1>
+        </div>
 
       </div>
 
