@@ -9,7 +9,9 @@ import 'animate.css';
 const navs = [
   {
     name: 'Home',
-    link: '/'
+    link: '/',
+    title: 'PALMVERSE'
+
   },
   {
     name: 'Who We Are',
