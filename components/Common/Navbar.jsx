@@ -125,10 +125,12 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
                     FAQ
                 </h3>
 
-                <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                
+            </Link>
+
+            <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
                     Book
                 </h3>
-            </Link>
             {/* <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " rel="noreferrer" >
                 Book
 
