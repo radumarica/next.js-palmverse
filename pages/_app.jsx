@@ -10,9 +10,8 @@ const navs = [
   {
     name: 'Home',
     link: '/',
-    title: 'PALMVERSE'
-
   },
+  
   {
     name: 'Who We Are',
     link: '/who-we-are'
