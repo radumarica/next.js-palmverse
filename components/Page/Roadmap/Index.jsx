@@ -242,27 +242,24 @@ const Roadmap = () => {
     return <>
         <div className='md:block hidden'>
 
-            <section
-                className='h-screen md:h-[120vh] xl:h-[150vh] '
-                style={{
-                    backgroundImage: 'url(/images/roadmap/desktop-palms.jpg)',
-
-                    overflowY: "auto",
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'bottom',
-                    display: 'flex',
-                    justifyContent: 'center',
-                }}  >
-                {/* <div style={{
-                    backgroundImage: 'url(/images/roadmap/desktop-map.png)',
+            <section style={{
+                backgroundImage: 'url(/images/roadmap/desktop-bg.jpg)',
+                minHeight: '100vh',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                display: 'flex',
+                justifyContent: 'center',
+            }}  >
+                <div style={{
+                    backgroundImage: 'url(/images/roadmap/rdmp-mobile.png)',
                     width: '90%',
                     margin: '0 auto',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center',
-                    marginTop: '-0.5rem',
-                }} /> */}
+
+                }} />
             </section>
         </div>
         <div className='md:hidden'>
@@ -276,9 +273,9 @@ const Roadmap = () => {
                 backgroundPosition: 'center',
                 display: 'flex',
                 justifyContent: 'center',
-            }} >
+            }} className="md:hidden" >
                 <div style={{
-                    backgroundImage: 'url(/images/roadmap/mobile-map.png)',
+                    backgroundImage: 'url(/images/roadmap/rdmp_desk.png)',
                     width: '90%',
                     margin: '0 auto',
                     backgroundSize: 'cover',
