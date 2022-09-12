@@ -247,7 +247,7 @@ const Roadmap = () => {
                 minHeight: '100vh',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center',
+                backgroundPosition: 'top',
                 display: 'flex',
                 justifyContent: 'center',
             }}  >
