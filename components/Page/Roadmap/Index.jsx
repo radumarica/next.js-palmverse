@@ -250,6 +250,7 @@ const Roadmap = () => {
                     overflowY: "auto",
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'bottom',
                     display: 'flex',
                     justifyContent: 'center',
                 }}  >
