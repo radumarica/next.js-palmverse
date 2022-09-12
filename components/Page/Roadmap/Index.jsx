@@ -243,19 +243,25 @@ const Roadmap = () => {
         <div className='md:block hidden'>
 
             <section
-                className='h-screen w-screen bg-no-repeat overflow-y-auto bg-cover flex justify-center '
+                className='h-screen md:h-[120vh] xl:h-[150vh] '
                 style={{
-                    backgroundImage: 'url(/images/roadmap/desktop-bg.jpg)',
+                    backgroundImage: 'url(/images/roadmap/desktop-palms.jpg)',
+
+                    overflowY: "auto",
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    display: 'flex',
+                    justifyContent: 'center',
                 }}  >
-                <div style={{
-                    backgroundImage: 'url(/images/roadmap/Roadmap_3.png)',
+                {/* <div style={{
+                    backgroundImage: 'url(/images/roadmap/desktop-map.png)',
                     width: '90%',
                     margin: '0 auto',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center',
                     marginTop: '-0.5rem',
-                }} />
+                }} /> */}
             </section>
         </div>
         <div className='md:hidden'>
