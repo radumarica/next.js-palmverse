@@ -3,14 +3,16 @@ import Link from 'next/link';
 import Header from '../components/Common/Navbar';
 import Footer from '../components/Common/Footer';
 import { BsTwitter } from 'react-icons/bs';
+import Head from "next/head";
 import '../styles/globals.css';
 import 'animate.css';
 
 const navs = [
   {
     name: 'Home',
-    link: '/'
+    link: '/',
   },
+  
   {
     name: 'Who We Are',
     link: '/who-we-are'
@@ -23,6 +25,11 @@ function MyApp({ Component, pageProps }) {
   console.log(showDrop)
   return (
     <>
+    <Head>
+      <title>
+        PALMVERSE
+      </title>
+    </Head>
       <Header showDrop={showDrop} setShowDrop={setShowDrop} mobilNav={mobilNav} setMobilNav={setMobilNav} />
       {
         mobilNav ? (
@@ -94,10 +101,10 @@ function MyApp({ Component, pageProps }) {
                           FAQ
                         </h3>
                       </Link>
-                      {/* <a onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center text-[#ECF7FD] transition-all font-semibold cursor-pointer "  >
+                       <a onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center text-[#ECF7FD] transition-all font-semibold cursor-pointer "  href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer">
                         <h1 className="text-center"> Book</h1>
 
-                      </a> */}
+                      </a> */
                     </div>
 
 

@@ -122,14 +122,16 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
 
             >
                 <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-
                     FAQ
                 </h3>
+
+                
             </Link>
-            {/* <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " rel="noreferrer" >
+
+            <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " rel="noreferrer" href="https://www.book-palmverse.com/" target='_blank'>
                 Book
 
-            </a> */}
+            </a> 
             <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer pr-3 " href="https://twitter.com/palmverse" target='_blank' rel="noreferrer" >
                 <BsTwitter className="text-[#ECF7FD] text-2xl" />
 
@@ -139,6 +141,6 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
     </Navbar>
 }
 
-// /href="https://www.book-palmverse.com/" target='_blank'
+
 
 export default Header
