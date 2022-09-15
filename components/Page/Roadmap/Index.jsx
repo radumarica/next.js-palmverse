@@ -252,7 +252,7 @@ const Roadmap = () => {
                 justifyContent: 'center',
             }}  >
                 <div style={{
-                    backgroundImage: 'url(/images/roadmap/rdmp-mobile.png)',
+                    backgroundImage: 'url(/images/roadmap/rdmp-desk.png)',
                     width: '90%',
                     margin: '0 auto',
                     backgroundSize: 'cover',
@@ -275,7 +275,7 @@ const Roadmap = () => {
                 justifyContent: 'center',
             }} className="md:hidden" >
                 <div style={{
-                    backgroundImage: 'url(/images/roadmap/rdmp_desk.png)',
+                    backgroundImage: 'url(/images/roadmap/rdmp_mobile.png)',
                     width: '90%',
                     margin: '0 auto',
                     backgroundSize: 'cover',
