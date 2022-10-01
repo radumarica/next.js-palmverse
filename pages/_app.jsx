@@ -80,14 +80,14 @@ function MyApp({ Component, pageProps }) {
                               <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-xl text-center py-4 text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
                                 Roadmap
                               </h3>
-                            </Link>
-                            <a href="/files/PALMVERSE_Whitepaper_V1.pdf" className="hover:text-[#13D511] text-xl text-center pt-4 text-[#ECF7FD] transition-all font-semibold cursor-pointer " target='_blank' rel="noreferrer" >
+                             </Link>
+                            {/* <a href="/files/PALMVERSE_Whitepaper_V1.pdf" className="hover:text-[#13D511] text-xl text-center pt-4 text-[#ECF7FD] transition-all font-semibold cursor-pointer " target='_blank' rel="noreferrer" >
 
                               <h1 onClick={() => setMobilNav(false)} className="text-center">
 
                                 Whitepaper
                               </h1>
-                            </a>
+                            </a> */}
                           </div>
                         )
                       }
@@ -95,7 +95,7 @@ function MyApp({ Component, pageProps }) {
 
                         href='/faq'
 
-                      >
+                      > 
                         <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center py-10 text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
 
                           FAQ
