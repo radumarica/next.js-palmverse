@@ -105,12 +105,7 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
                                     Roadmap
                                 </h3>
                             </Link>
-                            <a href="/files/PALMVERSE_Whitepaper_V1.pdf" className="hover:text-[#13D511] text-center text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " target='_blank' rel="noreferrer" >
-                                <h3 className="text-center">
-                                    Whitepaper
-                                </h3>
-
-                            </a>
+                           
                         </div>
                     )
                 }
