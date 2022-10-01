@@ -81,13 +81,7 @@ function MyApp({ Component, pageProps }) {
                                 Roadmap
                               </h3>
                              </Link>
-                            {/* <a href="/files/PALMVERSE_Whitepaper_V1.pdf" className="hover:text-[#13D511] text-xl text-center pt-4 text-[#ECF7FD] transition-all font-semibold cursor-pointer " target='_blank' rel="noreferrer" >
-
-                              <h1 onClick={() => setMobilNav(false)} className="text-center">
-
-                                Whitepaper
-                              </h1>
-                            </a> */}
+                           
                           </div>
                         )
                       }
