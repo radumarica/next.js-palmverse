@@ -15,7 +15,7 @@ const Homepage = () => {
       {
         mobilescreen < 768 ? (
           <video
-            src="/videos/mobile_home.mp4"
+            src="/videos/web3_desktop.mp4"
             loop
             autoPlay
             muted
@@ -25,7 +25,7 @@ const Homepage = () => {
             onContextMenu={false}
           />) : (
           <video
-            src="/videos/Web3_Booking_Website.mp4"
+            src="/videos/web3_mobile_1.mp4"
             loop
             autoPlay
             muted
