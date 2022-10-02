@@ -1,12 +1,8 @@
 import Image from "next/dist/client/image";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Link from "next/link";
-// const firstSetIcons = [
-//     '/icons/hotel.png',
-//     '/icons/pay.png',
-//     '/icons/group.png',
-
-// ]
+import Typical from "react-typical";
+import { Typewriter } from 'react-simple-typewriter'
 
 const firstSetIcons = [
   {
@@ -28,9 +24,17 @@ const Hero = () => {
     <section className="w-full flex flex-col items-center bg-dark_bg text-white px-5 pt-5 pb-16 font-exo">
       <div className="hidden md:block">
         <div className=" flex flex-col items-center">
-          <h1 className="md:text-[46px] text-[28px] font-bold text-center text-[#ECF7FD] ">
-            THE 1ST NFT HOTEL & HOSTEL CHAIN{" "}
-          </h1>
+          <strong className="md:text-[46px] text-[28px] font-bold  text-[#ECF7FD] ">
+            <Typewriter
+              words={['HOTELS/HOSTELS/RESORTS', 'PAY WITH A Web3 WALLET']}
+              loop={Infinity}
+              cursor
+              cursorStyle='|'
+              typeSpeed={100}
+              deleteSpeed={100}
+              delaySpeed={1000}
+            />
+          </strong>
           <p className=" hidden md:flex text-[28px]  md:text-[30px] leading-9 text-center pb-10 pt-5 px-4 md:w-[70rem] text-[#ECF7FD]  ">
             Palmverse builds technologies that help people connect IRL,{" "}
             <br className="md:hidden" /> join communities,
