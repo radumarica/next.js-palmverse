@@ -210,7 +210,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex justify-center items-center" >
-          <div className="mx-3 mt-20 " >
+          <div className="mx-3 cursor-pointer  mt-20 " >
             <Image
               src='/nfts/city (1).png'
               alt="palmverse hotel"
@@ -220,7 +220,7 @@ const Hero = () => {
               className="rounded-md object-cover"
             />
           </div>
-          <div className="mx-3" >
+          <div className="mx-3 cursor-pointer " >
             <Image
               src='/nfts/dead.png'
               alt="palmverse hotel"
@@ -230,7 +230,7 @@ const Hero = () => {
               className="rounded-md object-cover"
             />
           </div>
-          <div className="mx-3 mt-20 " >
+          <div className="mx-3 cursor-pointer  mt-20 " >
             <Image
               src='/nfts/city.png'
               alt="palmverse hotel"
@@ -240,7 +240,7 @@ const Hero = () => {
               className="rounded-md object-cover"
             />
           </div>
-          <div className="mx-3" >
+          <div className="mx-3 cursor-pointer " >
             <Image
               src='/nfts/cool.png'
               alt="palmverse hotel"
@@ -405,62 +405,6 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
-            <p className="md:text-[40px]  text-[20px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
-              The PALMVERSE NFT Collection
-            </p>
-            <p className="md:text-[22px] pt-3 pb-8 text-[16px] px-4 text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
-              We provide amazing utility and rewards for holders
-            </p>
-          </div>
-          <div className="flex flex-col justify-center space-y-4 items-center" >
-            <div className="mx-3  " >
-              <Image
-                src='/nfts/city (1).png'
-                alt="palmverse hotel"
-                width={230}
-                height={230}
-                layout="fixed"
-                className="rounded-md object-cover"
-              />
-            </div>
-            <div className="mx-3" >
-              <Image
-                src='/nfts/dead.png'
-                alt="palmverse hotel"
-                width={230}
-                height={230}
-                layout="fixed"
-                className="rounded-md object-cover"
-              />
-            </div>
-            <div className="mx-3  " >
-              <Image
-                src='/nfts/city.png'
-                alt="palmverse hotel"
-                width={230}
-                height={230}
-                layout="fixed"
-                className="rounded-md object-cover"
-              />
-            </div>
-            <div className="mx-3" >
-              <Image
-                src='/nfts/cool.png'
-                alt="palmverse hotel"
-                width={230}
-                height={230}
-                layout="fixed"
-                className="rounded-md object-cover"
-              />
-            </div>
-          </div>
-
-          <h1 className="text-[26px] font-bold text-[#ECF7FD]  text-center mt-10">
-            NFT UTILITIES
-          </h1>
-
-
           <div className="grid grid-cols-2   md:w-[80rem] md:grid md:grid-cols-3  gap-6 md:space-y-0 justify-evenly items-center  py-5 w-[80%] mx-auto">
             <div className="flex flex-col items-center justify-start">
               <Image
@@ -555,6 +499,62 @@ const Hero = () => {
             </div>
 
           </div>
+
+          <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
+            <p className="md:text-[40px]  text-[20px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
+              The PALMVERSE NFT Collection
+            </p>
+            <p className="md:text-[22px] pt-3 pb-8 text-[16px] px-4 text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
+              We provide amazing utility and rewards for holders
+            </p>
+          </div>
+          <div className="flex justify-center items-center overflow-x-auto w-screen " >
+            <div className="mx-1 cursor-pointer overflow-x-auto  mt-10  " >
+              <Image
+                src='/nfts/city (1).png'
+                alt="palmverse hotel"
+                width={95}
+                height={120}
+                layout="fixed"
+                className="rounded-md object-cover"
+              />
+            </div>
+            <div className="mx-1 cursor-pointer overflow-x-auto " >
+              <Image
+                src='/nfts/dead.png'
+                alt="palmverse hotel"
+                width={95}
+                height={120}
+                layout="fixed"
+                className="rounded-md object-cover"
+              />
+            </div>
+            <div className="mx-1 cursor-pointer overflow-x-auto  mt-10  " >
+              <Image
+                src='/nfts/city.png'
+                alt="palmverse hotel"
+                width={95}
+                height={120}
+                layout="fixed"
+                className="rounded-md object-cover"
+              />
+            </div>
+            <div className="mx-1 cursor-pointer overflow-x-auto " >
+              <Image
+                src='/nfts/cool.png'
+                alt="palmverse hotel"
+                width={95}
+                height={120}
+                layout="fixed"
+                className="rounded-md object-cover"
+              />
+            </div>
+          </div>
+
+
+
+
+
 
           <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
             <p className="md:text-[40px]  text-[20px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
