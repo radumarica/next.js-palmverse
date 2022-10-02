@@ -502,6 +502,24 @@ const Hero = () => {
 
           <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
             <p className="md:text-[40px]  text-[20px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
+              We help properties access new <br /> Web3 customers  & communities
+            </p>
+            <p className="md:text-[22px] pt-3 pb-8 text-[16px] px-6 text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
+              We make it easy to onboard properties into web3
+            </p>
+          </div>
+          <div className="flex justify-center" >
+
+            <Image
+              src="/images/uti.png"
+              alt="palmverse hotel"
+              width={1100}
+              height="600"
+            />
+          </div>
+
+          <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
+            <p className="md:text-[40px]  text-[20px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
               The PALMVERSE NFT Collection
             </p>
             <p className="md:text-[22px] pt-3 pb-8 text-[16px] px-4 text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
@@ -556,23 +574,8 @@ const Hero = () => {
 
 
 
-          <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
-            <p className="md:text-[40px]  text-[20px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
-              We help properties access new <br /> Web3 customers  & communities
-            </p>
-            <p className="md:text-[22px] pt-3 pb-8 text-[16px] px-6 text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
-              We make it easy to onboard properties into web3
-            </p>
-          </div>
-          <div className="flex justify-center" >
 
-            <Image
-              src="/images/uti.png"
-              alt="palmverse hotel"
-              width={1100}
-              height="600"
-            />
-          </div>
+
         </div>
         {/* <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-evenly items-center w-[90%] mx-auto py-10 ">
           <div className="md:w-[50%] md:mx-auto md:px-4 scale-100 md:scale-100">
