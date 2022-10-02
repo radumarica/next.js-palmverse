@@ -456,8 +456,12 @@ const Hero = () => {
             </div>
           </div>
 
+          <h1 className="text-[26px] font-bold text-[#ECF7FD]  text-center mt-10">
+            NFT UTILITIES
+          </h1>
 
-          <div className="grid grid-cols-2   md:w-[80rem] md:grid md:grid-cols-3  gap-6 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto">
+
+          <div className="grid grid-cols-2   md:w-[80rem] md:grid md:grid-cols-3  gap-6 md:space-y-0 justify-evenly items-center  py-5 w-[80%] mx-auto">
             <div className="flex flex-col items-center justify-start">
               <Image
                 src="/bland/1-.png"
