@@ -143,7 +143,7 @@ const Hero = () => {
                 Escrow Guarantee
               </h1>
               <p className="text-lg text-center">
-                Smart Contracts based escrow which <br /> can't be manipulated in any way.
+                Smart Contracts based escrow which <br /> cant be manipulated in any way.
               </p>
             </div>
             <div className="flex flex-col items-center justift-center">
@@ -402,7 +402,7 @@ const Hero = () => {
                 Escrow Guarantee
               </h1>
               <p className=" text-center">
-                Smart Contracts based escrow which <br /> can't be manipulated in any way.
+                Smart Contracts based escrow which <br /> cant be manipulated in any way.
               </p>
             </div>
             <div className="flex flex-col items-center justify-start">
