@@ -25,15 +25,16 @@ const Hero = () => {
       <div className="hidden md:block">
         <div className=" flex flex-col items-center">
           <strong className="md:text-[46px] text-[28px] font-bold  text-[#ECF7FD] ">
+            Book
             <Typewriter
-              words={['Hotels/Hostels/Resorts', 'Pay With A Web3 Wallet']}
+              words={[' Hotels', ' Hostels', ' Resorts']}
               loop={Infinity}
               cursor
               cursorStyle='|'
               typeSpeed={100}
               deleteSpeed={100}
               delaySpeed={1000}
-            />
+            /> - Pay With Web3 Wallet
           </strong>
           <p className=" hidden md:flex text-[28px]  md:text-[30px] leading-9 text-center pb-10 pt-5 px-4 md:w-[70rem] text-[#ECF7FD]  ">
             Palmverse builds technologies that help people connect IRL,{" "}
@@ -228,9 +229,18 @@ const Hero = () => {
       </div>
       <div className="md:hidden">
         <div className=" flex flex-col items-center">
-          <h1 className="md:text-[40px] text-[28px] font-bold text-center leading-7 text-[#ECF7FD] ">
-            THE 1ST NFT HOTEL & <br /> HOSTEL CHAIN{" "}
-          </h1>
+          <strong className="md:text-[46px] text-[28px] text-center font-bold  text-[#ECF7FD] ">
+            Book
+            <Typewriter
+              words={[' Hotels', ' Hostels', ' Resorts']}
+              loop={Infinity}
+              cursor
+              cursorStyle='|'
+              typeSpeed={100}
+              deleteSpeed={100}
+              delaySpeed={1000}
+            /> <br /> Pay With Web3 Wallet
+          </strong>
           <p className="md:text-[32px] hidden md:flex text-[18px] text-center pb-5 mt-6 px-4 font-extralight md:w-9/12 text-[#ECF7FD]  ">
             Palmverse builds technologies that help people connect IRL{" "}
             <br className="md:hidden" /> join communities, and bridge the web2
