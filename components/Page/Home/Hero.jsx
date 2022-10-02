@@ -93,6 +93,19 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        <div className="flex flex-col justify-end items-center py-4 md:py-0">
+          <div className=" mt-16  md:scale-125">
+            <Image
+              src="/images/laptop.png"
+              alt="laptop palverse"
+              width={550}
+              height={370}
+            />
+          </div>
+          <h1 className="text-[26px] font-bold text-center pt-6  text-[#ECF7FD]">
+            BETA VERSION IS <span className="text-green_text" >LIVE</span>
+          </h1>
+        </div>
         <div className="flex flex-col md:flex-row space-y-10 md:w-[92rem]  md:space-y-0 justify-evenly items-center w-[90%] mx-auto pt-10">
           <div className="   scale-75 md:scale-100">
             <Image
@@ -103,7 +116,8 @@ const Hero = () => {
               layout="fixed"
             />
           </div>
-          <div className="flex flex-col pt-32 mr-[90px] ">
+
+          <div className="flex flex-col pt-24 mr-[90px] ">
             <h1 className="md:text-3xl text-2xl text-center pb-4  text-[#ECF7FD]">
               The first PALMVERSE NFT Hotel was rented in Tamarindo, <br /> a
               beach town in Costa Rica.
@@ -175,19 +189,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-end items-center py-4 md:py-0">
-            <div className=" mt-16 md:mt-0 md:scale-125">
-              <Image
-                src="/images/laptop.png"
-                alt="laptop palverse"
-                width={550}
-                height={370}
-              />
-            </div>
-            <h1 className="text-[26px] font-bold text-center py-4  text-[#ECF7FD]">
-              BETA BOOKING PLATFORM
-            </h1>
-          </div>
+
         </div>
         <div className="flex flex-col items-center justify-center pb-10 pt-4  space-y-10 md:space-y-0">
           <div className="text-3xl relative  md:w-[60%] mx-auto text-center text-[#ECF7FD] pb-4 ">
