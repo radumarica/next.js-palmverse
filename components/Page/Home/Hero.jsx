@@ -181,39 +181,89 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row space-y-10 md:w-[92rem]  md:space-y-0 justify-evenly items-center w-[90%] mx-auto pt-10">
-          <div className="   scale-75 md:scale-100">
+
+        <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
+          <p className="md:text-[40px]  text-[18px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
+            We help properties access new <br /> Web3 customers  & communities
+          </p>
+          <p className="md:text-[22px] pt-3 pb-8 text-[22px] text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
+            We make it easy to onboard properties into web3
+          </p>
+        </div>
+        <div className="flex justify-center" >
+
+          <Image
+            src="/images/uti.png"
+            alt="palmverse hotel"
+            width={1100}
+            height="600"
+          />
+        </div>
+
+
+        <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
+          <p className="md:text-[40px]  text-[18px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
+            The PALMVERSE NFT Collection
+          </p>
+          <p className="md:text-[22px] pt-3 pb-8 text-[22px] text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
+            We provide amazing utility and rewards for holders
+          </p>
+        </div>
+        <div className="flex justify-center items-center" >
+          <div className="mx-3 mt-20 " >
             <Image
-              src="/icons/groot.png"
-              alt="palmverse-groot"
-              height={400}
-              width={400}
+              src='/nfts/city (1).png'
+              alt="palmverse hotel"
+              width={250}
+              height={250}
               layout="fixed"
+              className="rounded-md object-cover"
             />
           </div>
-
-          <div className="flex flex-col pt-24 mr-[90px] ">
-            <h1 className="md:text-3xl text-2xl text-center pb-4  text-[#ECF7FD]">
-              The first PALMVERSE NFT Hotel was rented in Tamarindo, <br /> a
-              beach town in Costa Rica.
-            </h1>
-            <h1 className="md:text-3xl text-2xl text-center  text-[#ECF7FD]">
-              Whether you’re a travel addict, digital nomad,{" "}
-              <span className="text-green_text">an NFT wanderer</span>,
-              <br className="hidden md:block" /> or a surfer looking for
-              paradise,{" "}
-              <span className="underline underline-offset-4">
-                you’ve come to the right place.
-              </span>
-            </h1>
+          <div className="mx-3" >
+            <Image
+              src='/nfts/dead.png'
+              alt="palmverse hotel"
+              width={250}
+              height={250}
+              layout="fixed"
+              className="rounded-md object-cover"
+            />
+          </div>
+          <div className="mx-3 mt-20 " >
+            <Image
+              src='/nfts/city.png'
+              alt="palmverse hotel"
+              width={250}
+              height={250}
+              layout="fixed"
+              className="rounded-md object-cover"
+            />
+          </div>
+          <div className="mx-3" >
+            <Image
+              src='/nfts/cool.png'
+              alt="palmverse hotel"
+              width={250}
+              height={250}
+              layout="fixed"
+              className="rounded-md object-cover"
+            />
           </div>
         </div>
+
+
+
+
+
+
+
         <div className="grid place-items-center gap-4 py-5 md:w-[84rem] md:mx-auto ">
           <div className="flex flex-col">
             <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-10">
-              NFT UTILITIES - TRAVEL 2 EARN
+              NFT UTILITIES
             </h1>
-            <div className="grid grid-cols-2 gap-4 py-4">
+            <div className="grid grid-cols-4 gap-4 py-4">
               <div className="flex flex-col items-center">
                 <Image
                   src="/icons/3d/discount2.png"
@@ -222,8 +272,8 @@ const Hero = () => {
                   width={130}
                   layout={"fixed"}
                 />
-                <h1 className="md:text-[26px] text-[20px leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">
-                  Up to 25% Discounts for Rooms{" "}
+                <h1 className="md:text-[24px] text-[20px leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">
+                  Up to 25% Discounts <br /> for Rooms{" "}
                 </h1>
               </div>
               <div className="flex flex-col items-center">
@@ -234,22 +284,11 @@ const Hero = () => {
                   width={130}
                   layout={"fixed"}
                 />
-                <h1 className="md:text-[26px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium  text-center py-2">
-                  Profits Added to DAO treasury. <br /> Holders Rewarded
+                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium  text-center py-2">
+                  % of Net Revenue Added to DAO Treasury
                 </h1>
               </div>
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/icons/3d/coin_stack2.png"
-                  alt="tag"
-                  height={130}
-                  width={130}
-                  layout={"fixed"}
-                />
-                <h1 className="md:text-[26px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">
-                  Seed Tokens Allocation{" "}
-                </h1>
-              </div>
+
               <div className="flex flex-col items-center">
                 <Image
                   src="/icons/3d/money_bag2.png"
@@ -258,10 +297,23 @@ const Hero = () => {
                   width={130}
                   layout={"fixed"}
                 />
-                <h1 className="md:text-[26px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">
-                  Cashback Travel Rewards
+                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">
+                  Cashback Travel <br /> Rewards
                 </h1>
               </div>
+              <div className="flex flex-col items-center">
+                <Image
+                  src="/icons/group.png"
+                  alt="tag"
+                  height={130}
+                  width={130}
+                  layout={"fixed"}
+                />
+                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">
+                  Access to Huge IRL <br /> DAO Events
+                </h1>
+              </div>
+
             </div>
           </div>
 
@@ -292,7 +344,7 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center pt-14 pb-8">
+        {/* <div className="flex flex-col items-center justify-center pt-14 pb-8">
           <h1 className="text-3xl text-[#ECF7FD] font-bold w-[70%] mx-auto text-center pb-10">
             HOW IT WORKS{" "}
           </h1>
@@ -302,7 +354,7 @@ const Hero = () => {
             width={1100}
             height="600"
           />
-        </div>
+        </div> */}
       </div>
       <div className="md:hidden">
         <div className=" flex flex-col items-center">
@@ -344,43 +396,43 @@ const Hero = () => {
           </div>
 
 
-          <div className="grid grid-cols-2 gap-4  md:w-[80rem] md:grid md:grid-cols-3 md:gap-6 space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto">
+          <div className="grid grid-cols-2   md:w-[80rem] md:grid md:grid-cols-3  gap-6 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto">
             <div className="flex flex-col items-center justify-start">
               <Image
-                src="/icons/3d/agreement2.png"
+                src="/bland/1-.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
+                height={150}
+                width={150}
                 layout={"fixed"}
               />
               <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
                 Zero Payment Fees
               </h1>
               <p className=" text-center">
-                Cost of online oayment reduced to 0
+                Cost of online payment reduced to zero
               </p>
             </div>
             <div className="flex flex-col items-center justify-start">
               <Image
-                src="/icons/pay.png"
+                src="/bland/2 (1).png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
+                height={150}
+                width={150}
                 layout={"fixed"}
               />
               <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                No Log-ins
+                No Log-ins required
               </h1>
               <p className=" text-center">
-                Pay with a Web3 wallet. No sign-ups
+                Pay with a Web3 wallet. <br /> No sign-ups
               </p>
             </div>
             <div className="flex flex-col items-center justify-start">
               <Image
-                src="/icons/3d/money_bag2.png"
+                src="/bland/3 (1).png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
+                height={150}
+                width={150}
                 layout={"fixed"}
               />
               <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
@@ -391,42 +443,42 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col pt-12  items-center justify-start">
+            <div className="flex flex-col pt-6  items-center justify-start">
               <Image
-                src="/icons/group.png"
+                src="/bland/4.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
+                height={150}
+                width={150}
                 layout={"fixed"}
               />
               <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
                 NFTs As Memebership
               </h1>
               <p className=" text-center">
-                Verify NFT ownership to apply <br /> discounts
+                Verify NFT ownership to apply discounts
               </p>
             </div>
-            <div className="flex flex-col items-center justify-start">
+            <div className="flex flex-col -mb-12 items-center justify-start">
               <Image
-                src="/icons/3d/agreement2.png"
+                src="/bland/5.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
+                height={150}
+                width={150}
                 layout={"fixed"}
               />
               <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
                 Escrow Guarantee
               </h1>
               <p className=" text-center">
-                Smart Contracts based escrow which <br /> cant be manipulated in any way.
+                Smart Contracts based escrow which cant be manipulated in any way.
               </p>
             </div>
             <div className="flex flex-col items-center justify-start">
               <Image
-                src="/icons/3d/agreement2.png"
+                src="/bland/6.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
+                height={150}
+                width={150}
                 layout={"fixed"}
               />
               <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
@@ -441,7 +493,7 @@ const Hero = () => {
 
 
         </div>
-        <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-evenly items-center w-[90%] mx-auto py-10 ">
+        {/* <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-evenly items-center w-[90%] mx-auto py-10 ">
           <div className="md:w-[50%] md:mx-auto md:px-4 scale-100 md:scale-100">
             <div className="">
               <Image
@@ -465,11 +517,11 @@ const Hero = () => {
               you’ve come to the right place.
             </span>
           </h1>
-        </div>
+        </div> */}
         <div className="grid md:grid-cols-2 gap-4 py-5 ">
           <div className="flex flex-col">
             <h1 className="text-[24px] font-bold text-[#ECF7FD]  text-center pt-6">
-              NFT UTILITIES - TRAVEL 2 EARN
+              NFT UTILITIES
             </h1>
             <div className="grid grid-cols-1  gap-4 pt-4">
               <div
@@ -498,21 +550,8 @@ const Hero = () => {
                   Profits Added to <br /> DAO treasury. <br /> Holders Rewarded
                 </h1>
               </div>
-              <div
-                className={`flex flex-row-reverse justify-between items-center px-2  `}
-              >
-                <Image
-                  src="/icons/3d/coin_stack2.png"
-                  alt="tag"
-                  height={140}
-                  width={165}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[24px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center py-2 -mr-14">
-                  Seed Tokens <br /> Allocation
-                </h1>
-              </div>
-              <div className={`flex  justify-between items-center px-2  `}>
+
+              <div className={`flex flex-row-reverse  justify-between items-center px-2  `}>
                 <Image
                   src="/icons/3d/money_bag2.png"
                   alt="tag"
@@ -522,6 +561,18 @@ const Hero = () => {
                 />
                 <h1 className="text-[24px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
                   Cashback Travel <br /> Rewards
+                </h1>
+              </div>
+              <div className={`flex  justify-between items-center px-2  `}>
+                <Image
+                  src="/icons/group.png"
+                  alt="tag"
+                  height={140}
+                  width={180}
+                  layout={"fixed"}
+                />
+                <h1 className="text-[24px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
+                  Access to Huge IRL <br /> DAO Events
                 </h1>
               </div>
             </div>
@@ -550,7 +601,7 @@ const Hero = () => {
             </button>
           </Link>
         </div>
-        <div className="flex flex-col items-center justify-center pt-8">
+        {/* <div className="flex flex-col items-center justify-center pt-8">
           <h1 className="text-3xl text-[#ECF7FD] font-bold w-[70%] mx-auto pb-4 text-center ">
             HOW IT WORKS{" "}
           </h1>
@@ -570,7 +621,7 @@ const Hero = () => {
               height={750}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
