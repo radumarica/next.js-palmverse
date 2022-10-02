@@ -51,18 +51,34 @@ const Hero = () => {
             </h1>
           </div>
 
-          <p className=" hidden md:flex text-[28px]  md:text-[30px] leading-9 text-center pb-10 pt-5 px-4 md:w-[70rem] text-[#ECF7FD]  ">
-            Palmverse builds technologies that help people connect IRL,{" "}
-            <br className="md:hidden" /> join communities,
-            <br className="hidden md:block" /> and bridge the web2 travel
-            experience to web3.
-          </p>
-
+          <div className="w-screen overflow-x-auto flex flex-col items-center justify-center ">
+            <p className="md:text-[40px]  text-[18px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
+              {"Welcome to the future of hospitality"
+                .split(" ")
+                .map((word, index) => (
+                  <span key={index}>{`${word} `}</span>
+                ))}
+            </p>
+            <p className="md:text-[22px] pt-3 pb-8 text-[22px] text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
+              {"We make it easy to book your next trip directly from your web3 wallet."
+                .split(" ")
+                .map((word, index) => (
+                  <span key={index}>{`${word} `}</span>
+                ))}
+            </p>
+          </div>
 
 
           <div className="w-screen overflow-x-auto md:hidden">
-            <p className="md:text-[32px]  text-[22px] text-center py-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
-              {"Palmverse builds technologies that help people connect IRL join communities, and bridge the web2 travel experience to web4."
+            <p className="md:text-[40px]  text-[18px] text-center py-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
+              {"Welcome to the future of hospitality"
+                .split(" ")
+                .map((word, index) => (
+                  <span key={index}>{`${word} `}.</span>
+                ))}
+            </p>
+            <p className="md:text-[32px]  text-[22px] text-center py-10 font-semibold md:w-9/12 text-[#ECF7FD]  ">
+              {"We make it easy to book your next trip directly from your web3 wallet."
                 .split(" ")
                 .map((word, index) => (
                   <span key={index}>{`${word} `}.</span>
@@ -116,7 +132,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col pt-12  items-center justift-center">
+            <div className="flex flex-col pt-14  items-center justift-center">
               <Image
                 src="/icons/group.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
@@ -131,7 +147,7 @@ const Hero = () => {
                 Verify NFT ownership to apply <br /> discounts
               </p>
             </div>
-            <div className="flex flex-col items-center justift-center">
+            <div className="flex flex-col pt-14  items-center justift-center">
               <Image
                 src="/icons/3d/agreement2.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
@@ -139,14 +155,14 @@ const Hero = () => {
                 width={156}
                 layout={"fixed"}
               />
-              <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+              <h1 className="text-2xl text-[#ECF7FD]  font-bold  md:w-full text-center py-2">
                 Escrow Guarantee
               </h1>
               <p className="text-lg text-center">
                 Smart Contracts based escrow which <br /> cant be manipulated in any way.
               </p>
             </div>
-            <div className="flex flex-col items-center justift-center">
+            <div className="flex flex-col pt-14  items-center justift-center">
               <Image
                 src="/icons/3d/agreement2.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
