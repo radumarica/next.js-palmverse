@@ -25,9 +25,9 @@ const Homepage = () => {
             onContextMenu={false}
           />) : (
           <video
-            src="/videos/web3_mobile_1.mp4"
             loop
             autoPlay
+            src="/videos/web3_mobile_1.mp4"
             muted
             onContextMenu={false}
             className="md:h-[90vh] object-cover  w-full "
