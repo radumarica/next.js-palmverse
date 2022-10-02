@@ -26,7 +26,7 @@ const Hero = () => {
         <div className=" flex flex-col items-center">
           <strong className="md:text-[46px] text-[28px] font-bold  text-[#ECF7FD] ">
             <Typewriter
-              words={['HOTELS/HOSTELS/RESORTS', 'PAY WITH A Web3 WALLET']}
+              words={['Hotels/Hostels/Resorts', 'Pay With A Web3 Wallet']}
               loop={Infinity}
               cursor
               cursorStyle='|'
