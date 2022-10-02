@@ -24,7 +24,7 @@ const Hero = () => {
     <section className="w-full flex flex-col items-center bg-dark_bg text-white px-5 pt-5 pb-16 font-exo">
       <div className="hidden md:block">
         <div className=" flex flex-col items-center">
-          <strong className="md:text-[46px] text-[28px] font-bold  text-[#ECF7FD] ">
+          <strong className="md:text-[46px] text-[28px] py-4 font-bold  text-[#ECF7FD] ">
             Book
             <Typewriter
               words={[' Hotels', ' Hostels', ' Resorts']}
