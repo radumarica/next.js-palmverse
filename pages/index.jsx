@@ -15,9 +15,9 @@ const Homepage = () => {
       {
         mobilescreen < 768 ? (
           <video
-            src="/videos/web3_desktop.mp4"
             loop
             autoPlay
+            src="/videos/web3_mobile_1.mp4"
             muted
             playsInline
             preload='true'
@@ -27,7 +27,7 @@ const Homepage = () => {
           <video
             loop
             autoPlay
-            src="/videos/web3_mobile_1.mp4"
+            src="/videos/web3_desktop.mp4"
             muted
             onContextMenu={false}
             className="md:h-[90vh] object-cover  w-full "
