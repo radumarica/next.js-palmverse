@@ -25,7 +25,7 @@ const Homepage = () => {
             onContextMenu={false}
           />) : (
           <video
-            src="/videos/home3.mp4"
+            src="/videos/Web3_Booking_Website.mp4"
             loop
             autoPlay
             muted
