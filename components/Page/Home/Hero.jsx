@@ -36,12 +36,29 @@ const Hero = () => {
               delaySpeed={1000}
             /> - Pay With Web3 Wallet
           </strong>
+
+          <div className="flex flex-col justify-end items-center py-4 md:py-0">
+            <div className=" mt-16  md:scale-125">
+              <Image
+                src="/images/laptop.png"
+                alt="laptop palverse"
+                width={550}
+                height={370}
+              />
+            </div>
+            <h1 className="text-[26px] font-bold text-center pt-6  text-[#ECF7FD]">
+              BETA VERSION IS <span className="text-green_text" >LIVE</span>
+            </h1>
+          </div>
+
           <p className=" hidden md:flex text-[28px]  md:text-[30px] leading-9 text-center pb-10 pt-5 px-4 md:w-[70rem] text-[#ECF7FD]  ">
             Palmverse builds technologies that help people connect IRL,{" "}
             <br className="md:hidden" /> join communities,
             <br className="hidden md:block" /> and bridge the web2 travel
             experience to web3.
           </p>
+
+
 
           <div className="w-screen overflow-x-auto md:hidden">
             <p className="md:text-[32px]  text-[22px] text-center py-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
@@ -93,19 +110,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-end items-center py-4 md:py-0">
-          <div className=" mt-16  md:scale-125">
-            <Image
-              src="/images/laptop.png"
-              alt="laptop palverse"
-              width={550}
-              height={370}
-            />
-          </div>
-          <h1 className="text-[26px] font-bold text-center pt-6  text-[#ECF7FD]">
-            BETA VERSION IS <span className="text-green_text" >LIVE</span>
-          </h1>
-        </div>
+
         <div className="flex flex-col md:flex-row space-y-10 md:w-[92rem]  md:space-y-0 justify-evenly items-center w-[90%] mx-auto pt-10">
           <div className="   scale-75 md:scale-100">
             <Image
@@ -248,13 +253,26 @@ const Hero = () => {
             <br className="md:hidden" /> join communities, and bridge the web2
             travel experience to web3.
           </p>
-
+          <div className=" mt-5  md:mt-0 md:scale-100">
+            <Image
+              src="/images/laptop.png"
+              alt="laptop palverse"
+              width={550}
+              height={370}
+            />
+          </div>
+          <div className="bg-[#ECF7FD] text-black py-2 w-screen my-2">
+            <h1 className="text-[26px] font-bold text-center ">
+              BETA VERSION IS <span className="text-green_text" >LIVE</span>
+            </h1>
+          </div>
           <div className="w-[90%] overflow-x-auto md:hidden">
             <p className="md:text-[32px]  text-[22px] text-center pb-10 pt-4  leading-7 font-light md:w-9/12 text-[#ECF7FD]  ">
               Palmverse builds technologies that help people connect IRL, join
               communities, and bridge the web2 travel experience to web3.
             </p>
           </div>
+
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 justify-evenly items-center md:py-5">
             <div className="flex flex-col justify-center items-center">
               <Image
@@ -319,19 +337,6 @@ const Hero = () => {
             <span className="underline underline-offset-4">
               you’ve come to the right place.
             </span>
-          </h1>
-        </div>
-        <div className="   md:mt-0 md:scale-100">
-          <Image
-            src="/images/laptop.png"
-            alt="laptop palverse"
-            width={550}
-            height={370}
-          />
-        </div>
-        <div className="bg-[#ECF7FD] text-black py-2 my-2">
-          <h1 className="text-[28px] leading-7 font-bold  text-center ">
-            BETA BOOKING PLATFORM
           </h1>
         </div>
         <div className="grid md:grid-cols-2 gap-4 py-5 ">
