@@ -69,45 +69,99 @@ const Hero = () => {
                 ))}
             </p>
           </div>
-          <div className="flex md:w-[80rem] flex-col md:flex-row space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto">
-            <div className="flex flex-col items-center">
+          <div className="grid grid-cols-2  md:w-[80rem] md:grid md:grid-cols-3 md:gap-6 space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto">
+            <div className="flex flex-col items-center justift-center">
               <Image
-                src="/icons/hotel.png"
+                src="/icons/3d/agreement2.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
                 height={156}
                 width={156}
                 layout={"fixed"}
               />
               <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                PHYSICAL NFT <br /> HOTEL & HOSTEL
+                Zero Payment Fees
               </h1>
+              <p className="text-lg text-center">
+                Cost of online oayment reduced to 0
+              </p>
             </div>
-            <div className="flex justify-evenly w-screen md:w-auto md:space-x-20 items-start px-4 ">
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/icons/pay.png"
-                  alt="PHYSICAL NFTHOTEL & HOSTEL"
-                  height={156}
-                  width={156}
-                  layout={"fixed"}
-                />
-                <h1 className="text-2xl text-[#ECF7FD] font-bold md:w-full text-center py-2">
-                  CRYPTO <br /> BOOKING PLATFORM
-                </h1>
-              </div>
-              <div className="flex flex-col items-center pl-8 xl:pl-[50px]">
-                <Image
-                  src="/icons/group.png"
-                  alt="PHYSICAL NFTHOTEL & HOSTEL"
-                  height={156}
-                  width={156}
-                  layout={"fixed"}
-                />
-                <h1 className="text-2xl text-[#ECF7FD] font-bold md:w-full text-center py-2">
-                  NFTS AS MEMBERSHIP <br /> DAO ACCESS
-                </h1>
-              </div>
+            <div className="flex flex-col items-center justift-center">
+              <Image
+                src="/icons/pay.png"
+                alt="PHYSICAL NFT HOTEL & HOSTEL"
+                height={156}
+                width={156}
+                layout={"fixed"}
+              />
+              <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                No Log-ins
+              </h1>
+              <p className="text-lg text-center">
+                Pay with a Web3 wallet. No sign-ups
+              </p>
             </div>
+            <div className="flex flex-col items-center justift-center">
+              <Image
+                src="/icons/3d/money_bag2.png"
+                alt="PHYSICAL NFT HOTEL & HOSTEL"
+                height={156}
+                width={156}
+                layout={"fixed"}
+              />
+              <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                Cashback Travel Rewards
+              </h1>
+              <p className="text-lg text-center">
+                Earn rewards while travelling
+              </p>
+            </div>
+
+            <div className="flex flex-col pt-12  items-center justift-center">
+              <Image
+                src="/icons/group.png"
+                alt="PHYSICAL NFT HOTEL & HOSTEL"
+                height={156}
+                width={156}
+                layout={"fixed"}
+              />
+              <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                NFTs As Memebership
+              </h1>
+              <p className="text-lg text-center">
+                Verify NFT ownership to apply <br /> discounts
+              </p>
+            </div>
+            <div className="flex flex-col items-center justift-center">
+              <Image
+                src="/icons/3d/agreement2.png"
+                alt="PHYSICAL NFT HOTEL & HOSTEL"
+                height={156}
+                width={156}
+                layout={"fixed"}
+              />
+              <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                Escrow Guarantee
+              </h1>
+              <p className="text-lg text-center">
+                Smart Contracts based escrow which <br /> can't be manipulated in any way.
+              </p>
+            </div>
+            <div className="flex flex-col items-center justift-center">
+              <Image
+                src="/icons/3d/agreement2.png"
+                alt="PHYSICAL NFT HOTEL & HOSTEL"
+                height={156}
+                width={156}
+                layout={"fixed"}
+              />
+              <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                Transparency
+              </h1>
+              <p className="text-lg text-center">
+                Automated dispute system and <br /> reputation stored on the blockchain
+              </p>
+            </div>
+
           </div>
         </div>
 
@@ -138,7 +192,7 @@ const Hero = () => {
             </h1>
           </div>
         </div>
-        <div className="grid md:grid-cols-2 gap-4 py-5 md:w-[84rem] md:mx-auto ">
+        <div className="grid place-items-center gap-4 py-5 md:w-[84rem] md:mx-auto ">
           <div className="flex flex-col">
             <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-10">
               NFT UTILITIES - TRAVEL 2 EARN
@@ -165,7 +219,7 @@ const Hero = () => {
                   layout={"fixed"}
                 />
                 <h1 className="md:text-[26px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium  text-center py-2">
-                  Profits Added to DAO treasury. Holders Rewarded
+                  Profits Added to DAO treasury. <br /> Holders Rewarded
                 </h1>
               </div>
               <div className="flex flex-col items-center">
@@ -273,46 +327,103 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 justify-evenly items-center md:py-5">
-            <div className="flex flex-col justify-center items-center">
+
+          <div className="grid grid-cols-2 gap-4  md:w-[80rem] md:grid md:grid-cols-3 md:gap-6 space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto">
+            <div className="flex flex-col items-center justify-start">
               <Image
-                src="/icons/hotel.png"
+                src="/icons/3d/agreement2.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={130}
-                width={130}
+                height={156}
+                width={156}
                 layout={"fixed"}
               />
-              <h1 className="text-[18px] pl-1 leading-5 text-[#ECF7FD] font-bold  md:w-full text-center py-">
-                PHYSICAL NFT <br /> HOTEL & HOSTEL
+              <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                Zero Payment Fees
               </h1>
+              <p className=" text-center">
+                Cost of online oayment reduced to 0
+              </p>
             </div>
-            <div className="flex justify-evenly w-screen md:w-auto md:space-x-20 items-start  ">
-              <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/icons/pay.png"
-                  alt="PHYSICAL NFTHOTEL & HOSTEL"
-                  height={130}
-                  width={130}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[18px] pl-1 leading-5 text-[#ECF7FD] font-bold md:w-full text-center py-">
-                  CRYPTO <br /> BOOKING <br /> PLATFORM
-                </h1>
-              </div>
-              <div className="flex flex-col justify-center items-center">
-                <Image
-                  src="/icons/group.png"
-                  alt="PHYSICAL NFTHOTEL & HOSTEL"
-                  height={130}
-                  width={130}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[18px] pl-1 leading-5 text-[#ECF7FD] font-bold md:w-full text-center py-">
-                  NFTS AS <br /> MEMBERSHIP <br /> DAO ACCESS
-                </h1>
-              </div>
+            <div className="flex flex-col items-center justify-start">
+              <Image
+                src="/icons/pay.png"
+                alt="PHYSICAL NFT HOTEL & HOSTEL"
+                height={156}
+                width={156}
+                layout={"fixed"}
+              />
+              <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                No Log-ins
+              </h1>
+              <p className=" text-center">
+                Pay with a Web3 wallet. No sign-ups
+              </p>
             </div>
+            <div className="flex flex-col items-center justify-start">
+              <Image
+                src="/icons/3d/money_bag2.png"
+                alt="PHYSICAL NFT HOTEL & HOSTEL"
+                height={156}
+                width={156}
+                layout={"fixed"}
+              />
+              <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                Cashback Travel Rewards
+              </h1>
+              <p className=" text-center">
+                Earn rewards while travelling
+              </p>
+            </div>
+
+            <div className="flex flex-col pt-12  items-center justify-start">
+              <Image
+                src="/icons/group.png"
+                alt="PHYSICAL NFT HOTEL & HOSTEL"
+                height={156}
+                width={156}
+                layout={"fixed"}
+              />
+              <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                NFTs As Memebership
+              </h1>
+              <p className=" text-center">
+                Verify NFT ownership to apply <br /> discounts
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-start">
+              <Image
+                src="/icons/3d/agreement2.png"
+                alt="PHYSICAL NFT HOTEL & HOSTEL"
+                height={156}
+                width={156}
+                layout={"fixed"}
+              />
+              <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                Escrow Guarantee
+              </h1>
+              <p className=" text-center">
+                Smart Contracts based escrow which <br /> can't be manipulated in any way.
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-start">
+              <Image
+                src="/icons/3d/agreement2.png"
+                alt="PHYSICAL NFT HOTEL & HOSTEL"
+                height={156}
+                width={156}
+                layout={"fixed"}
+              />
+              <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+                Transparency
+              </h1>
+              <p className=" text-center">
+                Automated dispute system and <br /> reputation stored on the blockchain
+              </p>
+            </div>
+
           </div>
+
+
         </div>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-evenly items-center w-[90%] mx-auto py-10 ">
           <div className="md:w-[50%] md:mx-auto md:px-4 scale-100 md:scale-100">
