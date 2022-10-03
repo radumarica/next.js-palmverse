@@ -452,7 +452,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col pt-6  items-center justify-start">
+            <div className="flex flex-col  items-center justify-start">
               <Image
                 src="/bland/4.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
@@ -467,7 +467,7 @@ const Hero = () => {
                 Verify NFT ownership to apply discounts
               </p>
             </div>
-            <div className="flex flex-col -mb-12 items-center justify-start">
+            <div className="flex flex-col -mb-2 items-center justify-start">
               <Image
                 src="/bland/5.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
@@ -631,7 +631,7 @@ const Hero = () => {
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">
-                  % of Net Revenue Added <br /> to DAO treasury. <br /> 
+                  % of Net Revenue Added <br /> to DAO treasury. <br />
                 </h1>
               </div>
 
@@ -666,9 +666,9 @@ const Hero = () => {
           <h1 className="text-[14px] leading-7 font-light md:w-[70%]  mx-auto text-center text-[#ECF7FD] relative ">
             {" "}
             <div className="absolute z-50 -top-4 left-2 lg:left-0"></div>
-              <strong>1st NFT Hotel & Hostel Chain - Extra Benefits for <br /> the NFT Holders{" "}</strong>
-              <br />First Property was rented in Tamarindo, Costa Rica
-              which will be the Web3 IRL DAO hub for amazing events.
+            <strong>1st NFT Hotel & Hostel Chain - Extra Benefits for <br /> the NFT Holders{" "}</strong>
+            <br />First Property was rented in Tamarindo, Costa Rica
+            which will be the Web3 IRL DAO hub for amazing events.
           </h1>
           <div className=" py-4 ">
             <Image
