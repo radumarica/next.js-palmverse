@@ -624,22 +624,9 @@ const Hero = () => {
                 </h1>
               </div>
 
-              <div
-                className={`flex  justify-between items-center px-2  `}
-              >
-                <Image
-                  src="/icons/3d/discount2.png"
-                  alt="tag"
-                  height={100}
-                  width={120}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]   w-[90%] text-center py-2">
-                  Up to 25% Discounts <br /> for Rooms{" "}
-                </h1>
-              </div>
 
-              <div className={`flex flex-row-reverse  justify-between items-center px-2  `}>
+
+              <div className={`flex  justify-between items-center px-2  `}>
                 <Image
                   src="/icons/3d/money_bag2.png"
                   alt="tag"
@@ -649,6 +636,21 @@ const Hero = () => {
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
                   Cashback Travel <br /> Rewards
+                </h1>
+              </div>
+
+              <div
+                className={`flex flex-row-reverse  justify-between items-center px-2  `}
+              >
+                <Image
+                  src="/icons/3d/discount2.png"
+                  alt="tag"
+                  height={100}
+                  width={120}
+                  layout={"fixed"}
+                />
+                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]   w-[90%] text-center py-2">
+                  Up to 25% Discounts <br /> for Palmverse Rooms{" "}
                 </h1>
               </div>
               <div className={`flex  justify-between items-center px-2  `}>
@@ -670,8 +672,8 @@ const Hero = () => {
           <h1 className="text-[14px] leading-7 font-light md:w-[70%]  mx-auto text-center text-[#ECF7FD] relative ">
             {" "}
             <div className="absolute z-50 -top-4 left-2 lg:left-0"></div>
-            <strong>1st NFT Hotel & Hostel Chain - Extra Benefits for <br /> the NFT Holders{" "}</strong>
-            <br /><p className="mt-3 text-xl">
+            <strong className="text-[20px] font-bold text-[#ECF7FD]">1st NFT Hotel & Hostel Chain - Extra Benefits for  the NFT Holders{" "}</strong>
+            <br /><p className="mt-3 text-[16px] text-[#ECF7FD]">
               First Property was rented in Tamarindo, Costa Rica
               which will be the Web3 IRL DAO hub for amazing events.
             </p>
