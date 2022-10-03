@@ -28,12 +28,13 @@ const FirstLocation = () => {
             </div>
 
             <div className="pt-10">
-                <div className="relative  mx-auto bg-transparent text-[#ECF7FD] md:bg-[#ECF7FD] md:text-black w-screen md:w-full md:py-2">
+                <div className="relative  mx-auto bg-[#ECF7FD] text-black py-1 w-screen md:w-full md:py-2">
 
                     <h1 className="md:text-4xl text-[28px]  font-bold  text-center leading-9 ">1st NFT Hotel & Hostel in Costa Rica- Accepting On-Chain crypto payments. </h1>
-                    <p className="md:text-2xl text-[18px]  font-semibold   text-center leading-9 ">Extra Benefits for the NFT Holders  </p>
+                    <p className="md:text-2xl text-[18px]  font-semibold  hidden md:block text-center leading-9 ">Extra Benefits for the NFT Holders  </p>
 
                 </div>
+                <p className="md:text-2xl text-[18px]  font-semibold md:hidden   text-center leading-9 ">Extra Benefits for the NFT Holders  </p>
 
                 <div className="md:w-[80rem] mx-auto " >
                     <li className="text-[18px] leading-[22px] font-medium list-item py-2 mt-4  px-3">Pilot Project to prove the concept for onboarding hotels on the Web3 booking platform. </li>
