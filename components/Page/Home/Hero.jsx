@@ -260,22 +260,10 @@ const Hero = () => {
 
         <div className="grid place-items-center gap-4 py-5 md:w-[84rem] md:mx-auto ">
           <div className="flex flex-col">
-            <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center py-10">
+            <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center pt-10 pb-5">
               NFT UTILITIES
             </h1>
             <div className="grid grid-cols-4 gap-4 py-4">
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/icons/3d/discount2.png"
-                  alt="tag"
-                  height={130}
-                  width={130}
-                  layout={"fixed"}
-                />
-                <h1 className="md:text-[24px] text-[20px leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">
-                  Up to 25% Discounts <br /> for Rooms{" "}
-                </h1>
-              </div>
               <div className="flex flex-col items-center">
                 <Image
                   src="/icons/3d/save_money3.png"
@@ -284,7 +272,7 @@ const Hero = () => {
                   width={130}
                   layout={"fixed"}
                 />
-                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium  text-center py-2">
+                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium  text-center py-4">
                   % of Net Revenue Added to DAO Treasury
                 </h1>
               </div>
@@ -297,10 +285,24 @@ const Hero = () => {
                   width={130}
                   layout={"fixed"}
                 />
-                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">
+                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
                   Cashback Travel <br /> Rewards
                 </h1>
               </div>
+              <div className="flex flex-col items-center">
+                <Image
+                  src="/icons/3d/discount2.png"
+                  alt="tag"
+                  height={130}
+                  width={130}
+                  layout={"fixed"}
+                />
+                <h1 className="md:text-[24px] text-[20px leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
+                  Up to 25% Discounts <br /> for Rooms{" "}
+                </h1>
+              </div>
+
+
               <div className="flex flex-col items-center">
                 <Image
                   src="/icons/group.png"
@@ -309,7 +311,7 @@ const Hero = () => {
                   width={130}
                   layout={"fixed"}
                 />
-                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-2">
+                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
                   Access to Huge IRL <br /> DAO Events
                 </h1>
               </div>
@@ -318,12 +320,12 @@ const Hero = () => {
           </div>
 
         </div>
-        <div className="flex flex-col items-center justify-center pb-10 pt-4  space-y-10 md:space-y-0">
+        <div className="flex flex-col items-center justify-center pb-10 mt-10  space-y-10 md:space-y-0">
           <div className="text-3xl relative  md:w-[60%] mx-auto text-center text-[#ECF7FD] pb-4 ">
             <p>
               <strong>1st NFT Hotel & Hostel Chain - Extra Benefits for the NFT Holders{" "} </strong>
             </p>
-            <p>
+            <p className="mt-3 text-xl">
               First Property was rented in Tamarindo, Costa Rica
               which will be the Web3 IRL DAO hub for amazing events.
             </p>
@@ -667,8 +669,10 @@ const Hero = () => {
             {" "}
             <div className="absolute z-50 -top-4 left-2 lg:left-0"></div>
             <strong>1st NFT Hotel & Hostel Chain - Extra Benefits for <br /> the NFT Holders{" "}</strong>
-            <br />First Property was rented in Tamarindo, Costa Rica
-            which will be the Web3 IRL DAO hub for amazing events.
+            <br /><p className="mt-3 text-xl">
+              First Property was rented in Tamarindo, Costa Rica
+              which will be the Web3 IRL DAO hub for amazing events.
+            </p>
           </h1>
           <div className=" py-4 ">
             <Image
