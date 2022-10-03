@@ -615,7 +615,7 @@ const Hero = () => {
                   src="/icons/3d/discount2.png"
                   alt="tag"
                   height={100}
-                  width={140}
+                  width={120}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]   w-[90%] text-center py-2">
@@ -627,11 +627,11 @@ const Hero = () => {
                   src="/icons/3d/save_money3.png"
                   alt="tag"
                   height={100}
-                  width={140}
+                  width={120}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">
-                  % of Net Revenue Added to <br /> DAO treasury. <br /> 
+                  % of Net Revenue Added <br /> to DAO treasury. <br /> 
                 </h1>
               </div>
 
@@ -652,7 +652,7 @@ const Hero = () => {
                   src="/icons/group.png"
                   alt="tag"
                   height={100}
-                  width={140}
+                  width={120}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
