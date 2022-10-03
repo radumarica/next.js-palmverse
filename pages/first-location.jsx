@@ -40,7 +40,7 @@ const FirstLocation = () => {
                     <li className="text-[18px] leading-[22px] font-medium list-item py-2 mt-4  px-3">Pilot Project to prove the concept for onboarding hotels on the Web3 booking platform. </li>
                     <li className="text-[18px] leading-[22px] font-medium list-item py-2  px-3">First Palmverse Hotel was rented in Tamarindo- Costa Rica, a surf paradise about 41 miles from Liberia International Airport.</li>
                     <li className="text-[18px] leading-[22px] font-medium list-item py-2  px-3">After a quick refurbishment, the hotel will be open shortly after the mint. </li>
-                    <li className="text-[18px] leading-[22px] font-medium list-item py-2  px-3">Will have approx. 17 rooms (private and shared) with co-working space, a pool, and a bar</li>
+                    <li className="text-[18px] leading-[22px] font-medium list-item py-2  px-3">Will have approx 60 guests capacity (private and shared) with co-working space, a pool, and a bar</li>
                     <li className="text-[18px] leading-[22px] font-medium list-item py-2  px-3">Up to 25% discount for holders to book rooms inside Palmverse Costa Rica. </li>
                     <li className="text-[18px] leading-[22px] font-medium list-item py-2 mb-4  px-3">Web3 IRL DAO hub for amazing events.</li>
 
