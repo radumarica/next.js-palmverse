@@ -19,7 +19,7 @@ const WhoWeAre = () => (
           That was the beginning of the Palmverse project.
         </h1>
       </li> */}
-      <ul className="pb-10 pt-2 px-4 md:pl-8 flex flex-col justify-start space-y-2 md:w-[69.5rem] mx-auto  ">
+      {/* <ul className="pb-10 pt-2 px-4 md:pl-8 flex flex-col justify-start space-y-2 md:w-[69.5rem] mx-auto  ">
         <div className="relative">
           <li className="text-[18px] leading-[19px]">
             <h1 className="text-left   pt-4">
@@ -69,8 +69,8 @@ const WhoWeAre = () => (
             </a>
           </h1>
         </li>
-      </ul>
-      <div className="hidden md:block">
+      </ul> */}
+      <div className="hidden md:block mt-8">
 
 
         <h1 className="text-4xl text-center font-bold ">TEAM</h1>
