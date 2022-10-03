@@ -98,7 +98,7 @@ const Hero = () => {
                 Zero Payment Fees
               </h1>
               <p className="text-lg text-center">
-                Cost of online oayment reduced to 0
+                Cost of online payment reduced to 0
               </p>
             </div>
             <div className="flex flex-col items-center justift-center">
@@ -159,7 +159,7 @@ const Hero = () => {
                 Escrow Guarantee
               </h1>
               <p className="text-lg text-center">
-                Smart Contracts based escrow which <br /> cant be manipulated in any way.
+                Smart Contracts based escrow which <br /> can't be manipulated in any way.
               </p>
             </div>
             <div className="flex flex-col pt-14  items-center justift-center">
@@ -618,8 +618,8 @@ const Hero = () => {
                   width={180}
                   layout={"fixed"}
                 />
-                <h1 className="text-[24px] font-light leading-[24px] text-[#ECF7FD]   w-[90%] text-center py-2">
-                  Up to 30% Discounts <br /> for Rooms{" "}
+                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]   w-[90%] text-center py-2">
+                  Up to 25% Discounts <br /> for Rooms{" "}
                 </h1>
               </div>
               <div className={`flex  justify-between items-center px-2  `}>
@@ -630,8 +630,8 @@ const Hero = () => {
                   width={180}
                   layout={"fixed"}
                 />
-                <h1 className="text-[24px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">
-                  Profits Added to <br /> DAO treasury. <br /> Holders Rewarded
+                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">
+                  % of Net Revenue Added to <br /> DAO treasury. <br /> 
                 </h1>
               </div>
 
@@ -643,7 +643,7 @@ const Hero = () => {
                   width={180}
                   layout={"fixed"}
                 />
-                <h1 className="text-[24px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
+                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
                   Cashback Travel <br /> Rewards
                 </h1>
               </div>
@@ -655,7 +655,7 @@ const Hero = () => {
                   width={180}
                   layout={"fixed"}
                 />
-                <h1 className="text-[24px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
+                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
                   Access to Huge IRL <br /> DAO Events
                 </h1>
               </div>
