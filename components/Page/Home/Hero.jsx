@@ -324,8 +324,11 @@ const Hero = () => {
               <Image src="/images/palm.png" alt="palm" height="45" width="35" />
             </div>
             <p>
-              We refurbish old buildings and leverage our unique property
-              conversion model to turn them into the Palmverse brand.{" "}
+              <strong>1st NFT Hotel & Hostel Chain - Extra Benefits for the NFT Holders{" "} </strong>
+            </p>
+            <p>
+              First Property was rented in Tamarindo, Costa Rica
+              which will be the Web3 IRL DAO hub for amazing events.
             </p>
           </div>
           <div className="scale-110 md:scale-y-110 md:scale-x-125 md:pt-10">
