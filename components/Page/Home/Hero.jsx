@@ -324,9 +324,10 @@ const Hero = () => {
               <Image src="/images/palm.png" alt="palm" height="45" width="35" />
             </div>
             <p>
-              <strong>1st NFT Hotel & Hostel Chain - Extra Benefits for the NFT Holders{" "} </strong>
+              <strong>   1st NFT Hotel & Hostel Chain - Extra Benefits for the NFT Holders{" "} </strong>
             </p>
             <p>
+              
               First Property was rented in Tamarindo, Costa Rica
               which will be the Web3 IRL DAO hub for amazing events.
             </p>
