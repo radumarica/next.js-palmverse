@@ -10,16 +10,15 @@ const WhoWeAre = () => (
     <section className="pb-10  bg-dark_bg text-white flex flex-col justify-center  font-exo">
       <div className="w-full bg-[#ECF7FD]">
 
-        <h1 className="md:text-4xl text-[24px] leading-7 font-bold md:w-[54rem] text-black py-2  text-center mx-auto ">
-          Shaping Palmverse: Building an NFT Community-Based Hotel & Hostel Chain
-          From Scratch{" "}
+        <h1 className="md:text-4xl text-[24px] leading-7 font-bold md:w-[54rem] text-black py-3  text-center mx-auto ">
+          Building the first Web 3 Hotel Booking platform!
         </h1>
       </div>
-      <li className="text-[21px] md:text-3xl font-bold leading-[28px] mt-4  flex justify-center mr-4   ">
+      {/* <li className="text-[21px] md:text-3xl font-bold leading-[28px] mt-4  flex justify-center mr-4   ">
         <h1 className="text-left pl-4">
-          Why don’t we make an NFT project with real-life utilities?
+          That was the beginning of the Palmverse project.
         </h1>
-      </li>
+      </li> */}
       <ul className="pb-10 pt-2 px-4 md:pl-8 flex flex-col justify-start space-y-2 md:w-[69.5rem] mx-auto  ">
         <div className="relative">
           <li className="text-[18px] leading-[19px]">
