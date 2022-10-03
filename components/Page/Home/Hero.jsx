@@ -320,14 +320,10 @@ const Hero = () => {
         </div>
         <div className="flex flex-col items-center justify-center pb-10 pt-4  space-y-10 md:space-y-0">
           <div className="text-3xl relative  md:w-[60%] mx-auto text-center text-[#ECF7FD] pb-4 ">
-            <div className="absolute z-50 -top-3 -left-2 lg:left-0">
-              <Image src="/images/palm.png" alt="palm" height="45" width="35" />
-            </div>
             <p>
-              <strong>   1st NFT Hotel & Hostel Chain - Extra Benefits for the NFT Holders{" "} </strong>
+              <strong>1st NFT Hotel & Hostel Chain - Extra Benefits for the NFT Holders{" "} </strong>
             </p>
             <p>
-              
               First Property was rented in Tamarindo, Costa Rica
               which will be the Web3 IRL DAO hub for amazing events.
             </p>
@@ -667,11 +663,12 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex w-screen pt-4  flex-col items-center justify-center   space-y-6 md:space-y-0">
-          <h1 className="text-[22px] leading-7 font-light md:w-[70%]  mx-auto text-center text-[#ECF7FD] relative ">
+          <h1 className="text-[14px] leading-7 font-light md:w-[70%]  mx-auto text-center text-[#ECF7FD] relative ">
             {" "}
-            <div className="absolute z-50 -top-4 left-2 lg:left-0"></div>We
-            refurbish old buildings and leverage our unique property conversion
-            model to turn them <br /> into the Palmverse brand.{" "}
+            <div className="absolute z-50 -top-4 left-2 lg:left-0"></div>
+              <strong>1st NFT Hotel & Hostel Chain - Extra Benefits for the NFT Holders{" "}</strong>
+              <br />First Property was rented in Tamarindo, Costa Rica
+              which will be the Web3 IRL DAO hub for amazing events.
           </h1>
           <div className=" py-4 ">
             <Image
