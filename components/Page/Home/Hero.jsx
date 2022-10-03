@@ -502,8 +502,8 @@ const Hero = () => {
 
           </div>
 
-          <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
-            <p className="md:text-[40px]  text-[20px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
+          <div className="w-screen overflow-x-auto flex flex-col items-center justify-center  ">
+            <p className="md:text-[40px]  text-[20px] text-center  font-bold md:w-9/12 text-[#ECF7FD]  ">
               We help properties access new <br /> Web3 customers  & communities
             </p>
             <p className="md:text-[22px] pt-3 pb-8 text-[16px] px-6 text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
@@ -610,8 +610,22 @@ const Hero = () => {
               NFT UTILITIES
             </h1>
             <div className="grid grid-cols-1  gap-4 pt-4">
+
+              <div className={`flex flex-row-reverse  justify-between items-center px-2  `}>
+                <Image
+                  src="/icons/3d/save_money3.png"
+                  alt="tag"
+                  height={100}
+                  width={120}
+                  layout={"fixed"}
+                />
+                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">
+                  % of Net Revenue Added <br /> to DAO treasury. <br />
+                </h1>
+              </div>
+
               <div
-                className={`flex flex-row-reverse justify-between items-center px-2  `}
+                className={`flex  justify-between items-center px-2  `}
               >
                 <Image
                   src="/icons/3d/discount2.png"
@@ -622,18 +636,6 @@ const Hero = () => {
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]   w-[90%] text-center py-2">
                   Up to 25% Discounts <br /> for Rooms{" "}
-                </h1>
-              </div>
-              <div className={`flex  justify-between items-center px-2  `}>
-                <Image
-                  src="/icons/3d/save_money3.png"
-                  alt="tag"
-                  height={100}
-                  width={120}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">
-                  % of Net Revenue Added <br /> to DAO treasury. <br />
                 </h1>
               </div>
 
