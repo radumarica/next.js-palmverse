@@ -614,8 +614,8 @@ const Hero = () => {
                 <Image
                   src="/icons/3d/discount2.png"
                   alt="tag"
-                  height={140}
-                  width={180}
+                  height={100}
+                  width={140}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]   w-[90%] text-center py-2">
@@ -626,8 +626,8 @@ const Hero = () => {
                 <Image
                   src="/icons/3d/save_money3.png"
                   alt="tag"
-                  height={140}
-                  width={180}
+                  height={100}
+                  width={140}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">
@@ -639,8 +639,8 @@ const Hero = () => {
                 <Image
                   src="/icons/3d/money_bag2.png"
                   alt="tag"
-                  height={140}
-                  width={180}
+                  height={100}
+                  width={140}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
@@ -651,8 +651,8 @@ const Hero = () => {
                 <Image
                   src="/icons/group.png"
                   alt="tag"
-                  height={140}
-                  width={180}
+                  height={100}
+                  width={140}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
