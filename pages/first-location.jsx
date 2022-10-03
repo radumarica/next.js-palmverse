@@ -16,7 +16,7 @@ const FirstLocation = () => {
                 <li className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left pt-4 list-item ">On-chain cryptocurrency payments. </li>
                 <li className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left pt-4 list-item ">We Onboard properties/hotels into web3 giving access to new customers.</li>
                 <li className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left pt-4 list-item ">Live Beta Booking platform with Solana pay integrated. Multi-chain coming soon.</li>
-                <li className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left pt-4 list-item ">Revolutionizing the hospitality industry -</li>
+                <li className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left pt-4 list-item ">Revolutionizing the hospitality industry</li>
                 <li className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left pt-4 list-item ">Boost D2C growth for hotel brands through NFT memberships.</li>
                 {/* <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left pt-4">Earn cashback rewards, in crypto, while traveling.</p>
                 <p className="text-[18px] leading-[21px] font-medium py-2 px-3 md:text-left pt-4">We Onboard hotels into web3 and access web3 customers. </p> */}
