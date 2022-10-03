@@ -408,7 +408,7 @@ const Hero = () => {
           </div>
 
           <div className="grid grid-cols-2   md:w-[80rem] md:grid md:grid-cols-3  gap-6 md:space-y-0 justify-evenly items-center  py-5 w-[80%] mx-auto">
-            <div className="flex flex-col items-center justify-start">
+            <div className="flex flex-col items-center justify-start h-[294px] ">
               <Image
                 src="/bland/1-.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
@@ -423,7 +423,7 @@ const Hero = () => {
                 Cost of online payment reduced to zero
               </p>
             </div>
-            <div className="flex flex-col items-center justify-start">
+            <div className="flex flex-col items-center justify-start h-[294px] ">
               <Image
                 src="/bland/2 (1).png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
@@ -438,7 +438,7 @@ const Hero = () => {
                 Pay with a Web3 wallet. <br /> No sign-ups
               </p>
             </div>
-            <div className="flex flex-col items-center justify-start">
+            <div className="flex flex-col items-center justify-start h-[294px] ">
               <Image
                 src="/bland/3 (1).png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
@@ -454,7 +454,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col  items-center justify-start">
+            <div className="flex flex-col  items-center justify-start h-[294px] ">
               <Image
                 src="/bland/4.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
@@ -469,7 +469,7 @@ const Hero = () => {
                 Verify NFT ownership to apply discounts
               </p>
             </div>
-            <div className="flex flex-col -mb-2 items-center justify-start">
+            <div className="flex flex-col items-center justify-start h-[350px]">
               <Image
                 src="/bland/5.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
@@ -484,7 +484,7 @@ const Hero = () => {
                 Smart Contracts based escrow which cant be manipulated in any way.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-start">
+            <div className="flex flex-col items-center justify-start h-[350px]">
               <Image
                 src="/bland/6.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
