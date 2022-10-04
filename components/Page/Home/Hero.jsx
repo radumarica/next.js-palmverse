@@ -661,7 +661,7 @@ const Hero = () => {
                   src="/icons/3d/money_bag2.png"
                   alt="tag"
                   height={100}
-                  width={120}
+                  width={110}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
@@ -689,7 +689,7 @@ const Hero = () => {
                   src="/icons/group.png"
                   alt="tag"
                   height={100}
-                  width={120}
+                  width={110}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
