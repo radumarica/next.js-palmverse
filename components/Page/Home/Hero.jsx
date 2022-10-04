@@ -701,7 +701,7 @@ const Hero = () => {
                   src="/icons/3d/coin_stack2.png"
                   alt="tag"
                   height={100}
-                  width={120}
+                  width={110}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
@@ -714,7 +714,7 @@ const Hero = () => {
                   src="/icons/3d/checklist_2.png"
                   alt="tag"
                   height={100}
-                  width={120}
+                  width={110}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
@@ -731,7 +731,7 @@ const Hero = () => {
             <strong className="text-[20px] font-bold text-[#ECF7FD]">1st NFT Hotel & Hostel Chain - Extra Benefits for  the NFT Holders{" "}</strong>
             <br /><p className="mt-3 text-[16px] text-[#ECF7FD]">
               First Property was rented in Tamarindo, Costa Rica
-              which will be the Web3 IRL DAO hub for amazing events. Up to 25% discounts for Palmverse Hotels.
+              which will be the Web3 IRL DAO hub for amazing events. Up to 25% discounts for Palmverse Hotels
             </p>
           </h1>
           <div className=" py-4 ">
