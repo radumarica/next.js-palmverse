@@ -267,7 +267,7 @@ const Roadmap = () => {
 
             <section style={{
                 backgroundImage: 'url(/images/roadmap/mobile-bg.jpg)',
-                height: '760px',
+                height: '780px',
                 backgroundSize: 'cover',
                 width: '100vw',
                 backgroundRepeat: 'no-repeat',
@@ -279,9 +279,9 @@ const Roadmap = () => {
                     backgroundImage: 'url(/images/roadmap/m.png)',
                     width: '100%',
                     margin: '4px auto 0 auto',
-                    backgroundSize: 'contain',
+                    backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center',
+                    backgroundPosition: 'bottom',
 
                 }} />
             </section>
