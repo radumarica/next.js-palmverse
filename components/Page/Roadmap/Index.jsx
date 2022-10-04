@@ -267,7 +267,7 @@ const Roadmap = () => {
 
             <section style={{
                 backgroundImage: 'url(/images/roadmap/mobile-bg.jpg)',
-                height: '850px',
+                height: '750px',
                 backgroundSize: 'cover',
                 width: '100vw',
                 backgroundRepeat: 'no-repeat',
@@ -276,9 +276,9 @@ const Roadmap = () => {
                 justifyContent: 'center',
             }} className="md:hidden" >
                 <div style={{
-                    backgroundImage: 'url(/images/roadmap/m-2.png)',
+                    backgroundImage: 'url(/images/roadmap/Mob-Palm.png)',
                     width: '100%',
-                    margin: '0 15px',
+                    margin: '0 auto',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center',
