@@ -19,8 +19,7 @@ const Faq = () => {
 
       <div className="max-w-4xl px-4 py-6 mx-auto">
 
-        <FaqAccordian title="Blockchains?" desc="NFTs on Solana.
-Booking platform will be multi-chain in the near future." />
+        <FaqAccordian title="Blockchains?" desc="Solana. Palmverse Booking Platform will be multi-chain in the near future." />
         <FaqAccordian title="Supply, price, date?" desc="Supply: TBA, Price:  TBA,  Date: TBA." />
         <FaqAccordian title="When will the Proof of Concept be ready?" desc="The Web3 Booking Platform will be live on mainnet and the 1st Palmverse Hotel & Hostel will be ready soon after the mint." />
 
