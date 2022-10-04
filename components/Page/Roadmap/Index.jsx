@@ -278,7 +278,7 @@ const Roadmap = () => {
                 <div style={{
                     backgroundImage: 'url(/images/roadmap/m-2.png)',
                     width: '100%',
-                    margin: '4px auto 0 auto',
+                    margin: '0 auto 0 auto',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center',
