@@ -646,7 +646,7 @@ const Hero = () => {
                   src="/icons/3d/save_money3.png"
                   alt="tag"
                   height={100}
-                  width={120}
+                  width={110}
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">
