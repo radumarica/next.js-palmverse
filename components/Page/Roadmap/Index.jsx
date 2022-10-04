@@ -267,20 +267,19 @@ const Roadmap = () => {
 
             <section style={{
                 backgroundImage: 'url(/images/roadmap/mobile-bg.jpg)',
-                minHeight: '120vh',
+                height: '760px',
                 backgroundSize: 'cover',
+                width: '100vw',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',
                 display: 'flex',
-                width: '100%',
                 justifyContent: 'center',
-                overflowX: 'auto',
             }} className="md:hidden" >
                 <div style={{
                     backgroundImage: 'url(/images/roadmap/m.png)',
-                    width: '95vw',
+                    width: '100%',
                     margin: '4px auto 0 auto',
-                    backgroundSize: 'cover',
+                    backgroundSize: 'contain',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center',
 
