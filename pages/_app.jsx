@@ -70,7 +70,7 @@ function MyApp({ Component, pageProps }) {
 
                             >
                               <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-xl text-center pt-4  text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                                1st Location
+                                Web3 Booking
                               </h3>
                             </Link>
                             <Link

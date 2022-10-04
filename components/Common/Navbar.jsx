@@ -94,7 +94,7 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
 
                             >
                                 <h3 className="hover:text-[#13D511] text-center text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                                    1st Location
+                                    Web3 Booking
                                 </h3>
                             </Link>
                             <Link
