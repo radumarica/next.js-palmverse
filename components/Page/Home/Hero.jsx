@@ -263,7 +263,7 @@ const Hero = () => {
             <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center pt-10 pb-5">
               NFT UTILITIES
             </h1>
-            <div className="grid grid-cols-4 gap-4 py-4">
+            <div className="grid grid-cols-4 gap-4  py-4">
               <div className="flex flex-col items-center">
                 <Image
                   src="/icons/3d/save_money3.png"
@@ -289,7 +289,7 @@ const Hero = () => {
                   Cashback Travel <br /> Rewards
                 </h1>
               </div>
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col items-center w-[350px]">
                 <Image
                   src="/icons/3d/discount2.png"
                   alt="tag"
@@ -298,7 +298,8 @@ const Hero = () => {
                   layout={"fixed"}
                 />
                 <h1 className="md:text-[24px] text-[20px leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
-                  Up to 25% Discounts <br /> for Rooms{" "}
+                  Discounted Rates at Any Hotel
+                  for $VPALM Payments
                 </h1>
               </div>
 
@@ -317,6 +318,35 @@ const Hero = () => {
               </div>
 
             </div>
+            <div className="flex justify-center " >
+
+              <div className="flex flex-col items-center w-80">
+                <Image
+                  src="/icons/3d/coin_stack2.png"
+                  alt="tag"
+                  height={130}
+                  width={130}
+                  layout={"fixed"}
+                />
+                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
+                  Seed Token Allocation <br />
+                  Received Through Staking
+                </h1>
+              </div>
+              <div className="flex flex-col items-center w-80 ">
+                <Image
+                  src="/icons/3d/checklist_2.png"
+                  alt="tag"
+                  height={130}
+                  width={130}
+                  layout={"fixed"}
+                />
+                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
+                  Ambassador Program
+                </h1>
+              </div>
+
+            </div>
           </div>
 
         </div>
@@ -327,7 +357,7 @@ const Hero = () => {
             </p>
             <p className="mt-3 text-xl">
               First Property was rented in Tamarindo, Costa Rica
-              which will be the Web3 IRL DAO hub for amazing events.
+              which will be the Web3 IRL DAO hub for amazing events. Up to 25% discounts for Palmverse Hotels
             </p>
           </div>
           <div className="scale-110 md:scale-y-110 md:scale-x-125 md:pt-10">
@@ -650,7 +680,8 @@ const Hero = () => {
                   layout={"fixed"}
                 />
                 <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]   w-[90%] text-center py-2">
-                  Up to 25% Discounts <br /> for Palmverse Rooms{" "}
+                  Discounted Rates at Any <br /> Hotel
+                  for $VPALM Payments
                 </h1>
               </div>
               <div className={`flex  justify-between items-center px-2  `}>
@@ -665,6 +696,31 @@ const Hero = () => {
                   Access to Huge IRL <br /> DAO Events
                 </h1>
               </div>
+              <div className={`flex flex-row-reverse  justify-between items-center px-2  `}>
+                <Image
+                  src="/icons/3d/coin_stack2.png"
+                  alt="tag"
+                  height={100}
+                  width={120}
+                  layout={"fixed"}
+                />
+                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
+                  Seed Token Allocation <br />
+                  Received Through Staking
+                </h1>
+              </div>
+              <div className={`flex  justify-between items-center px-2  `}>
+                <Image
+                  src="/icons/3d/checklist_2.png"
+                  alt="tag"
+                  height={100}
+                  width={120}
+                  layout={"fixed"}
+                />
+                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
+                  Ambassador Program
+                </h1>
+              </div>
             </div>
           </div>
         </div>
@@ -675,7 +731,7 @@ const Hero = () => {
             <strong className="text-[20px] font-bold text-[#ECF7FD]">1st NFT Hotel & Hostel Chain - Extra Benefits for  the NFT Holders{" "}</strong>
             <br /><p className="mt-3 text-[16px] text-[#ECF7FD]">
               First Property was rented in Tamarindo, Costa Rica
-              which will be the Web3 IRL DAO hub for amazing events.
+              which will be the Web3 IRL DAO hub for amazing events. Up to 25% discounts for Palmverse Hotels.
             </p>
           </h1>
           <div className=" py-4 ">
