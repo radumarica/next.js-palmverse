@@ -272,12 +272,13 @@ const Roadmap = () => {
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',
                 display: 'flex',
-                width: '100vw',
+                width: '100%',
                 justifyContent: 'center',
+                overflowX: 'auto',
             }} className="md:hidden" >
                 <div style={{
                     backgroundImage: 'url(/images/roadmap/m.png)',
-                    width: '100vw',
+                    width: '95vw',
                     margin: '4px auto 0 auto',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
