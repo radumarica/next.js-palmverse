@@ -206,7 +206,7 @@ const Hero = () => {
             The PALMVERSE NFT Collection
           </p>
           <p className="md:text-[22px] pt-3 pb-8 text-[22px] text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
-            We provide amazing utility and rewards for holders
+            Owning a Palmverse NFT will unlock ultimate utility, financial returns and access <br /> to Huge IRL DAO Events. Holders can stake the NFT to get rewarded in $VPALM, <br /> which will be used to book trips at discounted rates.
           </p>
         </div>
         <div className="flex justify-center items-center" >
@@ -222,7 +222,7 @@ const Hero = () => {
           </div>
           <div className="mx-3 cursor-pointer " >
             <Image
-              src='/nfts/dead.png'
+              src='/nfts/green_cool.png'
               alt="palmverse hotel"
               width={250}
               height={250}
@@ -242,7 +242,49 @@ const Hero = () => {
           </div>
           <div className="mx-3 cursor-pointer " >
             <Image
-              src='/nfts/cool.png'
+              src='/nfts/blue_cool.png'
+              alt="palmverse hotel"
+              width={250}
+              height={250}
+              layout="fixed"
+              className="rounded-md object-cover"
+            />
+          </div>
+        </div>
+        <div className="flex justify-center mt-2 items-center" >
+          <div className="mx-3 cursor-pointer " >
+            <Image
+              src='/nfts/cry.png'
+              alt="palmverse hotel"
+              width={250}
+              height={250}
+              layout="fixed"
+              className="rounded-md object-cover"
+            />
+          </div>
+          <div className="mx-3 cursor-pointer -mt-16 " >
+            <Image
+              src='/nfts/dead.png'
+              alt="palmverse hotel"
+              width={250}
+              height={250}
+              layout="fixed"
+              className="rounded-md object-cover"
+            />
+          </div>
+          <div className="mx-3 cursor-pointer " >
+            <Image
+              src='/nfts/gooey.png'
+              alt="palmverse hotel"
+              width={250}
+              height={250}
+              layout="fixed"
+              className="rounded-md object-cover"
+            />
+          </div>
+          <div className="mx-3 cursor-pointer -mt-16 " >
+            <Image
+              src='/nfts/green_cool.png'
               alt="palmverse hotel"
               width={250}
               height={250}
@@ -258,98 +300,7 @@ const Hero = () => {
 
 
 
-        <div className="grid place-items-center gap-4 py-5 md:w-[84rem] md:mx-auto ">
-          <div className="flex flex-col">
-            <h1 className="text-3xl font-bold text-[#ECF7FD]  text-center pt-10 pb-5">
-              NFT UTILITIES
-            </h1>
-            <div className="grid grid-cols-4 gap-4  py-4">
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/icons/3d/save_money3.png"
-                  alt="tag"
-                  height={130}
-                  width={130}
-                  layout={"fixed"}
-                />
-                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium  text-center py-4">
-                  % of Net Revenue Added to DAO Treasury
-                </h1>
-              </div>
 
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/icons/3d/money_bag2.png"
-                  alt="tag"
-                  height={130}
-                  width={130}
-                  layout={"fixed"}
-                />
-                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
-                  Cashback Travel <br /> Rewards
-                </h1>
-              </div>
-              <div className="flex flex-col items-center w-[350px]">
-                <Image
-                  src="/icons/3d/discount2.png"
-                  alt="tag"
-                  height={130}
-                  width={130}
-                  layout={"fixed"}
-                />
-                <h1 className="md:text-[24px] text-[20px leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
-                  Discounted Rates at Any Hotel
-                  for $VPALM Payments
-                </h1>
-              </div>
-
-
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/icons/group.png"
-                  alt="tag"
-                  height={130}
-                  width={130}
-                  layout={"fixed"}
-                />
-                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
-                  Access to Huge IRL <br /> DAO Events
-                </h1>
-              </div>
-
-            </div>
-            <div className="flex justify-center " >
-
-              <div className="flex flex-col items-center w-80">
-                <Image
-                  src="/icons/3d/coin_stack2.png"
-                  alt="tag"
-                  height={130}
-                  width={130}
-                  layout={"fixed"}
-                />
-                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
-                  Seed Token Allocation <br />
-                  Received Through Staking
-                </h1>
-              </div>
-              <div className="flex flex-col items-center w-80 ">
-                <Image
-                  src="/icons/3d/checklist_2.png"
-                  alt="tag"
-                  height={130}
-                  width={130}
-                  layout={"fixed"}
-                />
-                <h1 className="md:text-[24px] text-[20px]  leading-9 text-[#ECF7FD] md:font-medium w-[90%] text-center py-4">
-                  Ambassador Program
-                </h1>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
         <div className="flex flex-col items-center justify-center pb-10 mt-10  space-y-10 md:space-y-0">
           <div className="text-3xl relative  md:w-[60%] mx-auto text-center text-[#ECF7FD] pb-4 ">
             <p>
@@ -555,7 +506,7 @@ const Hero = () => {
               The PALMVERSE NFT Collection
             </p>
             <p className="md:text-[22px] pt-3 pb-8 text-[16px] px-4 text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
-              We provide amazing utility and rewards for holders
+              Owning a Palmverse NFT will unlock ultimate utility, financial returns and access to Huge IRL DAO Events. Holders can stake the NFT to get rewarded in $VPALM, which will be used to book trips at discounted rates.
             </p>
           </div>
           <div className="flex justify-center items-center overflow-x-auto w-screen " >
