@@ -517,7 +517,7 @@ const Hero = () => {
                 width={88}
                 height={120}
                 layout="fixed"
-                className="rounded-md object-cover"
+                className="rounded-md object-fill"
               />
             </div>
             <div className="mx-1 cursor-pointer overflow rounded-md " >
@@ -527,7 +527,7 @@ const Hero = () => {
                 width={88}
                 height={120}
                 layout="fixed"
-                className="rounded-md object-cover"
+                className="rounded-md object-fill"
               />
             </div>
             <div className="mx-1 cursor-pointer overflow rounded-md  mt-10  " >
@@ -537,7 +537,7 @@ const Hero = () => {
                 width={88}
                 height={120}
                 layout="fixed"
-                className="rounded-md object-cover"
+                className="rounded-md object-fill"
               />
             </div>
             <div className="mx-1 cursor-pointer overflow rounded-md " >
@@ -547,7 +547,7 @@ const Hero = () => {
                 width={88}
                 height={120}
                 layout="fixed"
-                className="rounded-md object-cover"
+                className="rounded-md object-fill"
               />
             </div>
           </div>
@@ -559,7 +559,7 @@ const Hero = () => {
                 width={88}
                 height={120}
                 layout="fixed"
-                className="rounded-md object-cover"
+                className="rounded-md object-fill"
               />
             </div>
             <div className="mx-1 cursor-pointer overflow mb-6 " >
@@ -569,7 +569,7 @@ const Hero = () => {
                 width={88}
                 height={120}
                 layout="fixed"
-                className="rounded-md object-cover"
+                className="rounded-md object-fill"
               />
             </div>
             <div className="mx-1  overflow    " >
@@ -579,7 +579,7 @@ const Hero = () => {
                 width={88}
                 height={120}
                 layout="fixed"
-                className="rounded-md object-cover"
+                className="rounded-md object-fill"
               />
             </div>
             <div className="mx-1 cursor-pointer overflow mb-6 " >
@@ -589,7 +589,7 @@ const Hero = () => {
                 width={88}
                 height={120}
                 layout="fixed"
-                className="rounded-md object-cover"
+                className="rounded-md object-fill"
               />
             </div>
           </div>
