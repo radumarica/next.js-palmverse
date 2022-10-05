@@ -572,7 +572,7 @@ const Hero = () => {
                 className="rounded-md object-cover"
               />
             </div>
-            <div className="mx-1 cursor-pointer overflow-x-auto    " >
+            <div className="mx-1  overflow-x-auto    " >
               <Image
                 src='/nfts/gooey.png'
                 alt="palmverse hotel"
