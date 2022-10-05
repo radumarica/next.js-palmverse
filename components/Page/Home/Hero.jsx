@@ -501,7 +501,7 @@ const Hero = () => {
             />
           </div>
 
-          <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
+          <div className="w-screen overflow-x-auto flex flex-col items-center justify-center  ">
             <p className="md:text-[40px]  text-[20px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
               The PALMVERSE NFT Collection
             </p>
@@ -510,7 +510,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="flex justify-center items-center overflow-x-auto w-screen " >
-            <div className="mx-1 cursor-pointer overflow-x-auto  mt-10  " >
+            <div className="mx-1 cursor-pointer overflow rounded-md  mt-10  " >
               <Image
                 src='/nfts/city (1).png'
                 alt="palmverse hotel"
@@ -520,7 +520,7 @@ const Hero = () => {
                 className="rounded-md object-cover"
               />
             </div>
-            <div className="mx-1 cursor-pointer overflow-x-auto " >
+            <div className="mx-1 cursor-pointer overflow rounded-md " >
               <Image
                 src='/nfts/green_cool.png'
                 alt="palmverse hotel"
@@ -530,7 +530,7 @@ const Hero = () => {
                 className="rounded-md object-cover"
               />
             </div>
-            <div className="mx-1 cursor-pointer overflow-x-auto  mt-10  " >
+            <div className="mx-1 cursor-pointer overflow rounded-md  mt-10  " >
               <Image
                 src='/nfts/city.png'
                 alt="palmverse hotel"
@@ -540,7 +540,7 @@ const Hero = () => {
                 className="rounded-md object-cover"
               />
             </div>
-            <div className="mx-1 cursor-pointer overflow-x-auto " >
+            <div className="mx-1 cursor-pointer overflow rounded-md " >
               <Image
                 src='/nfts/blue_cool.png'
                 alt="palmverse hotel"
@@ -552,7 +552,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center items-center overflow-x-auto w-screen " >
-            <div className="mx-1 cursor-pointer overflow-x-auto    " >
+            <div className="mx-1 cursor-pointer overflow    " >
               <Image
                 src='/nfts/cry.png'
                 alt="palmverse hotel"
@@ -562,7 +562,7 @@ const Hero = () => {
                 className="rounded-md object-cover"
               />
             </div>
-            <div className="mx-1 cursor-pointer overflow-x-auto -mt-4 " >
+            <div className="mx-1 cursor-pointer overflow -mt-4 " >
               <Image
                 src='/nfts/dead.png'
                 alt="palmverse hotel"
@@ -572,7 +572,7 @@ const Hero = () => {
                 className="rounded-md object-cover"
               />
             </div>
-            <div className="mx-1  overflow-x-auto    " >
+            <div className="mx-1  overflow    " >
               <Image
                 src='/nfts/gooey.png'
                 alt="palmverse hotel"
@@ -582,7 +582,7 @@ const Hero = () => {
                 className="rounded-md object-cover"
               />
             </div>
-            <div className="mx-1 cursor-pointer overflow-x-auto -mt-4 " >
+            <div className="mx-1 cursor-pointer overflow -mt-4 " >
               <Image
                 src='/nfts/cool.png'
                 alt="palmverse hotel"
