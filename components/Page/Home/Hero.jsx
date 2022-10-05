@@ -202,7 +202,7 @@ const Hero = () => {
 
 
         <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
-          <p className="md:text-[40px]  text-[18px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD]  ">
+          <p className="md:text-[40px]  text-[18px] text-center pt-10 pb-5 font-bold md:w-9/12 text-[#ECF7FD]  ">
             The PALMVERSE NFT Collection
           </p>
           <p className="md:text-[22px] pt-3 pb-8 text-[22px] text-center  font-semibold md:w-9/12 text-[#ECF7FD]  ">
@@ -284,7 +284,7 @@ const Hero = () => {
           </div>
           <div className="mx-3 cursor-pointer -mt-16 " >
             <Image
-              src='/nfts/green_cool.png'
+              src='/nfts/cool.png'
               alt="palmverse hotel"
               width={250}
               height={250}
@@ -301,12 +301,12 @@ const Hero = () => {
 
 
 
-        <div className="flex flex-col items-center justify-center pb-10 mt-10  space-y-10 md:space-y-0">
+        <div className="flex flex-col items-center justify-center pb-10 mt-16  space-y-10 md:space-y-0">
           <div className="text-3xl relative  md:w-[60%] mx-auto text-center text-[#ECF7FD] pb-4 ">
             <p>
               <strong>1st NFT Hotel & Hostel Chain - Extra Benefits for the NFT Holders{" "} </strong>
             </p>
-            <p className="mt-3 text-xl">
+            <p className="mt-6 text-xl">
               First Property was rented in Tamarindo, Costa Rica
               which will be the Web3 IRL DAO hub for amazing events. Up to 25% discounts for Palmverse Hotels
             </p>
@@ -522,7 +522,7 @@ const Hero = () => {
             </div>
             <div className="mx-1 cursor-pointer overflow-x-auto " >
               <Image
-                src='/nfts/dead.png'
+                src='/nfts/green_cool.png'
                 alt="palmverse hotel"
                 width={95}
                 height={120}
@@ -533,6 +533,48 @@ const Hero = () => {
             <div className="mx-1 cursor-pointer overflow-x-auto  mt-10  " >
               <Image
                 src='/nfts/city.png'
+                alt="palmverse hotel"
+                width={95}
+                height={120}
+                layout="fixed"
+                className="rounded-md object-cover"
+              />
+            </div>
+            <div className="mx-1 cursor-pointer overflow-x-auto " >
+              <Image
+                src='/nfts/blue_cool.png'
+                alt="palmverse hotel"
+                width={95}
+                height={120}
+                layout="fixed"
+                className="rounded-md object-cover"
+              />
+            </div>
+          </div>
+          <div className="flex justify-center items-center overflow-x-auto w-screen " >
+            <div className="mx-1 cursor-pointer overflow-x-auto    " >
+              <Image
+                src='/nfts/cry.png'
+                alt="palmverse hotel"
+                width={95}
+                height={120}
+                layout="fixed"
+                className="rounded-md object-cover"
+              />
+            </div>
+            <div className="mx-1 cursor-pointer overflow-x-auto -mt-14 " >
+              <Image
+                src='/nfts/dead.png'
+                alt="palmverse hotel"
+                width={95}
+                height={120}
+                layout="fixed"
+                className="rounded-md object-cover"
+              />
+            </div>
+            <div className="mx-1 cursor-pointer overflow-x-auto  mt-10  " >
+              <Image
+                src='/nfts/gooey.png'
                 alt="palmverse hotel"
                 width={95}
                 height={120}
@@ -585,96 +627,7 @@ const Hero = () => {
             </span>
           </h1>
         </div> */}
-        <div className="grid md:grid-cols-2 gap-4 pb-5 pt-10 ">
-          <div className="flex flex-col">
-            <h1 className="text-[26px] font-bold text-[#ECF7FD]  text-center pt-6">
-              NFT UTILITIES
-            </h1>
-            <div className="grid grid-cols-1  gap-4 pt-4">
 
-              <div className={`flex flex-row-reverse  justify-between items-center px-2  `}>
-                <Image
-                  src="/icons/3d/save_money3.png"
-                  alt="tag"
-                  height={100}
-                  width={110}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center py-2 -ml-4">
-                  % of Net Revenue Added <br /> to DAO treasury. <br />
-                </h1>
-              </div>
-
-
-
-              <div className={`flex  justify-between items-center px-2  `}>
-                <Image
-                  src="/icons/3d/money_bag2.png"
-                  alt="tag"
-                  height={100}
-                  width={110}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
-                  Cashback Travel <br /> Rewards
-                </h1>
-              </div>
-
-              <div
-                className={`flex flex-row-reverse  justify-between items-center px-2  `}
-              >
-                <Image
-                  src="/icons/3d/discount2.png"
-                  alt="tag"
-                  height={100}
-                  width={120}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]   w-[90%] text-center py-2">
-                  Discounted Rates at Any <br /> Hotel
-                  for $VPALM Payments
-                </h1>
-              </div>
-              <div className={`flex  justify-between items-center px-2  `}>
-                <Image
-                  src="/icons/group.png"
-                  alt="tag"
-                  height={100}
-                  width={110}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
-                  Access to Huge IRL <br /> DAO Events
-                </h1>
-              </div>
-              <div className={`flex flex-row-reverse  justify-between items-center px-2  `}>
-                <Image
-                  src="/icons/3d/coin_stack2.png"
-                  alt="tag"
-                  height={100}
-                  width={110}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
-                  Seed Token Allocation <br />
-                  Received Through Staking
-                </h1>
-              </div>
-              <div className={`flex  justify-between items-center px-2  `}>
-                <Image
-                  src="/icons/3d/checklist_2.png"
-                  alt="tag"
-                  height={100}
-                  width={110}
-                  layout={"fixed"}
-                />
-                <h1 className="text-[20px] font-light leading-[24px] text-[#ECF7FD]  w-[90%] text-center pt-2 -ml-8">
-                  Ambassador Program
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="flex w-screen pt-4  flex-col items-center justify-center   space-y-6 md:space-y-0">
           <h1 className="text-[14px] leading-7 font-light md:w-[70%]  mx-auto text-center text-[#ECF7FD] relative ">
             {" "}
