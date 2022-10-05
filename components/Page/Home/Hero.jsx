@@ -514,7 +514,7 @@ const Hero = () => {
               <Image
                 src='/nfts/city (1).png'
                 alt="palmverse hotel"
-                width={95}
+                width={88}
                 height={120}
                 layout="fixed"
                 className="rounded-md object-cover"
@@ -524,7 +524,7 @@ const Hero = () => {
               <Image
                 src='/nfts/green_cool.png'
                 alt="palmverse hotel"
-                width={95}
+                width={88}
                 height={120}
                 layout="fixed"
                 className="rounded-md object-cover"
@@ -534,7 +534,7 @@ const Hero = () => {
               <Image
                 src='/nfts/city.png'
                 alt="palmverse hotel"
-                width={95}
+                width={88}
                 height={120}
                 layout="fixed"
                 className="rounded-md object-cover"
@@ -544,7 +544,7 @@ const Hero = () => {
               <Image
                 src='/nfts/blue_cool.png'
                 alt="palmverse hotel"
-                width={95}
+                width={88}
                 height={120}
                 layout="fixed"
                 className="rounded-md object-cover"
@@ -556,17 +556,17 @@ const Hero = () => {
               <Image
                 src='/nfts/cry.png'
                 alt="palmverse hotel"
-                width={95}
+                width={88}
                 height={120}
                 layout="fixed"
                 className="rounded-md object-cover"
               />
             </div>
-            <div className="mx-1 cursor-pointer overflow -mt-4 " >
+            <div className="mx-1 cursor-pointer overflow mb-6 " >
               <Image
                 src='/nfts/dead.png'
                 alt="palmverse hotel"
-                width={95}
+                width={88}
                 height={120}
                 layout="fixed"
                 className="rounded-md object-cover"
@@ -576,17 +576,17 @@ const Hero = () => {
               <Image
                 src='/nfts/gooey.png'
                 alt="palmverse hotel"
-                width={95}
+                width={88}
                 height={120}
                 layout="fixed"
                 className="rounded-md object-cover"
               />
             </div>
-            <div className="mx-1 cursor-pointer overflow -mt-4 " >
+            <div className="mx-1 cursor-pointer overflow mb-6 " >
               <Image
                 src='/nfts/cool.png'
                 alt="palmverse hotel"
-                width={95}
+                width={88}
                 height={120}
                 layout="fixed"
                 className="rounded-md object-cover"
