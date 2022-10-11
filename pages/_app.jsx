@@ -73,15 +73,15 @@ function MyApp({ Component, pageProps }) {
                                 Web3 Booking
                               </h3>
                             </Link>
-                            <Link
+                            {/* <Link
                               href={'/roadmap'}
 
                             >
                               <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-xl text-center py-4 text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
                                 Roadmap
                               </h3>
-                             </Link>
-                           
+                             </Link> */}
+
                           </div>
                         )
                       }
@@ -89,7 +89,7 @@ function MyApp({ Component, pageProps }) {
 
                         href='/faq'
 
-                      > 
+                      >
                         <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center py-10 text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
 
                           FAQ
