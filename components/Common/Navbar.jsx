@@ -97,15 +97,15 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
                                     Web3 Booking
                                 </h3>
                             </Link>
-                            <Link
+                            {/* <Link
                                 href={'/roadmap'}
 
                             >
                                 <h3 className="hover:text-[#13D511] text-center text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
                                     Roadmap
                                 </h3>
-                            </Link>
-                           
+                            </Link> */}
+
                         </div>
                     )
                 }
