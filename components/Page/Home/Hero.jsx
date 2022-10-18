@@ -85,22 +85,8 @@ const Hero = () => {
                 ))}
             </p>
           </div>
-          <div className="grid grid-cols-2  md:w-[80rem] md:grid md:grid-cols-3 md:gap-6 space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto">
-            <div className="flex flex-col items-center justift-center">
-              <Image
-                src="/bland/1-.png"
-                alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
-                layout={"fixed"}
-              />
-              <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                Zero Payment Fees
-              </h1>
-              <p className="text-lg text-center">
-                Cost of online payment reduced to 0
-              </p>
-            </div>
+          <div className="grid grid-cols-2  md:w-[80rem] md:grid  md:gap-6 space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto">
+
             <div className="flex flex-col items-center justift-center">
               <Image
                 src="/bland/2 (1).png"
@@ -131,6 +117,8 @@ const Hero = () => {
                 Earn rewards while travelling
               </p>
             </div>
+          </div>
+          <div className="grid grid-cols-3  md:w-[80rem] md:grid  md:gap-6 space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto">
 
             <div className="flex flex-col pt-14  items-center justift-center">
               <Image
@@ -177,8 +165,8 @@ const Hero = () => {
                 Automated dispute system and <br /> reputation stored on the blockchain
               </p>
             </div>
-
           </div>
+
         </div>
 
 
@@ -388,37 +376,23 @@ const Hero = () => {
             </p>
           </div>
 
+
+          <div className="flex flex-col items-center justify-start h-[260px] ">
+            <Image
+              src="/bland/2 (1).png"
+              alt="PHYSICAL NFT HOTEL & HOSTEL"
+              height={150}
+              width={150}
+              layout={"fixed"}
+            />
+            <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
+              No Log-ins required
+            </h1>
+            <p className=" text-center">
+              Pay with a Web3 wallet. <br /> No sign-ups
+            </p>
+          </div>
           <div className="grid grid-cols-2   md:w-[80rem] md:grid md:grid-cols-3  gap-6 md:space-y-0 justify-evenly items-center  py-5 w-[80%] mx-auto">
-            <div className="flex flex-col items-center justify-start h-[294px] ">
-              <Image
-                src="/bland/1-.png"
-                alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={150}
-                width={150}
-                layout={"fixed"}
-              />
-              <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                Zero Payment Fees
-              </h1>
-              <p className=" text-center">
-                Cost of online payment reduced to zero
-              </p>
-            </div>
-            <div className="flex flex-col items-center justify-start h-[294px] ">
-              <Image
-                src="/bland/2 (1).png"
-                alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={150}
-                width={150}
-                layout={"fixed"}
-              />
-              <h1 className="text-lg text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                No Log-ins required
-              </h1>
-              <p className=" text-center">
-                Pay with a Web3 wallet. <br /> No sign-ups
-              </p>
-            </div>
             <div className="flex flex-col items-center justify-start h-[294px] ">
               <Image
                 src="/bland/3 (1).png"
