@@ -85,7 +85,7 @@ const Hero = () => {
                 ))}
             </p>
           </div>
-          <div className="grid grid-cols-2  md:w-[80rem] md:grid  md:gap-6 space-y-10 md:space-y-0 justify-evenly items-center md:py-5 py-10 w-[80%] mx-auto">
+          <div className="flex space-x-20 md:w-[80rem]    space-y-10 md:space-y-0 justify-center items-center md:py-5 py-10 w-[80%] mx-auto">
 
             <div className="flex flex-col items-center justift-center">
               <Image
