@@ -23,48 +23,13 @@ const Faq = () => {
         <FaqAccordian title="Supply, price, date?" desc="Supply: TBA, Price:  TBA,  Date: TBA." />
         <FaqAccordian title="When will the Proof of Concept be ready?" desc="The Web3 Booking Platform will be live on mainnet and the 1st Palmverse Hotel & Hostel will be ready soon after the mint." />
 
-        <LinkA />
+
       </div>
     </div>
   );
 };
 export default Faq;
 
-const LinkA = () => {
-  const [open, setOpen] = useState(false);
-  return (
-    <div className="my-2">
-      <div className="flex">
-        <h1 className="text-center w-full bg-[#ECF7FD] py-5 px-2 font-bold text-lg text-[#2a2a29] font-exo">
-          Roadmap?
-        </h1>
-        <button
-          onClick={() => setOpen(!open)}
-          className="text-center px-4 bg-slate-400 bg-opacity-90"
-        >
-          {" "}
-          {
-            open ? (
-
-              <AiOutlineMinus className="text-[#2A2A29] bg-transparent text-2xl" />
-            ) : (
-
-              <AiOutlinePlus className="text-[#2A2A29] bg-transparent text-2xl" />
-            )
-          }
-        </button>
-      </div>
-      <div
-        className={`${open ? "block" : "hidden"
-          } duration-300 ease-in transition-all  font-exo bg-gray-100`}
-      >
-        <p className="p-4 text-[#2a2a29] bg-[#ECF7FD] flex ">
-          Roadmap can be found  <Link href="/roadmap"><p className="text-blue-500 underline underline-offset-4 pl-2 " >here.</p></Link>
-        </p>
-      </div>
-    </div>
-  );
-};
 const FaqAccordian = ({ title, desc }) => {
   const [open, setOpen] = useState(false);
   return (
