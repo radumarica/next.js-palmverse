@@ -129,7 +129,7 @@ const Hero = () => {
                 layout={"fixed"}
               />
               <h1 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                NFTs As Memebership
+                NFTs As Membership
               </h1>
               <p className="text-lg text-center">
                 Verify NFT ownership to apply <br /> discounts
